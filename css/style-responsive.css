@@ -1,0 +1,305 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/*----------------------------------------------------------------------------*/
+/* PHONE AND TABLET ----------------------------------------------------------*/
+@media (max-width: 991px) {
+  
+.container {
+  padding: 0 10px;
+}
+  
+#header > nav {
+  padding: 15px 0;
+}
+
+#header > nav .container {
+  padding: 0 10px;
+}
+
+#header > nav ul {
+  margin-top: 20px;
+}
+
+#header > nav li {
+  display: block;
+  text-align: center;
+}
+
+#header > nav li + li {
+  margin-left: 0;
+}
+
+#header > nav li a {
+  display: block;
+  padding: 10px 0;
+}
+
+#header > nav form {
+  display: block;
+  text-align: center;
+}
+
+#header > nav .btn-outline-primary {
+  margin: 20px 0 0 0;
+}
+  
+
+/* PROMO ---------------------------------------------------------------------*/
+#promo {
+  margin-top: 0;
+  padding-bottom: 40px;
+}
+
+#promo .article {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#promo .article h2 {
+  margin-bottom: 10px;
+}
+
+#promo .article p {
+  max-width: 265px;
+  margin: 0 auto;
+}
+
+#promo .article .btn {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+#promo img {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+/* CLIENT --------------------------------------------------------------------*/
+/* CLIENT LIST */
+#client .client-list {
+  margin-bottom: 30px;
+}
+
+#client .client-list > a.more {
+  background: url(../images/more.png) no-repeat 50% 100%;
+  display: block;
+  margin: 0 auto 15px auto;
+  padding: 0 0 25px 0;
+  max-width: 245px;
+}
+
+#client .client-list li + li {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* PROCESS */
+#client .process {
+  max-width: 920px;
+}
+
+#client .process .col-lg-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#client .process .before,
+#client .process .now {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#client .process .now {
+  margin-top: 80px;
+}
+
+
+/* HHRR ----------------------------------------------------------------------*/
+#hhrr {
+  background: url(../images/hhrr-t.png) no-repeat 10% 0, 
+              url(../images/hhrr-b.png) no-repeat 50% 100%;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+#hhrr .saving {
+  text-align: center;
+}
+
+#hhrr .saving li:nth-child(1) {
+  margin: 0;
+}
+
+#hhrr .saving li:nth-child(2),
+#hhrr .saving li:nth-child(3) {
+  margin-top: 15px;
+}
+
+#hhrr .items {
+  margin-top: 55px;
+}
+
+#hhrr .items > div {
+  margin-top: 25px;
+}
+
+#hhrr .items > div:nth-child(1),
+#hhrr .items > div:nth-child(2) {
+  margin-top: 0;
+}
+
+
+/* COMMENT -------------------------------------------------------------------*/
+#comments {
+  font-size: 27px;
+  line-height: 37px;
+  padding: 0;
+}
+
+#comments p {
+  background: url(../images/blockquote.png) no-repeat 50% 25px;
+  margin: 0;
+  padding: 125px 0 0 0;
+}
+
+#comments h3,
+#comments h4 {
+  padding: 0;
+}
+
+#comments .img {
+  background: url(../images/comments-img-01.png) no-repeat 100% 0,
+              url(../images/comments-img-02.png) no-repeat 80px 100%;
+  margin: -10px auto;
+  max-width: 365px;
+  padding: 40px 10px 50px 0;
+  text-align: center;
+}
+
+#comments .img img {
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+
+
+/* START ---------------------------------------------------------------------*/
+#start {
+  font-size: 30px;
+  text-align: center;
+  color: #f7f7f7;
+  margin-top: 60px;
+  min-height: 484px;
+  padding: 80px 0 160px 0;
+}
+
+
+/* PLATFORM ------------------------------------------------------------------*/
+#platform {
+  /*margin-top: -110px;*/
+  margin-top: -50px;
+  padding-top: 0;
+  padding-bottom: 135px;
+}
+
+#platform img {
+  margin: 50px auto 22px auto;
+  padding-top: 25px;
+  /*width: 111px;*/
+}
+
+/* DEMO ----------------------------------------------------------------------*/
+#demo {
+  margin: -100px 0 0 0;
+}
+
+#demo p {
+  margin: 30px 0;
+}
+
+
+/* FOOTER --------------------------------------------------------------------*/
+#footer {
+  padding-top: 40px;
+  text-align: center;
+}
+
+#footer .navbar-brand {
+  margin-bottom: 35px;
+}
+
+#footer .btn-primary {
+  margin-bottom: 20px;
+}
+
+#footer .nav > div {
+  margin-top: 20px;
+}
+
+#footer > .container .row + .row {
+  margin-top: 0;
+}
+
+#footer .social {
+  margin-top: 20px;
+}
+
+#footer .newsletter {
+  margin: 40px auto 0 auto;
+  max-width: 350px;
+}
+
+#footer .newsletter form {
+  margin-top: 40px;
+}
+
+#footer > .container:first-child {
+  padding-bottom: 0px;
+}
+
+/* BOTTOM */
+#footer .bottom {
+  padding: 60px 0 40px 0;
+  text-align: center;
+}
+
+#footer .apk {
+  padding-top: 15px;
+  text-align: center;
+}
+
+}
+
+/*----------------------------------------------------------------------------*/
+/* DESKTOP MEDIUM ------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  #header nav .btn-outline-primary {
+    margin-left: 60px;
+    margin-right: 40px;
+  }
+  
+  #hhrr .saving li {
+	margin: 0px 20px;
+  }
+  
+}
