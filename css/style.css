@@ -866,6 +866,7 @@ img {
   font-family: 'PT Sans', sans-serif;
   font-size: 10px;
   font-weight: 400;
+  line-height: 12px;
   padding: 95px 0 60px 0;
   text-align: left;
 }
@@ -889,6 +890,7 @@ img {
 #footer .copyright li + li::before {
   content: " / ";
   color: rgba(17, 51, 91, 0.62);
+  
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
   opacity: 0.50;
@@ -896,6 +898,7 @@ img {
 
 #footer .copyright a {
   color: rgba(17, 51, 91, 0.62);
+  
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
   opacity: 0.50;
