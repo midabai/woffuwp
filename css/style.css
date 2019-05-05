@@ -171,6 +171,10 @@ img {
   padding: 0;
 }
 
+#header > nav li a:hover {
+  text-decoration: none;
+}
+
 /* LOGIN */
 #header > nav .btn-outline-primary {
   font-size: 13px;
@@ -859,9 +863,9 @@ img {
   background: url(../images/footer-copyright.png) no-repeat 50% 0;
   background-size: cover;
   color: rgba(17, 51, 91, 0.62);
-  /* FALTA ENCONTRAR ESTE WEBFONT */
-  font-family: 'PTSans', helvetica, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 10px;
+  font-weight: 400;
   padding: 95px 0 60px 0;
   text-align: left;
 }
