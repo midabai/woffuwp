@@ -134,11 +134,18 @@
 
 
 /* HHRR ----------------------------------------------------------------------*/
-#hhrr {
+/*#hhrr {
   background: url(../images/hhrr-t.png) no-repeat 10% 0, 
               url(../images/hhrr-b.png) no-repeat 50% 100%;
   padding-top: 90px;
   padding-bottom: 50px;
+}*/
+
+#hhrr {
+  background: url(../images/hhrr-t.png) no-repeat 50% 0, 
+              url(../images/hhrr-b.png) no-repeat 50% 100%;
+  padding-top: 120px;
+  padding-bottom: 85px;
 }
 
 #hhrr .saving {
