@@ -293,7 +293,7 @@ img {
 
 #client .process .before .inner,
 #client .process .now .inner {
-  background: url(../images/client-process-before.png) no-repeat 0 0;
+  background: url(../images/client-before.png) no-repeat 0 0;
   background-size: cover;
   height: 500px;
   padding-top: 45px;
@@ -308,7 +308,7 @@ img {
 }
 
 #client .process .now .inner {
-  background: url(../images/client-process-now.png) no-repeat 0 0;
+  background: url(../images/client-now.png) no-repeat 0 0;
   background-size: cover;
   -webkit-border-radius: 160px;
   -moz-border-radius: 160px;
@@ -420,8 +420,8 @@ img {
 }
 
 #client .process h2 {
-  background: url(../images/client-before-b.png) no-repeat 50% 0;
-  border-bottom: 3px solid #FE4D61;
+  background: url(../images/client-before-face.png) no-repeat 50% 0,
+              url(../images/client-before-b.png) no-repeat 50% 100%;
   color: #052b53;
   display: block;
   font-size: 27px;
@@ -434,9 +434,9 @@ img {
 }
 
 #client .process .now h2 {
-  background-image: url(../images/client-now-b.png);
+  background-image: url(../images/client-now-face.png),
+                    url(../images/client-now-b.png);
   color: #0060ff;
-  border-color: #00b1ff;
 }
 
 
