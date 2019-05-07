@@ -145,6 +145,14 @@
   text-align: center;
 }
 
+#hhrr .saving img {
+  margin-top: 0;
+}
+
+#hhrr .saving h2 {
+  margin: 25px 0;
+}
+
 #hhrr .saving li:nth-child(1) {
   margin: 0;
 }
