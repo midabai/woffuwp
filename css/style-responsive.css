@@ -141,6 +141,10 @@
   padding-bottom: 85px;
 }
 
+#hhrr .container-fluid {
+  max-width: 1140px;
+}
+
 #hhrr .saving {
   text-align: center;
 }
@@ -232,21 +236,21 @@
 
 /* PLATFORM ------------------------------------------------------------------*/
 #platform {
-  /*margin-top: -110px;*/
-  margin-top: -50px;
+  margin-top: -30px;
   padding-top: 0;
-  padding-bottom: 135px;
+  padding-bottom: 235px;
 }
 
 #platform img {
   margin: 50px auto 22px auto;
-  padding-top: 25px;
-  /*width: 111px;*/
+  padding-top: 0;
 }
 
 /* DEMO ----------------------------------------------------------------------*/
 #demo {
-  margin: -100px 0 0 0;
+  margin: 0 10px;
+  margin-top: -175px;
+  padding: 40px;
 }
 
 #demo p {
@@ -256,8 +260,12 @@
 
 /* FOOTER --------------------------------------------------------------------*/
 #footer {
-  padding-top: 40px;
+  padding-top: 0;
   text-align: center;
+}
+
+#footer .top {
+  padding: 40px 0 60px 0;
 }
 
 #footer .navbar-brand {
@@ -295,12 +303,12 @@
 
 /* BOTTOM */
 #footer .bottom {
-  padding: 60px 0 40px 0;
+  padding: 15px 0 40px 0;
   text-align: center;
 }
 
 #footer .apk {
-  padding-top: 15px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -315,12 +323,8 @@
     margin-right: 40px;
   }
   
-  #hhrr .saving li:nth-child(1) {
-    margin-bottom: 0;
-  }
-
   #hhrr .saving li:nth-child(3) {
-    margin-left: 40px;
+    margin-left: 20px;
   }
   
 }
