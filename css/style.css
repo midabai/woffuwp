@@ -624,9 +624,9 @@ img {
   background: linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafc', endColorstr='#f0f0f0',GradientType=0 );
   
-  -webkit-border-radius: 0 0 50% 50% / 0 0 100px 100px;
-  -moz-border-radius: 0 0 50% 50% / 0 0 100px 100px;
-  border-radius: 0 0 50% 50% / 0 0 100px 100px;
+  -webkit-border-radius: 0 0 50% 50% / 0 0 50px 50px;
+  -moz-border-radius: 0 0 50% 50% / 0 0 50px 50px;
+  border-radius: 0 0 50% 50% / 0 0 50px 50px;
 }
 
 #platform h2 {
@@ -709,6 +709,7 @@ img {
 }
 
 #footer .top {
+  border-bottom: 1px solid #00b1ff33;
   padding: 100px 0;
 
   background: -moz-linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
@@ -716,9 +717,9 @@ img {
   background: linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafc', endColorstr='#f0f0f0',GradientType=0 );
 
-  -webkit-border-radius: 0 0 50% 50% / 0 0 100px 100px;
-  -moz-border-radius: 0 0 50% 50% / 0 0 100px 100px;
-  border-radius: 0 0 50% 50% / 0 0 100px 100px;
+  -webkit-border-radius: 0 0 50% 50% / 0 0 50px 50px;
+  -moz-border-radius: 0 0 50% 50% / 0 0 50px 50px;
+  border-radius: 0 0 50% 50% / 0 0 50px 50px;
 }
 
 #footer .container {
