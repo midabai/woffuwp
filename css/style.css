@@ -453,10 +453,6 @@ img {
   padding-bottom: 40px;
 }
 
-#hhrr .container {
-  /*max-width: 1130px;*/
-}
-
 #hhrr .saving {
   color: #f7f7f7;
   font-size: 28px;
@@ -466,6 +462,10 @@ img {
 
 #hhrr .saving img {
   margin-top: -60px;
+}
+
+#hhrr .saving .col-lg-5 {
+  margin-left: -100px;
 }
 
 #hhrr .saving h2 {
@@ -491,7 +491,7 @@ img {
   display: inline-block;
   font-size: 16px;
   line-height: 18px;
-  margin: 0 20px;
+  margin: 0;
   height: 180px;
   padding: 40px;
   text-align: center;
@@ -502,12 +502,13 @@ img {
 }
 
 #hhrr .saving li:nth-child(1) {
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: -20px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: -25px;
 }
 
 #hhrr .saving li:nth-child(3) {
+  margin-left: 80px;
   padding-top: 60px;
 }
 
@@ -524,7 +525,8 @@ img {
   font-size: 18px;
   font-style: italic;
   line-height: 1.22;
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
+  max-width: 1100px;
   text-align: center;
 }
 
@@ -611,22 +613,21 @@ img {
 
 /* PLATFORM ------------------------------------------------------------------*/
 #platform {
-  border-bottom: 1px solid #00b1ff33;
+  border-bottom: 1px solid #c3eefc;
   margin-top: -50px;
   padding-top: 15px;
   padding-top: 0;
   padding-bottom: 200px;
   text-align: center;
   
+  background: -moz-linear-gradient(top, #f9fafc 0%, #f8f8f8 100%);
+  background: -webkit-linear-gradient(top, #f9fafc 0%, #f8f8f8 100%);
+  background: linear-gradient(top, #f9fafc 0%, #f8f8f8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafc', endColorstr='#f8f8f8',GradientType=0 );
   
-  background: -moz-linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
-  background: -webkit-linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
-  background: linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafc', endColorstr='#f0f0f0',GradientType=0 );
-  
-  -webkit-border-radius: 0 0 50% 50% / 0 0 10vh 10vh;
-  -moz-border-radius: 0 0 50% 50% / 0 0 10vh 10vh;
-  border-radius: 0 0 50% 50% / 0 0 10vh 10vh;
+  -webkit-border-radius: 0 0 50% 50% / 0 0 90px 90px;
+  -moz-border-radius: 0 0 50% 50% / 0 0 90px 90px;
+  border-radius: 0 0 50% 50% / 0 0 90px 90px;
 }
 
 #platform h2 {
@@ -677,7 +678,7 @@ img {
 
 /* DEMO ----------------------------------------------------------------------*/
 #demo {
-  margin-top: -100px;
+  margin-top: -135px;
 }
 
 #demo .container > div {
@@ -710,13 +711,18 @@ img {
 
 #footer .top {
   background: #f9fafc;
+  background: #fff;
+  border-bottom: 1px solid #c3eefc;
   padding: 100px 0;
-
-  -webkit-border-radius: 0 0 50% 50% / 0 0 5vh 5vh;
-  -moz-border-radius: 0 0 50% 50% / 0 0 5vh 5vh;
-  border-radius: 0 0 50% 50% / 0 0 5vh 5vh;
   
-  border-bottom: 1px solid #00b1ff33;
+  background: -moz-linear-gradient(top, #f9fafc 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #f9fafc 0%, #ffffff 100%);
+  background: linear-gradient(top, #f9fafc 0%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafc', endColorstr='#ffffff',GradientType=0 );
+
+  -webkit-border-radius: 0 0 50% 50% / 0 0 40px 40px;
+  -moz-border-radius: 0 0 50% 50% / 0 0 40px 40px;
+  border-radius: 0 0 50% 50% / 0 0 40px 40px;
 }
 
 #footer .container {
@@ -881,7 +887,7 @@ img {
   font-size: 10px;
   font-weight: 400;
   line-height: 12px;
-  padding: 95px 0 60px 0;
+  padding: 60px 0 60px 0;
   text-align: left;
 }
 
