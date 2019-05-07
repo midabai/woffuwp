@@ -624,9 +624,9 @@ img {
   background: linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafc', endColorstr='#f0f0f0',GradientType=0 );
   
-  -webkit-border-radius: 0 0 50% 50% / 0 0 50px 50px;
-  -moz-border-radius: 0 0 50% 50% / 0 0 50px 50px;
-  border-radius: 0 0 50% 50% / 0 0 50px 50px;
+  -webkit-border-radius: 0 0 50% 50% / 0 0 10vh 10vh;
+  -moz-border-radius: 0 0 50% 50% / 0 0 10vh 10vh;
+  border-radius: 0 0 50% 50% / 0 0 10vh 10vh;
 }
 
 #platform h2 {
@@ -709,17 +709,14 @@ img {
 }
 
 #footer .top {
-  border-bottom: 1px solid #00b1ff33;
+  background: #f9fafc;
   padding: 100px 0;
 
-  background: -moz-linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
-  background: -webkit-linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
-  background: linear-gradient(top, #f9fafc 0%, #f0f0f0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafc', endColorstr='#f0f0f0',GradientType=0 );
-
-  -webkit-border-radius: 0 0 50% 50% / 0 0 50px 50px;
-  -moz-border-radius: 0 0 50% 50% / 0 0 50px 50px;
-  border-radius: 0 0 50% 50% / 0 0 50px 50px;
+  -webkit-border-radius: 0 0 50% 50% / 0 0 5vh 5vh;
+  -moz-border-radius: 0 0 50% 50% / 0 0 5vh 5vh;
+  border-radius: 0 0 50% 50% / 0 0 5vh 5vh;
+  
+  border-bottom: 1px solid #00b1ff33;
 }
 
 #footer .container {
