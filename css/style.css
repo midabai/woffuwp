@@ -416,9 +416,6 @@ img {
   border-radius: 50%;
 }
 
-#client .process h2:before {
-}
-
 #client .process h2 {
   background: url(../images/client-before-face.png) no-repeat 50% 0,
               url(../images/client-before-b.png) no-repeat 50% 100%;
@@ -474,7 +471,8 @@ img {
   font-size: 28px;
   font-weight: 400;
   line-height: 1.29;
-  margin: 75px 0 45px 0;
+  margin: 75px auto 45px auto;
+  max-width: 485px;
   padding-bottom: 25px;
 }
 
@@ -678,15 +676,11 @@ img {
 
 /* DEMO ----------------------------------------------------------------------*/
 #demo {
-  margin-top: -135px;
-}
-
-#demo .container > div {
   color: #f7f7f7;
   font-size: 30px;
-  max-width: 1000px;
+  max-width: 1012px;
   margin: 0 auto;
-  padding: 35px 60px;
+  margin-top: -135px;
   padding: 50px 40px;
   text-align: center;
   
@@ -698,9 +692,6 @@ img {
   -webkit-border-radius: 47px;
   -moz-border-radius: 47px;
   border-radius: 47px;
-}
-
-#demo .btn-primary {
 }
 
 
@@ -774,6 +765,37 @@ img {
   padding: 0;
 }
 
+/* SOCIAL */
+#footer .social {
+  list-style: none outside none;
+  margin-top: 80px;
+}
+
+#footer .social li {
+  display: inline-block;
+}
+
+#footer .social li + li {
+  margin-left: 12px;
+  margin-left: 5px;
+}
+
+#footer .social a {
+  background: #697f97;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  width: 32px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#footer .social a:hover {
+  text-decoration: none;
+}
+
 #footer .nav {
   font-size: 14px;
   line-height: 28px;
@@ -804,45 +826,9 @@ img {
   color: #7537ff;
 }
 
-#footer > .container .row + .row {
-  margin-top: 10px;
-}
-
-/* SOCIAL */
-#footer .social {
-  list-style: none outside none;
-  margin: 40px 0 0 0;
-  padding: 0;
-}
-
-#footer .social li {
-  display: inline-block;
-  margin: 0;
-}
-
-#footer .social li + li {
-  margin-left: 12px;
-  margin-left: 5px;
-}
-
-#footer .social a {
-  background: #697f97;
-  color: #fff;
-  font-size: 18px;
-  line-height: 32px;
-  text-align: center;
-  width: 32px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-#footer .social a:hover {
-  text-decoration: none;
-}
-
 /* NEWSLETTER */
 #footer .newsletter {
+  margin-top: 10px;
   max-width: 350px;
 }
 
