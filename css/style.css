@@ -127,6 +127,7 @@ img {
 #header {
   background: url(../images/header.png) no-repeat 50% 100%;
   background-size: cover;
+  padding-bottom: 4.16vw; /*y*/
 }
 
 #header nav {
@@ -202,7 +203,7 @@ img {
 /* PROMO ---------------------------------------------------------------------*/
 #promo {
   margin-top: 30px;
-  padding-bottom: 35px;
+  /*padding-bottom: 35px;*/ /*y*/
 }
 
 #promo .article {
@@ -242,7 +243,7 @@ img {
 }
   
 #client .client-list {
-  margin-top: 40px;
+  /*margin-top: 40px;*/ /*y*/
   margin-bottom: 85px;
   text-align: center;
 }
