@@ -1,7 +1,6 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 /*No media query for `xs` since this is the default in Bootstrap*/
 
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 }
@@ -18,8 +17,27 @@
 @media (min-width: 1200px) {
 }
 
-/*--------------------------------------------------------------------------------------------------------------------*/
-/* PHONE AND TABLET --------------------------------------------------------------------------------------------------*/
+
+/*
+********************************************************************************
+  DESKTOP MEDIUM
+********************************************************************************
+*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  #header nav .btn-outline-primary {
+    margin-left: 60px;
+    margin-right: 40px;
+  }
+  
+}
+
+/*
+********************************************************************************
+  PHONE AND TABLET
+********************************************************************************
+*/
+
 @media (max-width: 991px) {
   
 .container {
@@ -84,13 +102,17 @@
 
 #promo .article .btn {
   margin-top: 25px;
-  margin-bottom: 45px;
+  /*margin-bottom: 45px;*/
 }
 
 #promo img {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
 }
 
 /* CLIENT --------------------------------------------------------------------*/
@@ -242,7 +264,7 @@
 #platform {
   margin-top: -30px;
   padding-top: 0;
-  padding-bottom: 235px;
+  /*padding-bottom: 235px;*/
 }
 
 #platform img {
@@ -250,16 +272,49 @@
   padding-top: 0;
 }
 
-/* DEMO ----------------------------------------------------------------------*/
-#demo {
-  margin: 0 10px;
-  margin-top: -175px;
-  padding: 40px;
+
+/* PROMO -------------------------------------------------------------------*/
+
+.about #promo .row {
+  background-position: 50% 90%;
 }
 
-#demo p {
-  margin: 30px 0;
+
+/* OPTIMIZE ------------------------------------------------------------------*/
+#optimize {
+  padding-bottom: 0;
 }
+
+#optimize h2,
+#optimize p {
+  margin-left: auto;
+  margin-right: : auto;
+}
+
+#optimize img {
+  display: block;
+  margin-top: 30px;
+}
+
+
+/* NUMBERS -------------------------------------------------------------------*/
+#numbers {
+  text-align: center;
+}
+
+#numbers h2 {
+  margin-bottom: 46px; 
+}
+
+#numbers ul {
+  display: block;
+}
+
+#numbers ul li {
+  display: block;
+  width: 100%;
+}
+
 
 
 /* FOOTER --------------------------------------------------------------------*/
@@ -268,8 +323,22 @@
   text-align: center;
 }
 
+/* DEMO ----------------------------------------------------------------------*/
+#demo {
+  margin: 0 10px;
+  margin-top: -175px;
+  padding: 40px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#demo p {
+  margin: 30px 0;
+}
+
 #footer .top {
-  padding: 40px 0 60px 0;
+  padding: 40px 0 0 0;
 }
 
 #footer .navbar-brand {
@@ -301,13 +370,18 @@
   margin-top: 40px;
 }
 
+#footer .iso {
+  margin-top: 40px;
+  text-align: center;
+}
+
 #footer > .container:first-child {
   padding-bottom: 0px;
 }
 
 /* BOTTOM */
 #footer .bottom {
-  padding: 15px 0 40px 0;
+  padding: 60px 0 40px 0;
   text-align: center;
 }
 
@@ -318,17 +392,14 @@
 
 }
 
-/*--------------------------------------------------------------------------------------------------------------------*/
-/* DESKTOP MEDIUM ----------------------------------------------------------------------------------------------------*/
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-  #header nav .btn-outline-primary {
-    margin-left: 60px;
-    margin-right: 40px;
-  }
-  
-/*  #hhrr .saving li:nth-child(3) {
-    margin-left: 20px;
-  }*/
-  
+@media (max-width: 420px) {
+
+/* DEMO ----------------------------------------------------------------------*/
+#demo {
+  margin: 0 10px;
+  margin-top: -175px;
+  padding: 40px;
+  max-width: auto;
+}
+
 }
