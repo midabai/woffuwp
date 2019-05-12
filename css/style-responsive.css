@@ -354,12 +354,14 @@
 
 /* FAMILY --------------------------------------------------------------------*/
 #family {
-  background: url(../images/family.png) no-repeat 50% 0;
   background-size: cover;
-  color: #617892;
-  font-size: 21px;
-  padding: 60px 0 90px 0;
+  padding-top: 60px;
   text-align: center;
+}
+
+#family > div {
+  background-size: cover;
+  padding-botom: 90px;
 }
 
 #family h2 {
