@@ -10,10 +10,6 @@ body {
   letter-spacing: normal;
 }
 
-.container {
-  /*max-width: 1440px;*/
-}
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #052b53;
@@ -265,7 +261,6 @@ img {
 }
   
 #client .client-list {
-  /*margin-top: 40px;*/ /*y*/
   margin-bottom: 85px;
   text-align: center;
 }
@@ -409,7 +404,6 @@ img {
   margin-top: 25px;
   padding: 0 15px 15px 15px;
   
-  /*background-color: rgba(14, 50, 89, 0.88);*/
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -643,21 +637,10 @@ img {
 
 /* PLATFORM ------------------------------------------------------------------*/
 #platform {
-  /*border-bottom: 1px solid #c3eefc;*/
   margin-top: -50px;
   padding-top: 15px;
   padding-top: 0;
-  /*padding-bottom: 200px;*/
   text-align: center;
-  
-  /*background: -moz-linear-gradient(top, #f9fafc 0%, #f5f6f7 100%);
-  background: -webkit-linear-gradient(top, #f9fafc 0%, #f5f6f7 100%);
-  background: linear-gradient(top, #f9fafc 0%, #f5f6f7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafc', endColorstr='#f5f6f7',GradientType=0 );
-  
-  -webkit-border-radius: 0 0 50% 50% / 0 0 90px 90px;
-  -moz-border-radius: 0 0 50% 50% / 0 0 90px 90px;
-  border-radius: 0 0 50% 50% / 0 0 90px 90px;*/
 }
 
 #platform h2 {
@@ -707,14 +690,11 @@ img {
 }
 
 
-
-
 /*
 --------------------------------------------------------------------------------
   PAGE: ABOUT
 --------------------------------------------------------------------------------
 */
-
 
 /* PROMO ---------------------------------------------------------------------*/
 .about #promo h1 {
@@ -750,7 +730,7 @@ img {
 
 /* NUMBERS -------------------------------------------------------------------*/
 #numbers {
-  background: url(../images/numbers.png) no-repeat 50% 0;
+  background: url(../images/numbers.png) repeat-x 50% 0;
   background-size: cover;
   background-size: contain;
   color: #fff;
@@ -800,7 +780,14 @@ img {
 #founders {
   color: #617892;
   font-size: 21px;
+  margin: 0 auto;
+  max-width: 770px;
+  padding: 80px 0 70px 0;
   text-align: center;
+}
+
+#founders h2 {
+  margin-bottom: 30px;
 }
 
 #founders ul {
@@ -813,26 +800,37 @@ img {
   text-align: center;
 }
 
-#founders li {
+#founders ul li {
   display: inline-block;
   margin: 0;
-  padding: 0;
+  padding: 0 15px;
   width: 50%;
 }
 
 #founders li h3 {
   color: #fff;
   margin-top: -60px;
+  text-align: center;
+}
+
+#founders p {
+  margin: 30px auto 0 auto;
+  max-width: 695px;
 }
 
 
 /* FAMILY --------------------------------------------------------------------*/
 #family {
   background: url(../images/family.png) no-repeat 50% 0;
-  background-size: cover;
+  background-size: contain;
   color: #617892;
   font-size: 21px;
+  padding: 80px 0 140px 0;
   text-align: center;
+}
+
+#family h2 {
+  margin-bottom: 75px;
 }
 
 #family ul {
@@ -840,7 +838,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   list-style: none outside none; 
-  margin: 0;
+  margin: 0 0 75px 0;
   padding: 0;
   text-align: center;
 }
@@ -848,12 +846,22 @@ img {
 #family li {
   display: inline-block;
   margin: 0;
-  padding: 0;
+  padding: 0 35px;
 }
 
-#family li h3 {
-  color: #fff;
-  margin-top: -60px;
+#family li:nth-child(1) {
+  padding-left: 0;
+}
+
+#family li:nth-child(6) {
+  padding-right: 0;
+}
+
+#family a {
+  color: #ff9878;  
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
 }
 
 
@@ -861,6 +869,7 @@ img {
 #ourpp {
   color: #617892;
   font-size: 21px;
+  padding-top: 60px;
   text-align: center;
 }
 
@@ -869,10 +878,9 @@ img {
   font-size: 30px;
 }
 
-#ourpp .purpose p,
-#ourpp .promise p {
-  margin: 0 auto;
-  max-width: 360px;
+#ourpp .purpose,
+#ourpp .promise {
+  padding: 60px 0;
 }
 
 #ourpp .purpose {
@@ -883,6 +891,11 @@ img {
   background: url(../images/ourpp-promise.png) no-repeat 100% 0;
 }
 
+#ourpp .purpose p,
+#ourpp .promise p {
+  margin: 0 auto;
+  max-width: 360px;
+}
 
 
 /*
