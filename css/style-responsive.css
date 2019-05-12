@@ -308,6 +308,8 @@
   background: url(../images/numbers-01.png) no-repeat 50% 15%, 
               url(../images/numbers-02.png) no-repeat 50% 85%;
   padding: 105px 0 130px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 #numbers {

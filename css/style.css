@@ -744,6 +744,8 @@ img {
               url(../images/numbers-02.png) no-repeat 95% 50%;
   padding-top: 105px; 
   padding-bottom: 80px; 
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 #numbers h2 {
