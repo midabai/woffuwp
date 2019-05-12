@@ -1046,7 +1046,7 @@ img {
 
 /* NEWSLETTER */
 #footer .newsletter {
-  margin-top: 10px;
+  margin-top: 45px;
   max-width: 350px;
 }
 
@@ -1086,6 +1086,7 @@ img {
 
 /* ISO */
 #footer .iso {
+  margin-top: 25px;
   text-align: right;
 }
 
