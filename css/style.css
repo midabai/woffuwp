@@ -242,8 +242,8 @@ img {
 }
 
 #main {
-  background: url(../images/main-b.png) no-repeat 50% 100%;
-  background-size: contain; 
+  background: url(../images/main-b.svg) no-repeat 50% 100%;
+  background-size: 100% auto; 
   padding-bottom: 210px
 }
 
@@ -825,18 +825,12 @@ img {
 
 /* FAMILY --------------------------------------------------------------------*/
 #family {
-  background: url(../images/family-t.png) no-repeat 50% 0;
-  background-size: contain;
+  background: url(../images/family.svg) no-repeat 50% 0;
+  background-size: 100% 100%;
   color: #617892;
   font-size: 21px;
-  padding-top: 80px;
+  padding: 80px 0 140px 0;
   text-align: center;
-}
-
-#family > div {
-  background: url(../images/family-b.png) no-repeat 50% 100%;
-  background-size: contain;
-  padding-bottom: 140px;
 }
 
 #family h2 {
@@ -915,7 +909,6 @@ img {
 */
 
 #footer  {
-  /*background: #fff;*/
 }
 
 /* DEMO ----------------------------------------------------------------------*/
@@ -940,20 +933,7 @@ img {
 
 #footer .top {
   background: #f9fafc;
-  
-
-  /*background: #fff;*/
-  /*border-bottom: 1px solid #c3eefc;*/
   padding: 100px 0 40px 0;
-  
-  /*background: -moz-linear-gradient(top, #f9fafc 0%, #fafbfd 100%);
-  background: -webkit-linear-gradient(top, #f9fafc 0%, #fafbfd 100%);
-  background: linear-gradient(top, #f9fafc 0%, #fafbfd 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafc', endColorstr='#fafbfd',GradientType=0 );
-
-  -webkit-border-radius: 0 0 50% 50% / 0 0 40px 40px;
-  -moz-border-radius: 0 0 50% 50% / 0 0 40px 40px;
-  border-radius: 0 0 50% 50% / 0 0 40px 40px;*/
 }
 
 #footer .container {
@@ -1116,8 +1096,8 @@ img {
 
 /* BOTTOM */
 #footer .bottom {
-  background: url(../images/footer-b.png) no-repeat 50% 0;
-  background-size: cover;
+  background: url(../images/footer-b.svg) no-repeat 50% 0;
+  background-size: 100% 100%;
   color: rgba(17, 51, 91, 0.62);
   font-family: 'PT Sans', sans-serif;
   font-size: 10px;

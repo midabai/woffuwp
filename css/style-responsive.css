@@ -355,14 +355,9 @@
 
 /* FAMILY --------------------------------------------------------------------*/
 #family {
-  background-size: cover;
-  padding-top: 60px;
+  background-size: auto 100%;
+  padding: 60px 0 90px 0;
   text-align: center;
-}
-
-#family > div {
-  background-size: cover;
-  padding-botom: 90px;
 }
 
 #family h2 {
@@ -494,6 +489,7 @@
 
 /* BOTTOM */
 #footer .bottom {
+  background-size: auto 100%;
   padding: 60px 0 40px 0;
   text-align: center;
 }

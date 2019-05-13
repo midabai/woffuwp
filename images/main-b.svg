@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="522px" viewBox="0 0 1440 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>EC705099-6F9B-4979-AB6E-E850721A26A8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="67.6897713%" y1="27.4710789%" x2="43.5896842%" y2="59.0751654%" id="linearGradient-1">
+            <stop stop-color="#F0F0F0" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#F7F7F7" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.98" stroke-opacity="0.2">
+        <g id="FONDOS-FOOTER" fill="url(#linearGradient-1)" stroke="#00B1FF">
+            <path d="M254.006539,803.991741 C882.86288,1041.08315 1891.35609,568.115244 1800.22584,67.5729485 C1709.0956,-432.969347 16.4845952,-1582.32901 -256.930161,-1000.4297 C-443.994565,-602.30322 -374.873821,566.924318 254.006539,803.991741 Z" id="Mask-Copy" transform="translate(729.000000, -147.000000) rotate(-216.000000) translate(-729.000000, 147.000000) "></path>
+        </g>
+    </g>
+</svg>
