@@ -730,9 +730,11 @@ img {
 
 /* NUMBERS -------------------------------------------------------------------*/
 #numbers {
-  background: url(../images/numbers.png) repeat-x 50% 0;
+  background: url(../images/numbers.png) no-repeat 50% 0;
+  background-size: 100% 100%;
+  /*background: url(../images/numbers.png) repeat-x 50% 0;
   background-size: cover;
-  background-size: contain;
+  background-size: contain;*/
   color: #fff;
   font-size: 21px;
   line-height: 26px;

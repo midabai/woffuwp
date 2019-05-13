@@ -299,17 +299,16 @@
 
 /* NUMBERS -------------------------------------------------------------------*/
 #numbers {
-  background-position: 100% 0;
-  background-size: cover;
+  background-image: url(../images/numbers-sm.svg);
+  /*background-position: 100% 0;
+  background-size: cover;*/
   margin-top: 60px;
 }
 
 #numbers > div {
   background: url(../images/numbers-01.png) no-repeat 50% 15%, 
               url(../images/numbers-02.png) no-repeat 50% 85%;
-  padding: 105px 0 130px 0;
-  max-width: 1440px;
-  margin: 0 auto;
+  padding: 60px 0;
 }
 
 #numbers {
@@ -332,7 +331,7 @@
 
 /* FOUNDERS ------------------------------------------------------------------*/
 #founders {
-  padding: 0 0 50px 0;
+  padding: 50px 0;
 }
 
 #founders ul {
