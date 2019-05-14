@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>A41BF710-C67B-4905-A4DF-A79D36237E35</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#00B1FF" offset="0%"></stop>
+            <stop stop-color="#0060FF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="10.8" cy="11.3009547" r="10.8"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us/Woffu" transform="translate(-865.000000, -2774.000000)">
+            <g id="Group-49-Copy-5" transform="translate(700.000000, 2772.000000)">
+                <g id="Text-button-Copy-11" transform="translate(165.800000, 1.271843)">
+                    <g id="chevron-right" transform="translate(14.400000, 7.200000)"></g>
+                    <g id="Group-17" transform="translate(0.000000, 0.699045)">
+                        <g id="Oval">
+                            <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                            <use fill="#FF9878" xlink:href="#path-2"></use>
+                        </g>
+                        <polyline id="Shape" stroke="#FFFFFF" stroke-width="1.3824" stroke-linecap="round" stroke-linejoin="round" points="9.6 15.6 14.4 11.4 9.6 7.2"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

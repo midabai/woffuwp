@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
 				"bacg",
 				"background-image\tproperty"
 			],
 			[
 				"marg",
 				"margin-left\tproperty"
-			],
-			[
-				"bac",
-				"background-size\tproperty"
 			],
 			[
 				"mar",
@@ -42,10 +58,6 @@
 			[
 				"r",
 				"right\ttext-align"
-			],
-			[
-				"padd",
-				"padding-top\tproperty"
 			],
 			[
 				"BAC",
@@ -80,10 +92,6 @@
 				"flex-wrap\tproperty"
 			],
 			[
-				"in",
-				"inline-block\tdisplay"
-			],
-			[
 				"ma",
 				"margin\tproperty"
 			],
@@ -111,7 +119,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 18106,
+				"buffer_size": 19061,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -120,7 +128,7 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 14698,
+				"buffer_size": 15588,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -129,7 +137,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 21720,
+				"buffer_size": 23121,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -138,7 +146,7 @@
 			"file": "css/style-responsive.css",
 			"settings":
 			{
-				"buffer_size": 8378,
+				"buffer_size": 9511,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -202,6 +210,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"saving",
+			"demo",
+			"numb",
+			".client-list",
+			");\n",
+			"15px",
+			"#promo",
+			"#client",
+			"#hhrr",
+			"#comments",
+			"#start",
+			"#platform",
+			"#optimize",
+			"#numbers",
+			"#founders",
+			"#family",
+			"#ourpp",
+			"#family",
+			"#founders",
+			"#numbers",
+			"#optimize",
+			"family",
+			"radiu",
+			"family",
 			";\n",
 			"@media (max-width: 991px) {",
 			".news"
@@ -212,6 +244,22 @@
 		"regex": false,
 		"replace_history":
 		[
+			".clients",
+			".hero",
+			"#home-client",
+			"#home-hr",
+			"#home-comments",
+			"#home-start",
+			"#home-platform",
+			"#about-optimize",
+			"#about-numbers",
+			"#about-founders",
+			"#about-family",
+			"#about-ourpp",
+			"#about-family",
+			"#about-founders",
+			"#about-numbers",
+			"#about-optimize"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -222,7 +270,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -231,28 +279,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18106,
+						"buffer_size": 19061,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12885,
-								12885
+								1180,
+								1180
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1852.0,
+						"translation.y": 46.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -261,15 +310,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14698,
+						"buffer_size": 15588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6704,
-								6704
+								10856,
+								10856
 							]
 						],
 						"settings":
@@ -284,16 +333,16 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2371.0,
+						"translation.y": 4351.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -302,15 +351,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21720,
+						"buffer_size": 23121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4590,
-								4590
+								3833,
+								3659
 							]
 						],
 						"settings":
@@ -325,10 +374,10 @@
 							"wrap_width": 0
 						},
 						"translation.x": 0.0,
-						"translation.y": 3939.0,
+						"translation.y": 3294.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -337,15 +386,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8378,
+						"buffer_size": 9511,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8063,
-								8063
+								1919,
+								1919
 							]
 						],
 						"settings":
@@ -355,10 +404,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8293.0,
+						"translation.y": 1365.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -392,7 +441,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.586440677966,
 			1.0
 		],
 		"rows":
@@ -410,7 +459,7 @@
 	"project": "woffu-wp-html5.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -440,7 +489,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

@@ -104,7 +104,7 @@
 .hero {
   background-size: auto 100%;
   margin-top: 0;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .hero .article {
@@ -212,6 +212,10 @@
   max-width: 375px;
 }
 
+#home-hr .saving ul {
+  display: block;
+}
+
 #home-hr .saving li:nth-of-type(1) {
   margin-bottom: 0;
 }
@@ -224,7 +228,10 @@
 #home-hr .saving li:nth-of-type(1),
 #home-hr .saving li:nth-of-type(2),
 #home-hr .saving li:nth-of-type(3) {
-  grid-column: 2 / span 2;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 180px;
 }
 
 #home-hr .items {
@@ -262,8 +269,8 @@
 }
 
 #home-comments .img {
-  background: url(../images/comments-img-01.png) no-repeat 100% 0,
-              url(../images/comments-img-02.png) no-repeat 80px 100%;
+  background: url(../images/home-comments-img-01.png) no-repeat 100% 0,
+              url(../images/home-comments-img-02.png) no-repeat 80px 100%;
   margin: -10px auto;
   max-width: 365px;
   padding: 40px 10px 50px 0;
@@ -320,8 +327,8 @@
 
 #about-optimize h2,
 #about-optimize p {
-  margin-left: auto;
-  margin-right: : auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #about-optimize img {
@@ -470,6 +477,7 @@
 #demo {
   margin: 0 10px;
   margin-top: -175px;
+  margin-bottom: 40px;
   padding: 40px;
   max-width: 400px;
   margin-left: auto;
@@ -481,7 +489,8 @@
 }
 
 #footer .top {
-  padding: 40px 0 0 0;
+  background-size: auto 100%;
+  padding: 40px 0;
 }
 
 #footer .navbar-brand {
@@ -526,6 +535,7 @@
 /* BOTTOM ----------------------------------------------------------------------*/
 #footer .bottom {
   background-size: auto 100%;
+  margin-top: -39px;
   padding: 60px 0 40px 0;
   text-align: center;
 }
