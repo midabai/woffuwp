@@ -27,7 +27,7 @@
   
   #header nav .btn-outline-primary {
     margin-left: 60px;
-    margin-right: 40px;
+    margin-right: 0;
   }
   
 }
@@ -44,12 +44,28 @@
   padding: 0 10px;
 }
   
+#header {
+  top: 15px;
+  z-index: 1;
+}
+
 #header > nav {
-  padding: 15px 0;
+  padding: 0; 
 }
 
 #header > nav .container {
   padding: 0 10px;
+}
+
+#header .navbar-collapse {
+  background: rgba(0, 96, 255, 0.85);
+  margin-top: 10px;
+  padding: 10px;   
+  padding-bottom: 30px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #header > nav ul {
@@ -80,32 +96,37 @@
 }
   
 
-/* PROMO ---------------------------------------------------------------------*/
-#promo {
+/*
+--------------------------------------------------------------------------------
+  HERO
+--------------------------------------------------------------------------------
+*/
+.hero {
+  background-size: auto 100%;
   margin-top: 0;
   padding-bottom: 40px;
 }
 
-#promo .article {
+.hero .article {
   padding-top: 30px;
   text-align: center;
 }
 
-#promo .article h2 {
+.hero .article h2 {
   margin-bottom: 10px;
 }
 
-#promo .article p {
+.hero .article p {
   max-width: 265px;
   margin: 0 auto;
 }
 
-#promo .article .btn {
+.hero .article .btn {
   margin-top: 25px;
   /*margin-bottom: 45px;*/
 }
 
-#promo img {
+.hero img {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -115,13 +136,19 @@
   margin-top: 45px;
 }
 
+
+/*
+--------------------------------------------------------------------------------
+  HOME
+--------------------------------------------------------------------------------
+*/
+
 /* CLIENT --------------------------------------------------------------------*/
-/* CLIENT LIST */
-#client .client-list {
+#home-client .clients {
   margin-bottom: 30px;
 }
 
-#client .client-list > a.more {
+#home-client .clients > a.more {
   background: url(../images/more.png) no-repeat 50% 100%;
   display: block;
   margin: 0 auto 15px auto;
@@ -129,111 +156,112 @@
   max-width: 245px;
 }
 
-#client .client-list li + li {
+#home-client .clients li + li {
   margin-left: 20px;
   margin-bottom: 15px;
 }
 
 /* PROCESS */
-#client .process {
+#home-client .process {
   max-width: 920px;
 }
 
-#client .process .col-lg-6 {
+#home-client .process .col-lg-6 {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-#client .process .before,
-#client .process .now {
+#home-client .process .before,
+#home-client .process .now {
   margin-left: auto;
   margin-right: auto;
 }
 
-#client .process .now {
+#home-client .process .now {
   margin-top: 80px;
 }
 
 
 /* HHRR ----------------------------------------------------------------------*/
-#hhrr {
-  background: url(../images/hhrr-t.png) no-repeat 50% 0, 
-              url(../images/hhrr-b.png) no-repeat 50% 100%;
+#home-hr {
+  background: url(../images/home-hr-sm.png) no-repeat 50% 0;
+  background-size: auto 100%;
   padding-top: 120px;
+  padding-top: 0;
   padding-bottom: 85px;
 }
 
-#hhrr .container-fluid {
+#home-hr .container-fluid {
   max-width: 1140px;
 }
 
-#hhrr .saving {
+#home-hr .saving {
   text-align: center;
 }
 
-#hhrr .saving img {
+#home-hr .saving img {
   margin-top: 0;
 }
 
-#hhrr .saving .col-lg-5 {
+#home-hr .saving .col-lg-5 {
   margin-left: 0;
 }
 
-#hhrr .saving h2 {
+#home-hr .saving h2 {
   margin: 25px auto;
   max-width: 375px;
 }
 
-#hhrr .saving li:nth-of-type(1) {
+#home-hr .saving li:nth-of-type(1) {
   margin-bottom: 0;
 }
 
-#hhrr .saving li:nth-of-type(2),
-#hhrr .saving li:nth-of-type(3) {
+#home-hr .saving li:nth-of-type(2),
+#home-hr .saving li:nth-of-type(3) {
   margin-top: 15px;
 }
 
-#hhrr .saving li:nth-of-type(1),
-#hhrr .saving li:nth-of-type(2),
-#hhrr .saving li:nth-of-type(3) {
+#home-hr .saving li:nth-of-type(1),
+#home-hr .saving li:nth-of-type(2),
+#home-hr .saving li:nth-of-type(3) {
   grid-column: 2 / span 2;
 }
 
-#hhrr .items {
+#home-hr .items {
   margin: 0 auto 0 auto;
   margin-top: 55px;
   max-width: 375px;
 }
 
-#hhrr .items > div {
+#home-hr .items > div {
   margin-top: 25px;
 }
 
-#hhrr .items > div:nth-child(1),
-#hhrr .items > div:nth-child(2) {
+#home-hr .items > div:nth-child(1),
+#home-hr .items > div:nth-child(2) {
   margin-top: 0;
 }
 
 
-/* COMMENT -------------------------------------------------------------------*/
-#comments {
+/* COMMENTS -------------------------------------------------------------------*/
+#home-comments {
   font-size: 27px;
   line-height: 37px;
   padding: 0;
 }
 
-#comments p {
-  background: url(../images/blockquote.png) no-repeat 50% 25px;
+#home-comments p {
+  background: url(../images/home-comments-bq.png) no-repeat 50% 25px;
   margin: 0;
   padding: 125px 0 0 0;
 }
 
-#comments h3,
-#comments h4 {
+#home-comments h3,
+#home-comments h4 {
   padding: 0;
 }
 
-#comments .img {
+#home-comments .img {
   background: url(../images/comments-img-01.png) no-repeat 100% 0,
               url(../images/comments-img-02.png) no-repeat 80px 100%;
   margin: -10px auto;
@@ -242,7 +270,7 @@
   text-align: center;
 }
 
-#comments .img img {
+#home-comments .img img {
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   border-radius: 35px;
@@ -250,7 +278,8 @@
 
 
 /* START ---------------------------------------------------------------------*/
-#start {
+#home-start {
+  background-size: cover;
   font-size: 30px;
   text-align: center;
   color: #f7f7f7;
@@ -261,133 +290,135 @@
 
 
 /* PLATFORM ------------------------------------------------------------------*/
-#platform {
+#home-platform {
   margin-top: -30px;
   padding-top: 0;
-  /*padding-bottom: 235px;*/
 }
 
-#platform img {
+#home-platform img {
   margin: 50px auto 22px auto;
   padding-top: 0;
 }
 
 
-/* PROMO -------------------------------------------------------------------*/
+/*
+--------------------------------------------------------------------------------
+  PAGE: ABOUT
+--------------------------------------------------------------------------------
+*/
 
-.about #promo .row {
+/* HERO -------------------------------------------------------------------*/
+#about-hero .row {
   background-position: 50% 90%;
 }
 
 
 /* OPTIMIZE ------------------------------------------------------------------*/
-#optimize {
+#about-optimize {
   padding-bottom: 0;
 }
 
-#optimize h2,
-#optimize p {
+#about-optimize h2,
+#about-optimize p {
   margin-left: auto;
   margin-right: : auto;
 }
 
-#optimize img {
+#about-optimize img {
   display: block;
   margin-top: 30px;
 }
 
 
 /* NUMBERS -------------------------------------------------------------------*/
-#numbers {
-  background-image: url(../images/numbers-sm.svg);
-  /*background-position: 100% 0;
-  background-size: cover;*/
+#about-numbers {
+  background-image: url(../images/about-numbers-sm.svg);
   margin-top: 60px;
 }
 
-#numbers > div {
-  background: url(../images/numbers-01.png) no-repeat 50% 15%, 
-              url(../images/numbers-02.png) no-repeat 50% 85%;
+#about-numbers > div {
+  background: url(../images/about-numbers-01.png) no-repeat 50% 15%, 
+              url(../images/about-numbers-02.png) no-repeat 50% 85%;
   padding: 60px 0;
 }
 
-#numbers {
+#about-numbers {
   text-align: center;
 }
 
-#numbers h2 {
+#about-numbers h2 {
   margin-bottom: 46px; 
 }
 
-#numbers ul {
+#about-numbers ul {
   display: block;
 }
 
-#numbers ul li {
+#about-numbers ul li {
   display: block;
   width: 100%;
 }
 
 
 /* FOUNDERS ------------------------------------------------------------------*/
-#founders {
+#about-founders {
   padding: 50px 0;
 }
 
-#founders ul {
+#about-founders ul {
   display: block;
 }
 
-#founders ul li {
+#about-founders ul li {
   display: block;
   margin: 0;
   width: 100%;
 }
 
-#founders ul li:nth-child(2) {
+#about-founders ul li:nth-child(2) {
   margin-top: 60px;
 }
 
-#founders p {
+#about-founders p {
   margin-top: 60px;
 }
 
 
 /* FAMILY --------------------------------------------------------------------*/
-#family {
+#about-family {
   background-size: auto 100%;
   padding: 60px 0 90px 0;
   text-align: center;
 }
 
-#family h2 {
+#about-family h2 {
   margin-bottom: 60px;
 }
 
-#family ul {
+#about-family ul {
   margin: 0 auto 70px auto;
   max-width: 250px;
   padding: 0;
 }
 
-#family li {
+#about-family li {
   display: inline-block;
   margin: 25px 0;
   padding: 0;
   width: 50%;
 }
 
-#family li:nth-child(1),
-#family li:nth-child(2) {
+#about-family li:nth-child(1),
+#about-family li:nth-child(2) {
   margin-top: 0;
 }
 
-#family li:nth-child(5),
-#family li:nth-child(6) {
+#about-family li:nth-child(5),
+#about-family li:nth-child(6) {
   margin-bottom: 0;
 }
 
-#family a {
+#about-family a {
   color: #ff9878;  
   font-size: 15px;
   font-weight: 700;
@@ -396,36 +427,40 @@
 
 
 /* OURPP ---------------------------------------------------------------------*/
-#ourpp {
+#about-ourpp {
   padding-top: 0;
 }
 
-#ourpp h2 {
+#about-ourpp h2 {
   margin-bottom: 25px; 
 }
 
-#ourpp .purpose,
-#ourpp .promise {
+#about-ourpp .purpose,
+#about-ourpp .promise {
   padding: 60px 0;
 }
 
-#ourpp .purpose {
+#about-ourpp .purpose {
   background-size: contain;
 }
 
-#ourpp .promise {
+#about-ourpp .promise {
   background-size: contain;
   margin-top: 30px; 
 }
 
-#ourpp .purpose p,
-#ourpp .promise p {
+#about-ourpp .purpose p,
+#about-ourpp .promise p {
   margin: 0 auto;
   max-width: 360px;
 }
 
 
-/* FOOTER --------------------------------------------------------------------*/
+/*
+--------------------------------------------------------------------------------
+  FOOTER
+--------------------------------------------------------------------------------
+*/
 #footer {
   padding-top: 0;
   text-align: center;
@@ -487,7 +522,8 @@
   padding-bottom: 0px;
 }
 
-/* BOTTOM */
+
+/* BOTTOM ----------------------------------------------------------------------*/
 #footer .bottom {
   background-size: auto 100%;
   padding: 60px 0 40px 0;

@@ -4,20 +4,8 @@
 		"selected_items":
 		[
 			[
-				"padd",
-				"padding-top\tproperty"
-			],
-			[
-				"mar",
-				"margin-left\tproperty"
-			],
-			[
-				"BAC",
-				"background-size\tproperty"
-			],
-			[
-				"background-",
-				"background-position\tproperty"
+				"bacg",
+				"background-image\tproperty"
 			],
 			[
 				"marg",
@@ -26,6 +14,46 @@
 			[
 				"bac",
 				"background-size\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"bl",
+				"block\tdisplay"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"c",
+				"contain\tbackground-size"
+			],
+			[
+				"r",
+				"right\ttext-align"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"BAC",
+				"background-size\tproperty"
+			],
+			[
+				"background-",
+				"background-position\tproperty"
 			],
 			[
 				"font-",
@@ -50,10 +78,6 @@
 			[
 				"fle",
 				"flex-wrap\tproperty"
-			],
-			[
-				"max",
-				"max-width\tproperty"
 			],
 			[
 				"in",
@@ -96,7 +120,7 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 14397,
+				"buffer_size": 14698,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -105,7 +129,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 22301,
+				"buffer_size": 21720,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -114,7 +138,7 @@
 			"file": "css/style-responsive.css",
 			"settings":
 			{
-				"buffer_size": 6699,
+				"buffer_size": 8378,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -164,7 +188,7 @@
 	],
 	"find":
 	{
-		"height": 57.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -237,15 +261,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14397,
+						"buffer_size": 14698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4302,
-								4302
+								6704,
+								6704
 							]
 						],
 						"settings":
@@ -260,10 +284,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1075.0,
+						"translation.y": 2371.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -278,15 +302,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22301,
+						"buffer_size": 21720,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14304,
-								14304
+								4590,
+								4590
 							]
 						],
 						"settings":
@@ -301,10 +325,10 @@
 							"wrap_width": 0
 						},
 						"translation.x": 0.0,
-						"translation.y": 13263.0,
+						"translation.y": 3939.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -313,15 +337,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6699,
+						"buffer_size": 8378,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5068,
-								5068
+								8063,
+								8063
 							]
 						],
 						"settings":
@@ -331,10 +355,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4742.0,
+						"translation.y": 8293.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -416,7 +440,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
