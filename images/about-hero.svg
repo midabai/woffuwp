@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="446px" viewBox="0 0 1440 446" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>F0E4542B-8B12-45AB-9E43-6871F890FCC4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M0,0 L1440,0 L1440,607.905908 C1319.68,646.635303 1182.72,666 1029.12,666 C798.72,666 600.848682,613.044178 387.84,607.905908 C245.834212,604.480394 116.554212,623.845092 0,666 L0,0 Z" id="path-1"></path>
+        <linearGradient x1="52.5042541%" y1="59.7208518%" x2="52.5042541%" y2="20.7446542%" id="linearGradient-3">
+            <stop stop-color="#00B1FF" offset="0%"></stop>
+            <stop stop-color="#0060FF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="1440" height="1075"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fondo-hero" transform="translate(0.000000, 0.000000)">
+            <g id="Background" transform="translate(0.000000, -220.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" transform="translate(720.000000, 333.000000) scale(-1, 1) translate(-720.000000, -333.000000) "></g>
+                <g mask="url(#mask-2)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="Rectangle" fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="134px" viewBox="0 0 158 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>09DD71BB-482F-486F-8CB1-FD37DDACB6C3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M558.174163,42.3600006 C570.312717,59.8626712 576.638018,84.1086653 567.692235,97.5953122 C558.746452,111.081959 534.469344,113.809259 512.662115,112.430624 C490.824765,111.022018 471.457296,105.477508 459.348862,90.1926416 C447.270549,74.9077751 442.481392,49.8825526 452.180187,33.7884873 C461.878982,17.6644517 486.035609,10.4715733 507.089826,12.2697929 C528.144043,14.0680125 546.035609,24.85733 558.174163,42.3600006 Z" id="path-1"></path>
+        <filter x="-22.0%" y="-23.3%" width="144.0%" height="154.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Desktop" transform="translate(-641.000000, -3789.000000)">
+            <g id="Group-9" transform="translate(211.000000, 3790.000000)">
+                <g id="Path-Copy-6">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

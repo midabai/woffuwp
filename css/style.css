@@ -212,8 +212,8 @@ img {
 */
 
 .hero {
-  background: url(../images/hero.svg) no-repeat 50% 100%;
-  background-size: 100%;
+  background: url(../images/hero.svg) no-repeat 50% 0;
+  background-size: 100% 100%;
   padding-top: 110px;
   margin-bottom: 45px;
 }
@@ -658,6 +658,29 @@ img {
   margin: 70px auto 0 auto;
 }
 
+#home-platform .img {
+  padding-top: 25px;
+  text-align: center;
+  position: relative;
+  overflow: hidden; 
+}
+
+#home-platform .img:before {
+    content: "";
+    position: absolute;
+    width: 158px;
+    height: 134px;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url(../images/home-platform-bg.svg) no-repeat 50% 50%;
+}
+
+#home-platform .img img {
+  height: auto;
+  margin: 0;
+}
+
 #home-platform h3 {
   color: #052b53;
   font-size: 18px;
@@ -697,6 +720,7 @@ img {
 
 /* HERO ---------------------------------------------------------------------*/
 #about-hero {
+  background-image: url(../images/about-hero.svg);
   padding-bottom: 0;
 }
 
