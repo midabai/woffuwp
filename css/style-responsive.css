@@ -123,7 +123,6 @@
 
 .hero .article .btn {
   margin-top: 25px;
-  /*margin-bottom: 45px;*/
 }
 
 .hero img {
@@ -469,7 +468,6 @@
 --------------------------------------------------------------------------------
 */
 #footer {
-  padding-top: 0;
   text-align: center;
 }
 
@@ -551,9 +549,8 @@
 
 /* DEMO ----------------------------------------------------------------------*/
 #demo {
-  margin: 0 10px;
-  margin-top: -175px;
-  padding: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
   max-width: auto;
 }
 
