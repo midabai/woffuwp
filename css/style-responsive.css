@@ -105,6 +105,7 @@
   background-size: auto 100%;
   margin-top: 0;
   margin-bottom: 40px;
+  max-height: none;
 }
 
 .hero .article {
@@ -141,6 +142,30 @@
   HOME
 --------------------------------------------------------------------------------
 */
+
+/* HERO ----------------------------------------------------------------------*/
+
+#home-hero {
+  max-height: none;
+  padding-top: 100px;
+}
+
+#home-hero .container {
+  max-width: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#home-hero .article {
+  padding-top: 0;
+  margin-top: 0;
+  max-width: none;
+}
+
+#home-hero h1 {
+  margin-top: 0;
+}
+
 
 /* CLIENT --------------------------------------------------------------------*/
 #home-client .clients {
@@ -318,6 +343,16 @@
   background-position: 50% 90%;
 }
 
+#about-hero .article {
+  padding-top: 0;
+  margin-top: 0;
+  max-width: none;
+}
+
+#about-hero h1 {
+  margin-top: 0;
+}
+
 
 /* OPTIMIZE ------------------------------------------------------------------*/
 #about-optimize {
@@ -362,6 +397,7 @@
 
 #about-numbers ul li {
   display: block;
+  margin: 60px 0; 
   width: 100%;
 }
 
@@ -476,11 +512,22 @@
   margin: 0 10px;
   margin-top: -175px;
   margin-bottom: 40px;
-  padding: 40px;
+  padding: 35px;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
+
+#demo td {
+  display: block;
+}
+
+#demo td:nth-child(1),
+#demo td:nth-child(2),
+#demo td:nth-child(3) {
+  width: 100%;
+}
+
 
 #demo p {
   margin: 30px 0;

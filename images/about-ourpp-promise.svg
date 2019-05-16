@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="319px" height="305px" viewBox="0 0 319 305" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>EB5762D8-68F5-475E-8680-1B04AF54F870</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="73.6263733%" y1="93.5220078%" x2="-11.2516254%" y2="-54.0976771%" id="linearGradient-1">
+            <stop stop-color="#7537FF" offset="0%"></stop>
+            <stop stop-color="#D5C2FF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="73.6263733%" y1="93.5220078%" x2="0%" y2="-75.0014509%" id="linearGradient-3">
+            <stop stop-color="#4CD964" offset="0%"></stop>
+            <stop stop-color="#F0FFF3" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="0%" y1="-50.0127194%" x2="70.7297107%" y2="77.1002516%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F9906F" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="0%" y1="-50.0127194%" x2="70.7297107%" y2="77.1002516%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#00AFFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us/Woffu" transform="translate(-935.000000, -2999.000000)">
+            <g id="Group-11" transform="translate(935.000000, 2999.000000)">
+                <circle id="Oval-4-Copy-3" fill="url(#linearGradient-1)" filter="url(#filter-2)" cx="286.5" cy="104.5" r="32.5"></circle>
+                <circle id="Oval-4-Copy-4" fill="url(#linearGradient-3)" filter="url(#filter-4)" cx="84.5" cy="13.5" r="13.5"></circle>
+                <circle id="Oval-4-Copy-5" fill="url(#linearGradient-5)" filter="url(#filter-6)" cx="184.5" cy="284.5" r="20.5"></circle>
+                <circle id="Oval-4-Copy-5" fill="url(#linearGradient-7)" filter="url(#filter-8)" cx="10" cy="274" r="10"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

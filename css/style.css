@@ -123,6 +123,10 @@ img {
 }
 
 
+.container {
+  max-width: 1040px;
+}
+
 /*
 --------------------------------------------------------------------------------
   HEADER
@@ -144,6 +148,7 @@ img {
   line-height: 34.6px;
   letter-spacing: -0.2px;
   margin: 0;
+  padding: 0; 
 }
 
 #header > nav .container {
@@ -207,6 +212,17 @@ img {
 
 /*
 --------------------------------------------------------------------------------
+  MAIN
+--------------------------------------------------------------------------------
+*/
+
+#main {
+  padding-bottom: 170px
+}
+
+
+/*
+--------------------------------------------------------------------------------
   HERO
 --------------------------------------------------------------------------------
 */
@@ -214,41 +230,31 @@ img {
 .hero {
   background: url(../images/hero.svg) no-repeat 50% 0;
   background-size: 100% 100%;
-  padding-top: 110px;
-  margin-bottom: 45px;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 26px;
+  margin-bottom: 50px;
+  max-height: 445px;
+  padding-top: 115px;
+  text-align: left;
 }
 
 .hero .article {
-  color: #fff;
-  font-size: 21px;
-  font-weight: 300;
-  padding-top: 60px;
-  text-align: left;
+  margin-top: 45px;
+  max-width: 425px;
 }
 
 .hero .article h1 {
   color: #f7f7f7;
-  font-size: 51px;
+  font-size: 44px;
   font-weight: 400;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .hero .article p {
-  max-width: 265px;
-}
-
-.hero .article .btn {
-  margin-top: 30px;
-}
-
-.hero img {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-}
-
-#main {
-  padding-bottom: 210px
+  margin: 0;
+  max-width: 506px;
 }
 
 
@@ -257,6 +263,45 @@ img {
   PAGE: HOME
 --------------------------------------------------------------------------------
 */
+
+/* HERO ----------------------------------------------------------------------*/
+
+#home-hero {
+  background-image: url(../images/home-hero.svg);
+  padding-top: 130px;
+  padding-bottom: 25px;
+  max-height: 610px;
+}
+
+#home-hero .container {
+  max-width: 1200px;
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
+#home-hero .article {
+  margin-top: 55px;
+  max-width: 310px;
+}
+
+#home-hero h1 {
+  font-size: 51px;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+
+#home-hero .article .btn {
+  font-size: 15px;
+  font-weight: 500px;
+  margin-top: 50px;
+}
+
+#home-hero img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
 
 /* CLIENT --------------------------------------------------------------------*/
 #home-client {
@@ -399,7 +444,7 @@ img {
 
 #home-client .process ul + p {
   background: url(../images/home-client-before-p.png) no-repeat 50% 50%;
-  background-size: cover;
+  background-size: 100% 100%;
   color: #ffffff;
   display: inline-block;
   font-weight: 500;
@@ -464,6 +509,10 @@ img {
   background-size: 100% 100%;
   padding-top: 120px;
   padding-bottom: 160px;
+}
+
+#home-hr .container {
+  max-width: 1470px;
 }
 
 #home-hr .saving {
@@ -567,6 +616,10 @@ img {
   padding: 55px 0 85px 0;
 }
 
+#home-comments .container {
+  max-width: 1170px;
+}
+
 #home-comments .blockquote {
   font-size: 30px;
   line-height: 42px;
@@ -640,6 +693,10 @@ img {
   padding-top: 15px;
   padding-top: 0;
   text-align: center;
+}
+
+#home-platform .container {
+  max-width: 1160px;
 }
 
 #home-platform h2 {
@@ -719,32 +776,15 @@ img {
 */
 
 /* HERO ---------------------------------------------------------------------*/
-#about-hero {
-  background-image: url(../images/about-hero.svg);
-  padding-bottom: 0;
-}
 
-#about-hero h1 {
-  font-size: 44px;
-}
-
-#about-hero .article p {
-  font-size: 21px;
-  font-weight: normal;
-  max-width: none; 
-}
-
-#about-hero img {
-  display: block;
-  margin-bottom: -25px;
-}
 
 
 /* OPTIMIZE ------------------------------------------------------------------*/
 #about-optimize {
   color: #617892;
   font-size: 21px;
-  padding: 15px 0 70px 0;
+  line-height: 26px;
+  padding: 45px 0 35px 0;
 }
 
 #about-optimize h2 {
@@ -752,6 +792,7 @@ img {
 }
 
 #about-optimize p {
+  margin-bottom: 26px;
   max-width: 506px;
 }
 
@@ -775,9 +816,13 @@ img {
   margin: 0 auto;
 }
 
+#about-numbers .container {
+  max-width: 1200px;
+}
+
 #about-numbers h2 {
   color: #fff;
-  margin: 0;
+  margin: 3px 0 37px;
 }
 
 #about-numbers ul {
@@ -792,7 +837,7 @@ img {
 
 #about-numbers ul li {
   display: inline-block;
-  margin: 40px 0 0 0;
+  margin: 12px 0 15px 0;
   padding: 0;
   width: 25%;
 }
@@ -804,6 +849,10 @@ img {
   margin: 10px 0 0 0;
 }
 
+#about-numbers p {
+  margin: 0;
+}
+
 
 /* FOUNDERS ------------------------------------------------------------------*/
 #about-founders {
@@ -811,12 +860,12 @@ img {
   font-size: 21px;
   margin: 0 auto;
   max-width: 770px;
-  padding: 80px 0 70px 0;
+  padding: 75px 0 80px 0;
   text-align: center;
 }
 
 #about-founders h2 {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 #about-founders ul {
@@ -843,7 +892,7 @@ img {
 }
 
 #about-founders p {
-  margin: 50px auto 0 auto;
+  margin: 70px auto 0 auto;
   max-width: 695px;
 }
 
@@ -854,7 +903,7 @@ img {
   background-size: 100% 100%;
   color: #617892;
   font-size: 21px;
-  padding: 80px 0 140px 0;
+  padding: 80px 0 120px 0;
   text-align: center;
 }
 
@@ -867,7 +916,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   list-style: none outside none; 
-  margin: 0 0 75px 0;
+  margin: 0 0 83px 0;
   padding: 0;
   text-align: center;
 }
@@ -902,54 +951,43 @@ img {
   padding-right: 30px;
 }
 
-#about-family a i {
-  background: #ff9878;
-  color: #fff;
-  display: inline-block;
-  height: 22px;
-  line-height: 22px;
-  margin-left: 5px; 
-  text-align: center;
-  width: 22px;
- 
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-
-   display: none;
- } 
-
 
 /* OURPP ---------------------------------------------------------------------*/
 #about-ourpp {
   color: #617892;
   font-size: 21px;
-  padding-top: 60px;
+  padding-top: 65px;
   text-align: center;
 }
 
 #about-ourpp h2 {
   color: #052b53;
   font-size: 30px;
+  margin-bottom: 15px;
 }
 
 #about-ourpp .purpose,
 #about-ourpp .promise {
+  min-height: 305px;
   padding: 60px 0;
 }
 
 #about-ourpp .purpose {
-  background: url(../images/about-ourpp-purpose.png) no-repeat 0 0;
+  background: url(../images/about-ourpp-purpose.svg) no-repeat 0 0;
 }
 
 #about-ourpp .promise {
-  background: url(../images/about-ourpp-promise.png) no-repeat 100% 0;
+  background: url(../images/about-ourpp-promise.svg) no-repeat 100% 0;
 }
 
-#about-ourpp .purpose p,
+#about-ourpp .purpose p {
+  margin: 0 auto;
+  max-width: 357px;
+}
+
 #about-ourpp .promise p {
   margin: 0 auto;
-  max-width: 375px;
+  max-width: 390px;
 }
 
 
@@ -959,16 +997,14 @@ img {
 --------------------------------------------------------------------------------
 */
 
-#footer  {
-}
-
 /* DEMO ----------------------------------------------------------------------*/
 #demo {
   color: #f7f7f7;
   font-size: 30px;
-  max-width: 1012px;
+  max-width: 1010px;
   margin: -180px auto 100px auto;
-  padding: 50px 40px;
+  min-height: 215px;
+  padding: 30px 70px;
   text-align: center;
   
   background: -moz-linear-gradient(top, #00b1ff 0%, #0060ff 100%);
@@ -981,11 +1017,45 @@ img {
   border-radius: 47px;
 }
 
-#demo p {
+#demo table,
+#demo tbody,
+#demo tr {
+  display: block;
   margin: 0;
+  width: 100%;
+}
+
+#demo td {
+  border: none;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#demo td:nth-child(1),
+#demo td:nth-child(3) {
+  width: 20%;
+}
+
+#demo td:nth-child(2) {
+  width: 60%;
+}
+
+#demo i {
+  background: url(../images/footer-demo.svg) no-repeat 50% 50%;
+  background-size: contain;
+  display: inline-block;
+  width: 160px;
+  height: 146px;
+}
+
+#demo p {
+  color: #fff;
+  display: inline-block;
+  margin: 0 40px;
 }
 
 #footer #demo .btn-primary {
+  display: inline-block;
   font-size: 15px;
   background-image: -webkit-linear-gradient(#edf9ff80, #00b1ff80);
   background-image: -o-linear-gradient(#edf9ff80, #00b1ff80);
@@ -998,10 +1068,6 @@ img {
   background: url(../images/footer.svg) no-repeat 50% 0;
   background-size: 100% 100%;
   padding: 100px 0 75px 0;
-}
-
-#footer .container {
-  max-width: 1030px;
 }
 
 #footer .top .container:first-child {
@@ -1163,7 +1229,7 @@ img {
 
 /* ISO -----------------------------------------------------------------------*/
 #footer .iso {
-  margin-top: 25px;
+  margin-top: 45px;
   text-align: right;
 }
 
