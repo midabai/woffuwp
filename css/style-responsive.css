@@ -106,6 +106,7 @@
   margin-top: 0;
   margin-bottom: 40px;
   max-height: none;
+  padding-top: 100px;
 }
 
 .hero .article {
@@ -113,8 +114,8 @@
   text-align: center;
 }
 
-.hero .article h2 {
-  margin-bottom: 10px;
+.hero .article h1 {
+  margin-bottom: 20px;
 }
 
 .hero .article p {
@@ -133,7 +134,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 45px;
+  margin-top: 30px;
 }
 
 
@@ -356,6 +357,7 @@
 
 /* OPTIMIZE ------------------------------------------------------------------*/
 #about-optimize {
+  padding-top: 0;
   padding-bottom: 0;
 }
 
@@ -365,9 +367,13 @@
   margin-right: 0;
 }
 
+#about-optimize h2 {
+  margin-bottom: 35px;
+}
+
 #about-optimize img {
   display: block;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 
@@ -380,7 +386,7 @@
 #about-numbers > div {
   background: url(../images/about-numbers-01.png) no-repeat 50% 15%, 
               url(../images/about-numbers-02.png) no-repeat 50% 85%;
-  padding: 60px 0;
+  padding: 60px 0 10px 0;
 }
 
 #about-numbers {
@@ -388,7 +394,7 @@
 }
 
 #about-numbers h2 {
-  margin-bottom: 46px; 
+  margin-bottom: 50px; 
 }
 
 #about-numbers ul {
@@ -397,14 +403,14 @@
 
 #about-numbers ul li {
   display: block;
-  margin: 60px 0; 
+  margin: 45px 0; 
   width: 100%;
 }
 
 
 /* FOUNDERS ------------------------------------------------------------------*/
 #about-founders {
-  padding: 50px 0;
+  padding: 42px 0;
 }
 
 #about-founders ul {
@@ -460,7 +466,7 @@
   margin-bottom: 0;
 }
 
-#about-family a {
+#about-family .join a {
   color: #ff9878;  
   font-size: 15px;
   font-weight: 700;

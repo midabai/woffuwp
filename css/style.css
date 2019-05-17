@@ -232,7 +232,7 @@ img {
   background-size: 100% 100%;
   color: #fff;
   font-size: 21px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 26px;
   margin-bottom: 50px;
   max-height: 445px;
@@ -268,6 +268,7 @@ img {
 
 #home-hero {
   background-image: url(../images/home-hero.svg);
+  font-weight: 300;
   padding-top: 130px;
   padding-bottom: 25px;
   max-height: 610px;
@@ -935,11 +936,11 @@ img {
   padding-right: 0;
 }
 
-#about-family p {
+#about-family .join {
   color: #052b53;
 }
 
-#about-family a {
+#about-family .join a {
   background: url(../images/more-orange.svg) no-repeat 100% 50%;
   color: #ff9878;  
   display: inline-block;
