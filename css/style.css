@@ -710,6 +710,7 @@ img {
   padding-bottom: 25px
 }
 
+/*
 #home-platform img {
   height: 100px;
   margin: 70px auto 0 auto;
@@ -732,6 +733,7 @@ img {
     z-index: -1;
     background: url(../images/home-platform-bg.svg) no-repeat 50% 50%;
 }
+*/
 
 #home-platform .img img {
   height: auto;
