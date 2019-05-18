@@ -519,7 +519,7 @@
 
 /* HERO ---------------------------------------------------------------------*/
 #function-hero {
-  background: url(../images/hero.svg) no-repeat 50% 0;
+  /*background: url(../images/hero.svg) no-repeat 50% 0;*/
   background-size: auto 380px;
   color: #fff;
   font-size: 19px;
@@ -540,6 +540,18 @@
   padding: 0;
   max-width: 290px;
 }
+
+
+/* SUCCESS ---------------------------------------------------------------------*/
+#function-success {
+  background: url(../images/function-success.svg) no-repeat 50% 0;
+  background-size: 100% 100%;
+}
+
+#function-success .container {
+  max-width: 1220px;
+}
+
 
 
 /*

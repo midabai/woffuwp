@@ -122,6 +122,29 @@ img {
   box-shadow: 0 10px 20px 0 rgba(88,53,167,0.46);
 }
 
+.btn-warning {
+  background: none;
+  border: none;
+  color: #f7f7f7;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  line-height: 42px;
+  padding: 0 30px;
+  text-transform: uppercase;
+
+  background-image: -webkit-linear-gradient(#ffb29b, #e78263);
+  background-image: -o-linear-gradient(#ffb29b, #e78263);
+  background-image: linear-gradient(#ffb29b, #e78263);
+
+  -webkit-border-radius: 21px;
+  -moz-border-radius: 21px;
+  border-radius: 21px;
+  
+  -webkit-box-shadow: 0 10px 20px 0 #5835a774;
+  box-shadow: 0 10px 20px 0 #5835a774;
+}
+
 
 .container {
   max-width: 1040px;
@@ -1043,6 +1066,71 @@ img {
   background-image: -webkit-linear-gradient(#00afff, #0060ff);
   background-image: -o-linear-gradient(#00afff, #0060ff);
   background-image: linear-gradient(#00afff, #0060ff);
+}
+
+
+/* SUCCESS ---------------------------------------------------------------------*/
+#function-success {
+  background: url(../images/function-success.svg) no-repeat 50% 0;
+  background-size: 100% 100%;
+  color: #fff;
+  font-size: 28px;
+  padding: 110px 0 70px 0;
+  text-align: center;
+}
+
+#function-success .container {
+  max-width: 1120px;
+}
+
+#function-success h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 68px;
+}
+
+#function-success .success {
+  max-width: 544px;
+}
+
+#function-success .success-l {
+  background: url(../images/function-success-l.svg) no-repeat 0 0;
+  background-size: auto 100%; 
+  margin-right: auto;
+  padding: 83px 64px 107px 124px;
+}
+
+#function-success .success-r {
+  background: url(../images/function-success-r.svg) no-repeat 100% 0;
+  background-size: auto 100%; 
+  margin-left: auto;
+  padding: 83px 124px 107px 64px;
+}
+
+#function-success .success p {
+  margin-bottom: 0;
+}
+
+#function-success .success p b {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#function-success .footer {
+  font-size: 21px;
+  margin-top: -21px;
+}
+
+#function-success .footer p {
+  line-height: 1;
+  margin-bottom: 25px;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=58)";
+  filter: alpha(opacity=58);
+  opacity: 0.58;
+}
+
+#function-success .footer .btn {
+  
 }
 
 
