@@ -1225,6 +1225,16 @@ img {
   padding-top: 92px;
 }
 
+#function-others .row {
+  margin-left: -23px;
+  margin-right: -23px;
+}
+
+#function-others .row .col-lg-6 {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
 #function-others h2 {
   background: url(../images/hr.svg) no-repeat 50% 100%;
   color: #052b53;
@@ -1235,24 +1245,54 @@ img {
   text-align: center;
 }
 
-#function-others .row .col-lg-6 {
+#function-others .content {
   background: url(../images/function-others.svg) no-repeat 0 0;
   background-size: 100% 100%;
+  color: #617892;
+  font-size: 14px;
+  line-height: 1.43;
+  margin-top: 46px;
   padding: 40px;
+
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
 }
 
-#function-others .row .col-lg-6:nth-child(3), 
-#function-others .row .col-lg-6:nth-child(4), 
-#function-others .row .col-lg-6:nth-child(5) {
-  margin-top: 50px;
+#function-others .content:hover {
+  -webkit-box-shadow: 0 4px 38px 0 #00b1ff42; 
+  box-shadow: 0 4px 38px 0 #00b1ff42; 
 }
 
-#function-others .img {
+#function-others .row .col-lg-6:nth-child(1) .content, 
+#function-others .row .col-lg-6:nth-child(2) .content {
+  margin-top: 0;
+}
+
+#function-others .content .img {
   float: left;
 }
 
-#function-others .others {
+#function-others .content .text {
   margin-left: 100px; 
+}
+
+#function-others .content h3 {
+  color: #052b53;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+#function-others .content .more {
+  background: url(../images/more.svg) no-repeat 100% 50%;
+  color: #00b1ff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  padding-right: 30px;
+  text-transform: uppercase;
 }
 
 

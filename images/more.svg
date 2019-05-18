@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>284202D3-A696-4A25-87B6-9523584D0E37</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#00B1FF" offset="0%"></stop>
+            <stop stop-color="#0060FF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="9" cy="9.41746228" r="9"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Functionalities/Holidays-and-Absences" transform="translate(-969.000000, -4464.000000)">
+            <g id="Att.-&amp;-Time-off" transform="translate(743.000000, 4329.000000)">
+                <g id="Group-24" transform="translate(142.000000, 134.000000)">
+                    <g id="Text-button-Copy-8" transform="translate(84.000000, 0.226536)">
+                        <g id="chevron-right" transform="translate(12.000000, 6.000000)"></g>
+                        <g id="Group-17" transform="translate(0.000000, 0.582538)">
+                            <g id="Oval">
+                                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                                <use fill="#00B1FF" xlink:href="#path-2"></use>
+                            </g>
+                            <polyline id="Shape" stroke="#FFFFFF" stroke-width="1.152" stroke-linecap="round" stroke-linejoin="round" points="8 13 12 9.5 8 6"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
