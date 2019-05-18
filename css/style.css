@@ -1467,6 +1467,12 @@ img {
   line-height: 28px;
 }
 
+#footer .nav .carreers a {
+  background: url(../images/footer-carreers.png) no-repeat 100% 50%;
+  display: inline-block;
+  padding-right: 25px;
+}
+
 #footer .nav a {
   color: rgba(17, 51, 91, 0.62);
 }
