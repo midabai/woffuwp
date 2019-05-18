@@ -330,6 +330,7 @@ img {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-size: 0; /*Quita el espacio que provoca el display: inline-block de los li */
 }
 
 #home-client .clients li {
