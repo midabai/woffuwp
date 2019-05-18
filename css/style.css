@@ -1155,8 +1155,6 @@ img {
 }
 
 
-
-
 /* SUCCESS ---------------------------------------------------------------------*/
 #function-success {
   background: url(../images/function-success.svg) no-repeat 50% 0;
@@ -1222,14 +1220,39 @@ img {
 }
 
 
-/* SUCCESS ---------------------------------------------------------------------*/
+/* OTHERS ---------------------------------------------------------------------*/
 #function-others {
+  padding-top: 92px;
 }
 
 #function-others h2 {
+  background: url(../images/hr.svg) no-repeat 50% 100%;
+  color: #052b53;
+  font-size: 40PX;
+  line-height: 1.33;
+  margin-bottom: 90px;
+  padding-bottom: 25px;
+  text-align: center;
 }
 
-#function-others h2 {
+#function-others .row .col-lg-6 {
+  background: url(../images/function-others.svg) no-repeat 0 0;
+  background-size: 100% 100%;
+  padding: 40px;
+}
+
+#function-others .row .col-lg-6:nth-child(3), 
+#function-others .row .col-lg-6:nth-child(4), 
+#function-others .row .col-lg-6:nth-child(5) {
+  margin-top: 50px;
+}
+
+#function-others .img {
+  float: left;
+}
+
+#function-others .others {
+  margin-left: 100px; 
 }
 
 
