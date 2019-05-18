@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="18px" viewBox="0 0 15 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>5BFF1C95-9D55-41D1-9DF7-111008737B65</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#83EE9D" offset="0%"></stop>
+            <stop stop-color="#4CD964" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Functionalities/Holidays-and-Absences" transform="translate(-214.000000, -1252.000000)" fill="url(#linearGradient-1)">
+            <g id="1" transform="translate(210.000000, 916.000000)">
+                <path d="M18.1237429,341.967268 C19.5593102,344.830437 19.2979207,348.501618 17.7295842,350.627039 C16.1612477,352.748068 13.2859642,353.318945 10.9790988,352.972027 C8.6722335,352.62511 6.93793547,351.356005 5.38619512,349.24815 C3.83445477,347.135904 2.46942115,344.176124 3.33657017,341.664264 C4.20786823,339.148012 7.30719988,337.079679 10.4272767,337.066505 C13.5473536,337.057722 16.6881756,339.104098 18.1237429,341.967268 Z" id="Path" transform="translate(11.066477, 345.066477) rotate(33.000000) translate(-11.066477, -345.066477) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
