@@ -510,11 +510,44 @@
 }
 
 
+
+/*
+--------------------------------------------------------------------------------
+  PAGE: FUNCTIONALTIES
+--------------------------------------------------------------------------------
+*/
+
+/* HERO ---------------------------------------------------------------------*/
+#function-hero {
+  background: url(../images/hero.svg) no-repeat 50% 0;
+  background-size: auto 380px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 50px;
+  max-height: none;
+  padding-top: 85px;
+  text-align: center;
+}
+
+#function-hero .container {
+  padding: 0 15px;
+}
+
+#function-hero .article {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 290px;
+}
+
+
 /*
 --------------------------------------------------------------------------------
   FOOTER
 --------------------------------------------------------------------------------
 */
+
 #footer {
   text-align: center;
 }

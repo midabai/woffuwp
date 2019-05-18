@@ -995,6 +995,59 @@ img {
 
 /*
 --------------------------------------------------------------------------------
+  PAGE: FUNCTIONALTIES
+--------------------------------------------------------------------------------
+*/
+
+/* HERO ---------------------------------------------------------------------*/
+#function-hero {
+  background: url(../images/hero.svg) no-repeat 50% 0;
+  background-size: 100% 440px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 50px;
+  max-height: none;
+  padding-top: 115px;
+  text-align: center;
+}
+
+#function-hero .container {
+  max-width: 100%;
+  padding: 0 150px 0 100px;
+}
+
+#function-hero .article {
+  margin-top: 45px;
+  max-width: none;
+}
+
+#function-hero .article h1 {
+  font-size: 38px;
+  margin-bottom: 0;
+}
+
+#function-hero .article p {
+  margin: 0;
+  max-width: none;
+}
+
+#function-hero .img {
+  margin-top: 40px;
+}
+
+#function-hero .btn {
+  font-size: 15px;
+  margin-top: -30px;
+  background-image: -webkit-linear-gradient(#00afff, #0060ff);
+  background-image: -o-linear-gradient(#00afff, #0060ff);
+  background-image: linear-gradient(#00afff, #0060ff);
+}
+
+
+/*
+--------------------------------------------------------------------------------
   FOOTER
 --------------------------------------------------------------------------------
 */
