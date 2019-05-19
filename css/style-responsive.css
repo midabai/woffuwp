@@ -152,7 +152,8 @@
 /* HERO ----------------------------------------------------------------------*/
 
 #home-hero {
-  max-height: none;
+  background-position: 50% 0;
+  background-size: auto 100%;
   padding-top: 100px;
 }
 
@@ -328,12 +329,12 @@
 
 /* PLATFORM ------------------------------------------------------------------*/
 #home-platform {
-  margin-top: -30px;
+  margin-bottom: 30px;
   padding-top: 0;
 }
 
 #home-platform img {
-  margin: 50px auto 22px auto;
+  margin: 50px auto 0 auto;
   padding-top: 0;
 }
 

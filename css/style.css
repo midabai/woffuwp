@@ -290,10 +290,10 @@ img {
 
 #home-hero {
   background-image: url(../images/home-hero.svg);
+  background-size: 100% 100%;
   font-weight: 300;
   padding-top: 130px;
   padding-bottom: 25px;
-  max-height: 610px;
 }
 
 #home-hero .container {
@@ -712,7 +712,6 @@ img {
 
 /* PLATFORM ------------------------------------------------------------------*/
 #home-platform {
-  /*margin-top: -50px;*/
   padding-top: 15px;
   padding-top: 0;
   text-align: center;
@@ -733,9 +732,8 @@ img {
   padding-bottom: 25px
 }
 
-#home-platform .img img {
-  height: auto;
-  margin: 0;
+#home-platform img {
+  margin-top: 80px;
 }
 
 #home-platform h3 {
