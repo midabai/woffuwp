@@ -252,13 +252,12 @@ img {
 
 .hero {
   background: url(../images/hero.svg) no-repeat 50% 0;
-  background-size: 100% 100%;
+  background-size: 100% 445px;
   color: #fff;
   font-size: 21px;
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 50px;
-  max-height: 445px;
   padding-top: 115px;
   text-align: left;
 }
@@ -353,7 +352,7 @@ img {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-size: 0; /*Quita el espacio que provoca el display: inline-block de los li */
+  font-size: 0; 
 }
 
 #home-client .clients li {
@@ -713,7 +712,7 @@ img {
 
 /* PLATFORM ------------------------------------------------------------------*/
 #home-platform {
-  margin-top: -50px;
+  /*margin-top: -50px;*/
   padding-top: 15px;
   padding-top: 0;
   text-align: center;
@@ -733,31 +732,6 @@ img {
   max-width: 590px;
   padding-bottom: 25px
 }
-
-/*
-#home-platform img {
-  height: 100px;
-  margin: 70px auto 0 auto;
-}
-
-#home-platform .img {
-  padding-top: 25px;
-  text-align: center;
-  position: relative;
-  overflow: hidden; 
-}
-
-#home-platform .img:before {
-    content: "";
-    position: absolute;
-    width: 158px;
-    height: 134px;
-    top: -50%;
-    left: -50%;
-    z-index: -1;
-    background: url(../images/home-platform-bg.svg) no-repeat 50% 50%;
-}
-*/
 
 #home-platform .img img {
   height: auto;
@@ -1043,7 +1017,7 @@ img {
 }
 
 #function-hero .article {
-  margin-top: 45px;
+  margin-top: 0;
   max-width: none;
 }
 
@@ -1071,37 +1045,34 @@ img {
 
 
 /* TIME-OFF -------------------------------------------------------------------*/
+.function-timeoff {
+  padding: 100px 0; 
+}
+
 #function-timeoff {
   background: url(../images/function-timeoff-01.svg) no-repeat 50% 100%;
   background-size: 100% auto;
   padding-top: 70px;
-  padding-bottom: 54px;
 }
 
 #function-timeoff h2 {
   background: url(../images/hr.svg) no-repeat 50% 100%;
   color: #052b53;
   font-size: 40px;
-  margin-bottom: 28px;
+  margin-bottom: 100px;
   padding-bottom: 23px;
   text-align: center;
 }
 
 #function-timeoff-2 {
-  padding-top: 50px;
-  padding-bottom: 64px;
 }
 
 #function-timeoff-3 {
   background: url(../images/function-timeoff-03.svg) no-repeat 50% 0;
   background-size: 100% 100%;
-  padding-top: 38px;
-  padding-bottom: 31px;
 }
 
 #function-timeoff-4 {
-  padding-top: 70px;
-  padding-bottom: 63px;
 }
 
 .function-timeoff .content {
@@ -1172,7 +1143,7 @@ img {
 #function-success h2 {
   color: #fff;
   font-size: 30px;
-  margin-bottom: 68px;
+  margin-bottom: 0;
 }
 
 #function-success .success {
@@ -1216,7 +1187,6 @@ img {
 }
 
 #function-success .footer .btn {
-  
 }
 
 
@@ -1294,7 +1264,6 @@ img {
   padding-right: 30px;
   text-transform: uppercase;
 }
-
 
 
 /*
@@ -1461,6 +1430,7 @@ img {
   text-decoration: none;
 }
 
+
 /* NAV ----------------------------------------------------------------------*/
 #footer .nav {
   font-size: 14px;
@@ -1600,6 +1570,7 @@ img {
   filter: alpha(opacity=100);
   opacity: 1;
 }
+
 
 /* APK -----------------------------------------------------------------------*/
 #footer .apk {

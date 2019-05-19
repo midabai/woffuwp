@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg preserveAspectRatio="none" width="1440px" height="560px" viewBox="0 0 1440 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg preserveAspectRatio="none" width="1440px" height="580px" viewBox="0 0 1440 580" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
-    <title>5C123BEA-0046-4204-9D9C-EF156B4390F1</title>
+    <title>720E609F-06AA-4021-BA4F-71B73C6B5A7D</title>
     <desc>Created with sketchtool.</desc>
     <defs>
-        <linearGradient x1="50%" y1="5.02599556%" x2="50%" y2="100%" id="linearGradient-1">
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="8.70018688%" id="linearGradient-1">
             <stop stop-color="#0060FF" offset="0%"></stop>
             <stop stop-color="#00B1FF" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="About-Us/Woffu" transform="translate(0.000000, -1078.000000)" fill="url(#linearGradient-1)">
-            <path d="M0,1078 C238.220877,1111.33333 477.627836,1128 718.220877,1128 C958.813918,1128 1199.40696,1111.33333 1440,1078 L1440,1587 C1198.92031,1621 958.58698,1638 719,1638 C479.41302,1638 239.746353,1621 0,1587 L0,1078 Z" id="Rectangle"></path>
+        <g id="Functionalities/Holidays-and-Absences" transform="translate(0.000000, -3495.000000)" fill="url(#linearGradient-1)">
+            <g id="CASE" transform="translate(0.000000, 3495.000000)">
+                <path d="M0,0 C238.220877,33.3333333 477.627836,50 718.220877,50 C958.813918,50 1199.40696,33.3333333 1440,0 L1440,529 C1198.92031,563 958.58698,580 719,580 C479.41302,580 239.746353,563 0,529 L0,0 Z" id="Rectangle"></path>
+            </g>
         </g>
     </g>
 </svg>
