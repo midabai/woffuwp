@@ -667,12 +667,23 @@
   PAGE: PRICING
 --------------------------------------------------------------------------------
 */
+
+/* HERO ----------------------------------------------------------------------*/
+#pricing-hero {
+  background-size: auto 100%;
+}
+
+
+/* PRICING --------------------------------------------------------------------*/
 #pricing {
   background: none;
+  margin-top: -285px;
 }
 
 #pricing .panel {
   display: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #pricing.pro .panel-pro,
@@ -688,7 +699,7 @@
 #pricing .panel .h2 {
   display: block;
   height: 50px;
-  margin: -25px -40px 35px -40px;
+  margin: -25px -10px 40px -10px;
 }
 
 #pricing .panel .h2 a {
@@ -723,6 +734,18 @@
 
 #pricing .panel .h2 a:hover {
   text-decoration: none;
+}
+
+#pricing .features {
+  font-size: 15px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+#pricing .features ul li {
+  font-size: 16px;
 }
 
 #pricing .more-panel .disable {
