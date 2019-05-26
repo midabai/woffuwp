@@ -1297,11 +1297,11 @@ img {
 /* PRICING ---------------------------------------------------------------------*/
 
 #pricing {
-  background: url(../images/pricing.svg) no-repeat 50% 100%;
-  background-size: 100% 250px;
-  /*background: url(../images/pricing-l.svg) no-repeat 10% 350px,
+  /*background: url(../images/pricing.svg) no-repeat 50% 100%;
+  background-size: 100% 250px;*/
+  background: url(../images/pricing-l.svg) no-repeat 10% 350px,
               url(../images/pricing-r.svg) no-repeat 90% 350px;
-  border-bottom: 1px solid #d6f0fc;*/
+  /*border-bottom: 1px solid #d6f0fc;*/
   margin-top: -220px;
   /*padding-bottom: 110px;*/
   text-align: center;
@@ -1326,11 +1326,11 @@ img {
   height: auto !important;
 }
 
-#pricing .more-panel {
+#pricing .panel-more {
   display: none;
 }
 
-#pricing.show .more-panel {
+#pricing.show .panel-more {
   display: block;
 }
 
@@ -1339,7 +1339,7 @@ img {
   display: none;
 }
 
-#pricing.show .more-panel .more {
+#pricing.show .panel-more .more {
   display: inline-block;
 }
 
@@ -1362,7 +1362,7 @@ img {
   margin-bottom: 15px;
 }
 
-#pricing .h2 {
+#pricing .panel .h2 {
   display: none;
 }
 
@@ -1459,54 +1459,50 @@ img {
   text-decoration: none;
 }
 
-#pricing .more-panel {
+#pricing .panel-more {
   margin: 0 auto;
   max-width: 260px;
   padding-bottom: 30px;
 }
 
-#pricing .more-panel ul {
+#pricing .panel-more ul,
+#pricing .panel-more ul li {
   list-style: none outside none; 
   margin: 0;
   padding: 0;
 }
 
-#pricing .more-panel li {
+#pricing .panel-more .section {
+  border-top: 2px solid #f2f1f1;
   font-size: 12px;
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: -0.2px;
-  padding-left: 10px
-}
-
-#pricing .more-panel li li {
-  padding-left: 0;
-}
-
-#pricing .more-panel li h4 {
-  border-top: 2px solid #f2f1f1;
-  color: #617892;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: -0.2px;
-  margin-left: -10px;
   margin-top: 25px;
   margin-bottom: 10px;
   padding-top: 25px;
   padding-left: 10px;
+  text-align: left;
 }
 
-#pricing .more-panel li:first-child h4 {
+#pricing .panel-more .section:first-of-type {
   border: none;
   margin-top: 0;
 }
 
-#pricing .more-panel li li:before {
+#pricing .panel-more .section h4 {
+  color: #617892;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+}
+
+#pricing .panel-more .section li:before {
   content: "· ";
 }
 
-#pricing .more-panel li.disable,
-#pricing .more-panel li.disable h4 {
+#pricing .panel-more .disable,
+#pricing .panel-more .disable h4 {
   color: #61789240;
 }
 

@@ -667,6 +667,10 @@
   PAGE: PRICING
 --------------------------------------------------------------------------------
 */
+#pricing {
+  background: none;
+}
+
 #pricing .panel {
   display: none;
 }
