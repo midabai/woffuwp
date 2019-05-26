@@ -697,6 +697,10 @@
   width: 100%;
 }
 
+#demo td:nth-child(3) {
+  white-space: normal;
+}
+
 #demo p {
   margin: 30px 0;
 }

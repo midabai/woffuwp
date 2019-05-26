@@ -1568,13 +1568,14 @@ img {
   vertical-align: middle;
 }
 
-#demo td:nth-child(1),
-#demo td:nth-child(3) {
-  width: 20%;
+#demo td:nth-child(1) {
+  min-width: 160px;
 }
 
-#demo td:nth-child(2) {
-  width: 60%;
+#demo td:nth-child(3) {
+  width: auto;
+  max-width: 100%;
+  white-space: nowrap;
 }
 
 #demo i {
@@ -1594,10 +1595,13 @@ img {
 #footer #demo .btn-primary {
   display: inline-block;
   font-size: 15px;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: auto;
   background-image: -webkit-linear-gradient(#edf9ff80, #00b1ff80);
   background-image: -o-linear-gradient(#edf9ff80, #00b1ff80);
   background-image: linear-gradient(#edf9ff80, #00b1ff80);
-
 }
 
 /* TOP -----------------------------------------------------------------------*/
