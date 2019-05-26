@@ -4,12 +4,60 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"margin-",
+				"margin-left\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"pad",
+				"padding-right\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"PADD",
+				"padding-top\tproperty"
+			],
+			[
+				"FO",
+				"font-size\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
 				"ma",
 				"margin-bottom\tproperty"
 			],
 			[
-				"padd",
-				"padding-top\tproperty"
+				"col",
+				"color\tproperty"
+			],
+			[
+				"MAX",
+				"max-width\tproperty"
 			],
 			[
 				"pa",
@@ -20,32 +68,12 @@
 				"max-width\tproperty"
 			],
 			[
-				"pad",
-				"padding\tproperty"
-			],
-			[
-				"mar",
-				"margin-left\tproperty"
-			],
-			[
-				"margin",
-				"margin-right\tproperty"
-			],
-			[
-				"bac",
-				"background-size\tproperty"
-			],
-			[
 				"min",
 				"min-height\tproperty"
 			],
 			[
 				"marg",
 				"margin-bottom\tproperty"
-			],
-			[
-				"fon",
-				"font-weight\tproperty"
 			],
 			[
 				"z",
@@ -116,10 +144,6 @@
 				"no-repeat"
 			],
 			[
-				"tex",
-				"text-align\tproperty"
-			],
-			[
 				"wi",
 				"width\tAttr"
 			]
@@ -131,7 +155,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 19394,
+				"buffer_size": 18939,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -140,27 +164,38 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 15406,
+				"buffer_size": 15352,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n    <title>woffu | Functionalities</title>\n    <!--\n    <link rel=\"icon\" href=\"images/favicon.ico\">\n    -->\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/bootstrap/4.3.1/css/bootstrap.css\">\n    <!--\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n    -->\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/webfonts/fira-sans/fira-sans.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/webfonts/pt-sans/pt-sans.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style-responsive.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/fontawesome/5.8.1/css/all.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/fontawesome/5.8.1/css/brands.css\">\n  </head>\n\n  <body>\n\n    <header id=\"header\">\n      <nav class=\"navbar navbar-expand-lg\">\n        <div class=\"container\">\n          <a class=\"navbar-brand\" href=\"index.html\">\n            <img src=\"files/header-logo.svg\" alt=\"woffu\" width=\"144\" height=\"34\" />\n          </a>\n          <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"></button>\n          <div id=\"navbarNav\" class=\"collapse navbar-collapse justify-content-end\">\n            <ul>\n              <li><a href=\"#\">Collaborative Platform</a></li>\n              <li class=\"active\"><a href=\"function.html\">Funtionalities</a></li>\n              <li><a href=\"#\">Clients</a></li>\n              <li><a href=\"#\">Prices</a></li>\n              <li><a href=\"about.html\">About</a></li>\n              <li><a href=\"#\">Resources</a></li>\n            </ul>\n            <form class=\"form-inline\">\n              <button class=\"btn btn-outline-primary\" type=\"submit\">login</button>\n            </form>\n          </div>\n        </div>\n      </nav>\n    </header><!-- #header -->\n\n    <main id=\"main\">\n\n      <section id=\"function-hero\" class=\"hero\">\n        <div class=\"container\">\n\n          <div class=\"article\">\n            <h1>Holidays & Absences</h1>\n            <p>Seamlessly request for time off at any given time</p>\n          </div>\n          <div class=\"img\">\n            <img src=\"files/function-hero.png\" alt=\"\" width=\"1190\" height=\"601\" />    \n          </div><!-- /.img -->\n          <a class=\"btn btn-primary\" href=\"#\">GET STARTED!</a>\n          \n        </div><!-- /.container -->\n      </section><!-- /#function-hero -->\n\n      <section id=\"function-timeoff\" class=\"function-timeoff\">\n        <div class=\"container\">\n          <h2>Time-off requests and management made easy</h2>\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n\n              <article class=\"content\">\n                <h3>Request for time-off</h3>\n                <ul>\n                  <li>Holidays and absences requests in 3 clicks</li>\n                  <li>Anytime, Anywhere (web & mobile)</li>\n                  <li>For an absence leave, employees can attach a motif</li>\n                </ul>      \n              </article><!-- /.content -->\n\n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6\">\n\n              <div class=\"img\">\n                <img src=\"files/function-timeoff-01.png\" alt=\"\" width=\"411\" height=\"419\" />\n              </div><!-- /.img -->\n              \n            </div><!-- /.col-lg-6 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /#function-timeoff -->\n\n      <section id=\"function-timeoff-2\" class=\"function-timeoff\">\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n\n              <article class=\"content\">\n                <h3>Self-management</h3>\n                <ul>\n                  <li>Employees are fully aware of their remaining holidays</li>\n                  <li>They can effectively plan ahead their days off </li>\n                  <li>Request for flexible and remote hours/days</li>\n                  <li>Absence calendar that can be exported with gmail,outlook, etc</li>\n                </ul>      \n              </article><!-- /.content -->\n\n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6 order-lg-first\">\n\n              <div class=\"img\">\n                <img src=\"files/function-timeoff-02.png\" alt=\"\" width=\"406\" height=\"440\" />\n              </div><!-- /.img -->\n              \n            </div><!-- /.col-lg-6 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /#function-timeoff-2 -->\n\n      <section id=\"function-timeoff-3\" class=\"function-timeoff\">\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n\n              <article class=\"content\">\n                <h3>Quick validation</h3>\n                <ul>\n                  <li>Managers have a centralized view of their team and requests alerts</li>\n                  <li>They can validate requests in one single click</li>\n                </ul>      \n              </article><!-- /.content -->\n\n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6\">\n\n              <div class=\"img\">\n                <img src=\"files/function-timeoff-03.png\" alt=\"\" width=\"411\" height=\"354\" />\n              </div><!-- /.img -->\n              \n            </div><!-- /.col-lg-6 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /#function-timeoff-3 -->\n\n      <section id=\"function-timeoff-4\" class=\"function-timeoff\">\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n\n              <article class=\"content\">\n                <h3>Automation</h3>\n                <ul>\n                  <li>HR has a general overview of the entire absence calendar</li>\n                  <li>Can export real-time reports for better predictive decisions</li>\n                  <li>Automatic validation for holidays of weekend worked</li>\n                </ul>      \n              </article><!-- /.content -->\n\n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6 order-lg-first\">\n\n              <div class=\"img\">\n                <img src=\"files/function-timeoff-04.png\" alt=\"\" width=\"397\" height=\"376\" />\n              </div><!-- /.img -->\n              \n            </div><!-- /.col-lg-6 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /#function-timeoff-4 -->\n\n      <section id=\"function-success\">\n        <div class=\"container\">\n\n          <h2>Success case</h2>\n          \n          <div class=\"row no-gutters\">\n            <div class=\"col-lg-6\">\n\n              <article class=\"success success-l\">\n                <p>Has proven to save <b>85%</b> of time spent on absence &amp; vacation management</p>\n              </article><!-- /.success -->\n\n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6\">\n\n              <article class=\"success success-r\">\n                <p>Represents <b>55%</b> financial savings on time management</p>\n              </article><!-- /.success -->\n              \n            </div><!-- /.col-lg-6 -->\n          </div><!-- /.row -->\n\n          <footer class=\"footer\">\n            <p>Start now with Woffu</p>\n            <a class=\"btn btn-warning\" href=\"#\">SIGN UP!</a>  \n          </footer><!-- /.footer -->\n\n        </div><!-- /.container -->\n      </section><!-- /#function-timeoff-4 -->\n\n      <section id=\"function-others\">\n        <div class=\"container\">\n\n          <h2>See other Woffu functionalities</h2>\n          \n          <div class=\"row row-eq-height\">\n            <div class=\"col-lg-6\">\n\n              <div class=\"content\">\n                <div class=\"img\">\n                  <img src=\"files/function-others-01.png\" alt=\"\" width=\"68\" height=\"68\" />\n                </div><!-- /.img -->\n                <article class=\"text\">\n                  <h3>Attendance</h3>\n                  <p>View of the entire organization in real-time, better manage employees’ time at work.</p>\n                  <a class=\"more\" href=\"#\">Learn more</a>\n                </article><!-- /.text -->  \n              </div><!-- /.content -->\n              \n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6\">\n\n              <div class=\"content\">\n                <div class=\"img\">\n                  <img src=\"files/function-others-02.png\" alt=\"\" width=\"64\" height=\"61\" />\n                </div><!-- /.img -->\n                <article class=\"text\">\n                  <h3>Attendance & Time-Off </h3>\n                  <p>Creating more transparency and visibility between team members and departments.</p>\n                  <a class=\"more\" href=\"#\">Learn more</a>\n                </article><!-- /.text -->                \n              </div><!-- /.content -->\n\n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6\">\n\n              <div class=\"content\">\n                <div class=\"img\">\n                  <img src=\"files/function-others-03.png\" alt=\"\" width=\"68\" height=\"66\" />\n                </div><!-- /.img -->\n                <article class=\"text\">\n                  <h3>Document sharing</h3>\n                  <p>Organize, share, download and manage documents all from one safe place.</p>\n                  <a class=\"more\" href=\"#\">Learn more</a>\n                </article><!-- /.text -->  \n              </div><!-- /.content -->\n\n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6\">\n\n              <div class=\"content\">\n                <div class=\"img\">\n                  <img src=\"files/function-others-04.png\" alt=\"\" width=\"59\" height=\"62\" />\n                </div><!-- /.img -->\n                <article class=\"text\">\n                  <h3>Bulletin Board</h3>\n                  <p>Fluide company-wide communication, providing news feed from one single platform.</p>\n                  <a class=\"more\" href=\"#\">Learn more</a>\n                </article><!-- /.text -->                \n              </div><!-- /.content -->\n\n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6 offset-lg-3\">\n\n              <div class=\"content\">\n                <div class=\"img\">\n                  <img src=\"files/function-others-05.png\" alt=\"\" width=\"84\" height=\"73\" />\n                </div><!-- /.img -->\n                <article class=\"text\">\n                  <h3>Reporting</h3>\n                  <p>Easily extract reports that helps HR take better predictive and data-driven decisions.</p>\n                  <a class=\"more\" href=\"#\">Learn more</a>\n                </article><!-- /.text -->      \n              </div><!-- /.content -->\n\n            </div><!-- /.col-lg-6 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /#function-others -->\n\n    </main><!-- #main -->\n\n    <footer id=\"footer\">\n\n      <section class=\"top\">\n        \n        <section id=\"demo\" class=\"d-flex align-items-center\">\n          <table class=\"table\">\n            <tr>\n              <td><img src=\"files/footer-demo.png\" alt=\"\" width=\"160\" height=\"146\" /></td>\n              <td><p>Take care of your people´s time</p></td>\n              <td><a class=\"btn btn-primary\" href=\"#\">BOOK A DEMO!</a></td>\n            </tr>\n          </table>\n        </section><!-- /#demo -->\n\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-lg-3\">\n\n              <a class=\"navbar-brand\" href=\"index.html\">\n                <img src=\"files/footer-logo.png\" alt=\"woffu\" width=\"161\" height=\"38\" />\n              </a>\n              <form>\n                <button class=\"btn btn-light\" type=\"submit\">login</button>\n              </form>\n              <a class=\"btn btn-primary\" href=\"#\">BOOK A DEMO</a>\n              <div class=\"social d-lg-none\">\n                <ul>\n                  <li><a href=\"#\" class=\"fab fa-facebook-f\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-twitter\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-linkedin-in\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-instagram\"></a></li>\n                </ul>  \n              </div><!-- /.social -->\n\n            </div><!-- /.col-lg-3 -->\n            <div class=\"col-lg-9\">\n              \n              <div class=\"row nav\">\n                <div class=\"col-lg-4\">\n                  <h6>COLLABORATIVE PLATFORM</h6>\n                  <ul>\n                    <li><a href=\"#\">Employee´s Portal </a></li>\n                    <li><a href=\"#\">Manager´s Portal </a></li>\n                    <li><a href=\"#\">Admin´s Portal</a></li>\n                    <li><a href=\"#\">Collaboration</a></li>\n                  </ul>\n                </div>\n                <div class=\"col-lg-4\">\n                  <h6>FUNCTIONALITIES</h6>\n                  <ul>\n                    <li><a href=\"#\">Attendance</a></li>\n                    <li class=\"active\"><a href=\"#\">Vacation &amp; Absence</a></li>\n                    <li><a href=\"#\">Attendance &amp; Time-Off merger</a></li>\n                    <li><a href=\"#\">Bulletin Board</a></li>\n                    <li><a href=\"#\">Document sharing</a></li>\n                    <li><a href=\"#\">Reporting</a></li>\n                  </ul>\n                </div>\n                <div class=\"col-lg-2\">\n                  <h6>COMPANY</h6>\n                  <ul>\n                    <li><a href=\"#\">Clients</a></li>\n                    <li><a href=\"about.html\">About us</a></li>\n                    <li class=\"carreers\"><a href=\"#\">Carreers</a></li>\n                    <li><a href=\"#\">Partners</a></li>\n                    <li><a href=\"#\">API integration</a></li>\n                    <li><a href=\"#\">Resources</a></li>\n                    <li><a href=\"#\">GDPR</a></li>\n                  </ul>\n                </div>\n                <div class=\"col-lg-2\">\n                  <h6>LANGUAGES</h6>\n                  <ul>\n                    <li><a href=\"#\">Spanish</a></li>\n                    <li><a href=\"#\">English</a></li>\n                  </ul>\n                </div>\n              </div><!-- /.row -->\n              \n            </div><!-- /.col-lg-9 -->\n            <div class=\"col-lg-3\">\n              \n              <div class=\"social d-none d-lg-block\">\n                <ul>\n                  <li><a href=\"#\" class=\"fab fa-facebook-f\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-twitter\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-linkedin-in\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-instagram\"></a></li>\n                </ul>  \n              </div><!-- /.social -->\n\n            </div><!-- /.col-lg-3 -->\n            <div class=\"col-lg-9\">\n              <div class=\"row\">\n                <div class=\"col-lg-8\">\n                  \n                  <div class=\"newsletter\">\n                    <form>\n                      <label>SUBSCRIBE TO OUR NEWSLETTER</label>\n                      <div class=\"input-group\">\n                        <input type=\"text\" class=\"form-control\" placeholder=\"Enter your email address\" aria-label=\"Enter your email address\" aria-describedby=\"newsletter-submit\">\n                        <div class=\"input-group-append\">\n                          <button id=\"newsletter-submit\" class=\"btn\" type=\"button\">SUBSCRIBE!</button>\n                        </div>\n                      </div>\n                    </form>\n                  </div><!-- /.newsletter -->    \n\n                </div><!-- /.col-lg-8 -->\n                <div class=\"col-lg-4\">\n              \n                  <div class=\"iso\">\n                    <img src=\"files/footer-iso.png\" alt=\"\" width=\"88\" height=\"88\" />  \n                  </div><!-- .iso -->    \n\n                </div><!-- /.col-lg-4 -->\n              </div><!-- /.row -->\n            </div><!-- /.col-lg-9 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /.top -->\n\n      <section class=\"bottom\">\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n\n              <div class=\"copyright\">\n                ©2019 Woffu Job Organizer, SL. All Rights Reserved\n                <ul>\n                  <li><a href=\"#\">Contact us</a></li>\n                  <li><a href=\"#\">Cookies policy</a></li>\n                  <li><a href=\"#\">Privacy policy</a></li>\n                  <li><a href=\"#\">Terms and conditions</a></li>\n                </ul>\n              </div><!-- /.copyright -->\n              \n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6\">\n\n              <div class=\"apk\">\n                <ul>\n                  <li>\n                    <a class=\"google-play\" href=\"https://play.google.com/store/apps/details?id=com.woffu.app&hl=es_US&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1\">\n                    </a>\n                  </li>\n                  <li>\n                    <a class=\"app-store\" href=\"https://apps.apple.com/es/app/woffu/id1438117209\">\n                    </a>\n                  </li>\n                </ul>\n              </div><!-- /.apk -->\n\n            </div><!-- /.col-lg-6 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /.bottom -->\n    </footer><!-- /#footer -->\n\n    <script src=\"assets/jquery/3.4.1/jquery.min.js\"></script>\n    <script src=\"assets/popper/1.14.7/popper-min.js\"></script>\n    <script src=\"assets/bootstrap/4.3.1/js/bootstrap.min.js\"></script>\n\n    <!--\n    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\" integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\" crossorigin=\"anonymous\"></script>\n    -->\n\n  </body>\n</html>",
+			"file": "function.html",
+			"file_size": 18900,
+			"file_write_time": 132026837587947605,
+			"settings":
+			{
+				"buffer_size": 18426,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 25093,
+				"buffer_size": 31032,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "css/style-responsive.css",
 			"settings":
 			{
-				"buffer_size": 10445,
+				"buffer_size": 13209,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -201,18 +236,29 @@
 	"expanded_folders":
 	[
 		"/D/tmp/_WoffuWP/html5",
+		"/D/tmp/_WoffuWP/html5/assets",
+		"/D/tmp/_WoffuWP/html5/assets/webfonts",
+		"/D/tmp/_WoffuWP/html5/assets/webfonts/fira-sans",
 		"/D/tmp/_WoffuWP/html5/css"
 	],
 	"file_history":
 	[
+		"/D/tmp/_WoffuWP/html5/assets/webfonts/fira-sans/fira-sans.css",
+		"/D/tmp/_WoffuWP/html5/mustache.html",
+		"/D/tmp/_WoffuWP/html5/data.json",
+		"/D/tmp/_WoffuWP/html5/template.mst",
+		"/D/tmp/_WoffuWP/html5/mustache.js",
+		"/D/tmp/_WoffuWP/html5/css/style-responsive.css",
+		"/D/tmp/_WoffuWP/html5/css/style.css",
+		"/D/tmp/_WoffuWP/html5/index.html"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 101.0,
 		"where_history":
 		[
 		]
@@ -222,6 +268,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"home-he",
+			"HERO",
+			"hero",
+			"timeoff",
+			"box-shadow",
+			"prima",
+			".imh",
 			"about",
 			"hero",
 			"%;",
@@ -286,7 +339,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -295,29 +348,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19394,
+						"buffer_size": 18939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12577,
-								12577
+								326,
+								326
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 616.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -326,33 +378,58 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15406,
+						"buffer_size": 15352,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6407,
-								6407
+								10750,
+								10800
 							]
 						],
 						"settings":
 						{
-							"rulers":
-							[
-								80
-							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2015.0,
+						"translation.y": 4095.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "function.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11163,
+								11163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5481.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -362,55 +439,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25093,
+						"buffer_size": 31032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4895,
-								4895
-							]
-						],
-						"settings":
-						{
-							"rulers":
-							[
-								80
-							],
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
-						},
-						"translation.x": 0.0,
-						"translation.y": 3725.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/style-responsive.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10445,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8150,
-								8150
+								13830,
+								13830
 							]
 						],
 						"settings":
@@ -420,10 +462,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6725.0,
+						"translation.y": 8902.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/style-responsive.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5929,
+								5929
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3949.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -431,7 +503,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -475,7 +547,7 @@
 	"project": "woffu-wp-html5.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -505,7 +577,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

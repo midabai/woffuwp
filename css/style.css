@@ -1266,6 +1266,238 @@ img {
 
 /*
 --------------------------------------------------------------------------------
+  PAGE: PRICING
+--------------------------------------------------------------------------------
+*/
+
+/* HERO ---------------------------------------------------------------------*/
+#pricing-hero {
+  background-size: 100% 100%;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 50px;
+  height: 490px;
+  padding-top: 115px;
+  text-align: center;
+}
+
+#pricing-hero .container {
+  padding: 0 15px;
+}
+
+#pricing-hero .article {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 290px;
+}
+
+
+/* PRICING ---------------------------------------------------------------------*/
+
+#pricing {
+  margin-top: -220px;
+  text-align: center;
+}
+
+#pricing .container {
+  max-width: 910px;
+}
+
+#pricing.collapse:not(.show),
+#pricing.collapse.show {
+  display: block !important;
+}
+
+#pricing.collapsing {
+  height: auto !important;
+}
+
+#pricing .more-panel {
+  display: none;
+}
+
+#pricing.show .more-panel {
+  display: block;
+}
+
+#pricing.collapsing .more,
+#pricing.show .more {
+  display: none;
+}
+
+#pricing.show .more-panel .more {
+  display: inline-block;
+}
+
+#pricing .panel {
+  background: #fff;
+  color: color: #617892;
+  padding: 25px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 392px;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px 0 #00000019, 0 3px 6px 0 #00000019;
+}
+
+#pricing .panel h2 {
+  color: #052b53;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.51;
+  margin-bottom: 15px;
+}
+
+#pricing .panel .price {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+}
+
+#pricing .panel .price b {
+  display: block;
+  font-size: 67px;
+  font-weight: 300;
+  line-height: 0.79;
+  margin-bottom: 10px;
+}
+
+#pricing .panel .btn-outline-primary {
+  background: #fff;
+  border: 2px solid #00b1ff;  
+  color: #00b1ff;
+  line-height: 36px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 0 50px;
+}
+
+#pricing .panel .btn-primary {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 0 50px;
+  background-image: -webkit-linear-gradient(#00afff, #0060ff);
+  background-image: -o-linear-gradient(#00afff, #0060ff);
+  background-image: linear-gradient(#00afff, #0060ff);
+}
+
+#pricing .panel h3 {
+  color: #00b1ff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#pricing .panel li {
+  text-align: left;
+}
+
+#pricing .features {
+  background: url(../images/pricing-features.svg) no-repeat 0 0;
+  background-size: 100% 100%;
+  margin: 0 -40px;
+  margin-bottom: 25px;
+  padding: 40px 20px 40px 40px; 
+}
+
+#pricing .features ul {
+  list-style: none outside none; 
+  margin: 0;
+  padding: 0;
+}
+
+#pricing .features ul li {
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0;
+}
+
+#pricing .features ul li + li {
+  margin-top: 5px; 
+}
+
+#pricing .features ul li:before {
+    display: block;
+    background: url("../images/pricing-features-li.svg") no-repeat 50% 50%;
+    content: "";
+    float: left;
+    height: 40px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+#pricing .more {
+  background: url(../images/more.svg) no-repeat 100% 50%; 
+  color: #00b1ff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  padding-right: 25px;
+}
+
+#pricing .more:hover {
+  text-decoration: none;
+}
+
+#pricing .more-panel {
+  margin: 0 auto;
+  max-width: 260px;
+  padding-bottom: 30px;
+}
+
+#pricing .more-panel ul {
+  list-style: none outside none; 
+  margin: 0;
+  padding: 0;
+}
+
+#pricing .more-panel li {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  padding-left: 10px
+}
+
+#pricing .more-panel li li {
+  padding-left: 0;
+}
+
+#pricing .more-panel li h4 {
+  border-top: 2px solid #f2f1f1;
+  color: #617892;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  margin-left: -10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+#pricing .more-panel li:first-child h4 {
+  border: none;
+  margin-top: 0;
+}
+
+#pricing .more-panel li li:before {
+  content: "· ";
+}
+
+#pricing .more-panel li.disable,
+#pricing .more-panel li.disable h4 {
+  color: #61789240;
+}
+
+
+
+
+/*
+--------------------------------------------------------------------------------
   FOOTER
 --------------------------------------------------------------------------------
 */
