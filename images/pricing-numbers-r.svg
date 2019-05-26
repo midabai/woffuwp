@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="215" height="179" viewBox="0 0 215 179">
+    <defs>
+        <linearGradient id="a" x1="73.626%" x2="-11.252%" y1="93.514%" y2="-54.078%">
+            <stop offset="0%" stop-color="#7537FF"/>
+            <stop offset="100%" stop-color="#D5C2FF"/>
+        </linearGradient>
+        <filter id="b" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="c" x1="0%" x2="70.73%" y1="-49.994%" y2="77.095%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F9906F"/>
+        </linearGradient>
+        <filter id="d" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="e" x1="73.626%" x2="0%" y1="93.514%" y2="-74.978%">
+            <stop offset="0%" stop-color="#4CD964"/>
+            <stop offset="100%" stop-color="#F0FFF3"/>
+        </linearGradient>
+        <filter id="f" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="g" x1=".557%" x2="70.499%" y1="-50.013%" y2="77.1%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#00AFFF"/>
+        </linearGradient>
+        <filter id="h" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <ellipse cx="188.462" cy="26.535" fill="url(#a)" filter="url(#b)" rx="26.538" ry="26.535"/>
+        <ellipse cx="124.592" cy="141.671" fill="url(#c)" filter="url(#d)" rx="18.441" ry="18.44"/>
+        <ellipse cx="56.674" cy="42.276" fill="url(#e)" filter="url(#f)" rx="11.695" ry="11.693"/>
+        <ellipse cx="9.904" cy="169.67" fill="url(#g)" filter="url(#h)" rx="9.082" ry="9.133"/>
+    </g>
+</svg>

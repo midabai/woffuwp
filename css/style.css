@@ -1297,7 +1297,13 @@ img {
 /* PRICING ---------------------------------------------------------------------*/
 
 #pricing {
+  /*background: url(../images/footer.svg) no-repeat 50% 100%;*/
+  /*background-size: 100% 0;*/
+  background: url(../images/pricing-l.svg) no-repeat 10% 350px,
+              url(../images/pricing-r.svg) no-repeat 90% 350px;
+  border-bottom: 1px solid #d6f0fc;
   margin-top: -220px;
+  padding-bottom: 110px;
   text-align: center;
 }
 
@@ -1371,7 +1377,7 @@ img {
   line-height: 36px;
   margin-top: 15px;
   margin-bottom: 30px;
-  padding: 0 50px;
+  padding: 0 48px;
 }
 
 #pricing .panel .btn-primary {
@@ -1387,6 +1393,7 @@ img {
   color: #00b1ff;
   font-size: 14px;
   font-weight: 600;
+  padding-right: 20px;
 }
 
 #pricing .panel li {
@@ -1494,6 +1501,25 @@ img {
 }
 
 
+/* NUMBERS -------------------------------------------------------------------*/
+#about-numbers.pricing {
+  /*background: #fefefe;*/
+  background: none;
+  color: #0060ff;
+}
+
+#about-numbers.pricing > div {
+  background: url(../images/pricing-numbers-l.svg) no-repeat 5% 80%, 
+              url(../images/pricing-numbers-r.svg) no-repeat 95% 80%;
+}
+
+#about-numbers.pricing h2 {
+  color: #000;
+}
+
+#about-numbers.pricing h3 {
+  color: #0060ff;
+}
 
 
 /*
