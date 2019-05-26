@@ -1362,6 +1362,10 @@ img {
   margin-bottom: 15px;
 }
 
+#pricing .h2 {
+  display: none;
+}
+
 #pricing .panel .price {
   font-size: 16px;
   font-weight: 300;
@@ -1509,8 +1513,7 @@ img {
 
 /* NUMBERS -------------------------------------------------------------------*/
 #about-numbers.pricing {
-  /*background: #fefefe;*/
-  background: none;
+  background: #fefefe;
   color: #0060ff;
 }
 

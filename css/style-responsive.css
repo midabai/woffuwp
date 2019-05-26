@@ -662,8 +662,68 @@
 
 
 
+/*
+--------------------------------------------------------------------------------
+  PAGE: PRICING
+--------------------------------------------------------------------------------
+*/
+#pricing .panel {
+  display: none;
+}
+
+#pricing.pro .panel-pro,
+#pricing.enterp .panel-enterp {
+  display: block;
+}
 
 
+#pricing .panel h2 {
+  display: none;
+}
+
+#pricing .panel .h2 {
+  display: block;
+  height: 50px;
+  margin: -25px -40px 35px -40px;
+}
+
+#pricing .panel .h2 a {
+  color: #052b53;
+  display: block;
+  float: left;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 2.41;
+  border: 1px solid #fff; 
+  text-align: center;
+  width: 50%;
+  border-radius: 0 25px 0 0;
+}
+
+#pricing .panel .h2 a:first-child {
+  border-radius: 25px 0 0 0;
+}
+
+#pricing.pro .panel .h2 a:nth-child(1),
+#pricing.enterp .panel .h2 a:nth-child(2) {
+  color: #fff;
+  text-decoration: none;
+  background-image: -webkit-linear-gradient(bottom, #00b1ff, #0060ff);
+  background-image: -o-linear-gradient(bottom, #00b1ff, #0060ff);
+  background-image: linear-gradient(to top, #00b1ff, #0060ff);
+}
+
+#pricing .panel .h2 a:hover {
+  text-decoration: none;
+}
+
+#pricing .panel .h2 a:hover {
+  text-decoration: none;
+}
+
+#pricing .more-panel .disable {
+  display: none;
+}
 
 
 /*
