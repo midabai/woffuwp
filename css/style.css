@@ -1297,14 +1297,20 @@ img {
 /* PRICING ---------------------------------------------------------------------*/
 
 #pricing {
-  /*background: url(../images/footer.svg) no-repeat 50% 100%;*/
-  /*background-size: 100% 0;*/
-  background: url(../images/pricing-l.svg) no-repeat 10% 350px,
+  background: url(../images/pricing.svg) no-repeat 50% 100%;
+  background-size: 100% 250px;
+  /*background: url(../images/pricing-l.svg) no-repeat 10% 350px,
               url(../images/pricing-r.svg) no-repeat 90% 350px;
-  border-bottom: 1px solid #d6f0fc;
+  border-bottom: 1px solid #d6f0fc;*/
   margin-top: -220px;
-  padding-bottom: 110px;
+  /*padding-bottom: 110px;*/
   text-align: center;
+}
+
+#pricing > .footer {
+  background: url(../images/pricing.svg) no-repeat 50% 100%;
+  background-size: 100% auto;
+  height: 110px;
 }
 
 #pricing .container {
