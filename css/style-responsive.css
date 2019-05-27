@@ -673,6 +673,9 @@
   background-size: auto 100%;
 }
 
+#pricing-hero .article {
+  margin-top: 0; 
+}
 
 /* PRICING --------------------------------------------------------------------*/
 #pricing {
@@ -751,6 +754,17 @@
 #pricing .panel-more .disable {
   display: none;
 }
+
+
+/* NUMBERS -------------------------------------------------------------------*/
+#about-numbers.pricing {
+  background-size: auto 100%;
+  margin-bottom: -200px;
+  padding-bottom: 200px;
+  margin-top: -100px;
+  padding-top: 100px;
+}
+
 
 
 /*

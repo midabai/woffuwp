@@ -1288,7 +1288,7 @@ img {
 }
 
 #pricing-hero .article {
-  margin: 0 auto;
+  margin: 25px auto 0 auto;
   padding: 0;
   max-width: 475px;
 }
@@ -1525,8 +1525,11 @@ img {
 
 /* NUMBERS -------------------------------------------------------------------*/
 #about-numbers.pricing {
-  background: #fefefe;
+  background: url(../images/pricing-numbers.svg) no-repeat 50% 0;
+  background-size: 100% 100%;
   color: #0060ff;
+  margin-bottom: -200px;
+  padding-bottom: 300px;
 }
 
 #about-numbers.pricing > div {
