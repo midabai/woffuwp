@@ -1355,7 +1355,7 @@ img {
 
 #pricing .panel {
   background: #fff;
-  color: color: #617892;
+  color: #617892;
   padding: 25px 40px;
   margin-left: auto;
   margin-right: auto;
@@ -1526,9 +1526,9 @@ img {
 /* NUMBERS -------------------------------------------------------------------*/
 #about-numbers.pricing {
   background: url(../images/pricing-numbers.svg) no-repeat 50% 0;
-  background-size: 100% 100%;
+  background-size: 100% 101%; /*y*/
   color: #0060ff;
-  margin-bottom: -200px;
+  margin-bottom: -205px;
   padding-bottom: 300px;
 }
 
@@ -1625,7 +1625,7 @@ img {
 /* TOP -----------------------------------------------------------------------*/
 #footer .top {
   background: url(../images/footer.svg) no-repeat 50% 0;
-  background-size: 100% 100%;
+  background-size: 100% 101%; /*y*/
   padding: 100px 0 75px 0;
 }
 
