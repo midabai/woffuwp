@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
-				"marg",
-				"margin-top\tproperty"
-			],
-			[
 				"mar",
 				"margin-bottom\tproperty"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"pric",
+				"pricing-numbers-l"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
 			],
 			[
 				"pad",
@@ -22,10 +30,6 @@
 			[
 				"min",
 				"min-width\tproperty"
-			],
-			[
-				"bac",
-				"background\tproperty"
 			],
 			[
 				"padd",
@@ -211,7 +215,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 36329,
+				"buffer_size": 36462,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -220,7 +224,7 @@
 			"file": "css/style-responsive.css",
 			"settings":
 			{
-				"buffer_size": 14983,
+				"buffer_size": 15263,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -272,11 +276,6 @@
 	[
 		"/D/tmp/_WoffuWP/html5",
 		"/D/tmp/_WoffuWP/html5/assets",
-		"/D/tmp/_WoffuWP/html5/assets/bootstrap",
-		"/D/tmp/_WoffuWP/html5/assets/bootstrap/4.3.1",
-		"/D/tmp/_WoffuWP/html5/assets/bootstrap/4.3.1/css",
-		"/D/tmp/_WoffuWP/html5/assets/webfonts",
-		"/D/tmp/_WoffuWP/html5/assets/webfonts/fira-sans",
 		"/D/tmp/_WoffuWP/html5/css"
 	],
 	"file_history":
@@ -294,7 +293,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -524,15 +523,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36329,
+						"buffer_size": 36462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								27363,
-								27445
+								24579,
+								24603
 							]
 						],
 						"settings":
@@ -542,7 +541,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 18185.0,
+						"translation.y": 16456.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -554,15 +553,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14983,
+						"buffer_size": 15263,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13299,
-								13299
+								11965,
+								11965
 							]
 						],
 						"settings":
@@ -572,7 +571,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8558.0,
+						"translation.y": 8480.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -657,7 +656,7 @@
 	"project": "woffu-wp-html5.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -695,7 +694,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 284.0,
+	"side_bar_width": 148.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
