@@ -1364,6 +1364,10 @@ img {
   box-shadow: 0 3px 6px 0 #00000019, 0 3px 6px 0 #00000019;
 }
 
+#pricing .panel-enterp {
+  box-shadow: 0 3px 31px 0 #00000016, 0 3px 31px 0 #00000012; 
+}
+
 #pricing .panel h2 {
   color: #052b53;
   font-size: 35px;
@@ -1529,7 +1533,7 @@ img {
   background-size: 100% 101%; /*y*/
   color: #0060ff;
   margin-bottom: -205px;
-  padding-bottom: 300px;
+  padding-bottom: 175px;
 }
 
 #about-numbers.pricing > div {

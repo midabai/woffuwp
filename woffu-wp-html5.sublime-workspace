@@ -215,7 +215,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 36462,
+				"buffer_size": 36467,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -224,7 +224,7 @@
 			"file": "css/style-responsive.css",
 			"settings":
 			{
-				"buffer_size": 15263,
+				"buffer_size": 15392,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -523,7 +523,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36462,
+						"buffer_size": 36467,
 						"regions":
 						{
 						},
@@ -553,15 +553,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15263,
+						"buffer_size": 15392,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11965,
-								11965
+								13736,
+								13736
 							]
 						],
 						"settings":
@@ -571,7 +571,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8480.0,
+						"translation.y": 9260.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
