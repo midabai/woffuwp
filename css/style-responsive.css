@@ -765,6 +765,10 @@
   padding-top: 100px;
 }
 
+#about-numbers.pricing > div {
+  background: url(../images/pricing-numbers-sm.svg) no-repeat 50% 100%;
+  padding-bottom: 80px;
+}
 
 
 /*
