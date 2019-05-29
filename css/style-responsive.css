@@ -773,6 +773,107 @@
 }
 
 
+
+/*
+--------------------------------------------------------------------------------
+  PAGE: CLIENTS
+--------------------------------------------------------------------------------
+*/
+
+/* HERO ----------------------------------------------------------------------*/
+#clients-hero {
+  padding-bottom: 100px;
+}
+
+#clients-hero .img {
+  margin-top: 30px;
+}
+
+
+/* CLIENTS -------------------------------------------------------------------*/
+#clients {
+  margin-bottom: 30px;
+}
+
+#clients .nav .nav-item + .nav-item {
+  margin-left: 15px;
+}
+
+#clients .row {
+  margin-top: -25px;
+}
+
+#clients .row .col-lg-6 {
+  padding: 0 25px;
+}
+
+#clients .panel {
+  height: auto;
+  padding: 25px 15px;
+}
+
+#clients .panel.disable {
+  margin-bottom: 15px;
+}
+
+
+/* CLIENTS-TEAMS -------------------------------------------------------------*/
+#clients-teams {
+  background: url(../images/clients-teams.svg) no-repeat 10% 0;
+  background-size: auto 100%;
+  padding: 90px 0 100px 0;
+}
+
+#clients-teams table,
+#clients-teams tr,
+#clients-teams td {
+  display: block;
+  width: 100%;
+}
+
+#clients-teams td {
+  border: none;
+  border-top: 1px solid #fff;
+}
+
+#clients-teams tr:first-child td:first-child {
+  border: none;
+}
+
+
+/* CLIENTS-PRESS -------------------------------------------------------------*/
+#clients-press {
+  background: url(../images/clients-press.svg) no-repeat 50% 100%;
+  background-size: 90% auto;
+  padding-top: 0;
+  padding-bottom: 80px;
+}
+
+#clients-press .carousel-indicators {
+  margin-bottom: 25px;
+}
+
+#clients-press .carousel-indicators li {
+  display: none;
+}
+
+#clients-press .carousel-indicators li.active {
+  display: block;
+}
+
+#clients-press .carousel-item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#clients-press .carousel-control-prev, 
+#clients-press .carousel-control-next {
+  background-position: 50% 50%;
+  bottom: auto;
+  height: 40px;
+  width: 40px;
+}
+
 /*
 --------------------------------------------------------------------------------
   FOOTER
