@@ -1732,6 +1732,7 @@ img {
   padding: 0 30px 0 0;
 }
 
+#clients .nav .nav-link:hover,
 #clients .nav .nav-link.active {
   background-image: url(../images/clients-down.svg);
   color: #00b1ff;
@@ -1763,6 +1764,7 @@ img {
   border: solid 2px #00b1ff;;
   color: #617892;
   font-size: 15px;
+  height: 100%;
   line-height: 1.2;
   margin-left: auto;
   margin-right: auto;
@@ -1798,24 +1800,16 @@ img {
 }
 
 #clients .panel ul li {
+  background: url("../images/clients-check.svg") no-repeat -14px -12px;
   list-style: none outside none;
-  margin: 0 0 15px 0;
-  padding: 0;
+  margin: 0;
+  padding: 0 0 15px 50px;
 }
 
-#clients .panel ul li:before {
-  display: block;
-  background: url("../images/clients-check.svg") no-repeat 50% 50%;
-  content: "";
-  float: left;
-  height: 50px;
-  margin-right: 10px;
-  width: 40px;
-}
-
-#clients .panel.disable ul li:before {
+#clients .panel.disable ul li {
   background-image: url("../images/clients-check-disable.svg");
 }
+
 
 /* CLIENTS-TEAMS -------------------------------------------------------------*/
 #clients-teams {
@@ -1835,12 +1829,15 @@ img {
 
 #clients-teams table {
   border-collapse: collapse;
-  border-radius: 1em;
-  overflow: hidden;
+  border-style: hidden; /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 1px #fff;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
 }
 
 #clients-teams td {
-  border: 1px solid white;
+  border: 1px solid #fff;
   color: #cecece;
   font-size: 14px;
   line-height: 1.36;
