@@ -405,8 +405,10 @@ img {
 }
 
 #home-hero .article {
+  margin-left: 0;
   margin-top: 55px;
   max-width: 310px;
+  text-align: left;
 }
 
 #home-hero h1 {
