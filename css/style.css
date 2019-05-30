@@ -185,23 +185,26 @@ img {
 
 #header {
   background: none;
+  background-size: 100% 0;
   position: absolute;
   top: 30px;
   left: 0;
   right: 0;
-  -webkit-transition: all .5s ease-out;
-       -moz-transition: all .5s ease-out;
-        -ms-transition: all .5s ease-out;
-         -o-transition: all .5s ease-out;
-            transition: all .5s ease-out;
+  -webkit-transition: background-size .5sn;
+       -moz-transition: background-size .5s;
+        -ms-transition: background-size .5s;
+         -o-transition: background-size .5s;
+            transition: background-size .5s;
 }
 
 #header.affix {
   position: fixed;
-  background: url(../images/header.svg) no-repeat 50% 100%;
+  background: url(../images/header.svg) no-repeat 50% 0;
+  background-size: 100% 100%;
   padding: 30px 0 25px 0;
   top: 0;
   z-index: 10;
+  /*box-shadow: 0 2px 4px 0 #0000000c;*/
 }
 
 
@@ -284,6 +287,10 @@ img {
   box-shadow: 0 3px 31px 0 #00000016, 0 3px 31px 0 #00000012;
 }
 
+#header.affix  > nav .dropdown .dropdown-menu {
+  background: #fff;
+}
+
 #header > nav .dropdown .dropdown-menu ul,
 #header > nav .dropdown .dropdown-menu ul li {
   display: block;
@@ -303,6 +310,10 @@ img {
   padding: 0; 
 }
 
+#header.affix  > nav .dropdown .dropdown-menu a {
+  color: #617892;
+}
+
 
 /* LOGIN */
 #header > nav .btn-outline-primary {
@@ -319,6 +330,7 @@ img {
   background-image: -webkit-linear-gradient(#00afff, #0060ff);
   background-image: -o-linear-gradient(#00afff, #0060ff);
   background-image: linear-gradient(#00afff, #0060ff);
+  box-shadow: 0 10px 20px 0 #0060ff39;  
 }
 
 #header > nav .navbar-toggler {
