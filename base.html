@@ -30,6 +30,7 @@
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="files/header-logo.svg" alt="woffu" width="144" height="34" />
+            <img src="files/header-logo-affix.png" alt="woffu" width="144" height="34" />
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
           <div id="navbarNav" class="collapse navbar-collapse justify-content-end">
@@ -309,6 +310,19 @@
     <script src="assets/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/popper/1.14.7/popper-min.js"></script>
     <script src="assets/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      //STICKY HEADER
+      $(window).scroll(function() {
+        if ($(window).width() > 991) {
+          if ($(document).scrollTop() > 450) {
+            $('#header').addClass('affix');
+          } else {
+            $('#header').removeClass('affix');
+          }
+        }
+      });
+    </script>
 
     <!--
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
