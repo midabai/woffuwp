@@ -1735,7 +1735,11 @@ img {
   list-style: none outside none;
 }
 
-#clients .nav .nav-link {
+#clients .nav li + li {
+  margin-left: 30px;
+}
+
+#clients .nav a {
   background: url(../images/clients-right.svg) no-repeat 98% 50%;
   color: #d8d8d8;
   display: inline-block;
@@ -1747,12 +1751,8 @@ img {
   padding: 0 30px 0 0;
 }
 
-#clients .nav .nav-item + .nav-item {
-  margin-left: 30px;
-}
-
-#clients .nav .nav-link:hover,
-#clients .nav .nav-link.active {
+#clients .nav a:hover,
+#clients .nav a.active {
   background-image: url(../images/clients-down.svg);
   color: #00b1ff;
   text-decoration: none;
@@ -1841,36 +1841,62 @@ img {
   background: url(../images/hr.svg) no-repeat 50% 100%;
   color: #ffffff;
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-#clients-teams table {
-  border-collapse: collapse;
-  border-style: hidden; /* hide standard table (collapsed) border */
-  box-shadow: 0 0 0 1px #fff;
+#clients-teams .row {
+  border: 1px solid #fff;
+  margin-right: 0;
+  margin-left: 0;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
 }
 
-#clients-teams td {
-  border: 1px solid #fff;
+#clients-teams .row .col-lg-4 {
+  padding: 0;
+}
+
+#clients-teams .team {
+  border-top: 1px solid #fff;
   color: #cecece;
   font-size: 14px;
-  line-height: 1.36;
+  height: 100%;
+  line-height: 19px;
   letter-spacing: -0.5px;
-  padding: 25px 30px;
+  padding: 25px 30px 80px 30px;
   position: relative;
 }
 
-#clients-teams td .img {
+#clients-teams .row .col-lg-4:nth-child(1) .team,
+#clients-teams .row .col-lg-4:nth-child(2) .team,
+#clients-teams .row .col-lg-4:nth-child(3) .team {
+  border-top: none;
+}
+
+#clients-teams .row .col-lg-4:nth-child(1) .team,
+#clients-teams .row .col-lg-4:nth-child(2) .team,
+#clients-teams .row .col-lg-4:nth-child(4) .team,
+#clients-teams .row .col-lg-4:nth-child(5) .team {
+  border-right: 1px solid #fff;
+}
+
+#clients-teams .team .img {
   height: 40px;
 }
 
-#clients-teams td h5,
-#clients-teams td h6 {
+#clients-teams .team .b {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  padding: 0 30px;
+}
+
+#clients-teams .team h5,
+#clients-teams .team h6 {
   color: #617892;
   font-size: 14px;
   font-weight: 500;
@@ -1879,7 +1905,7 @@ img {
   margin: 0;
 }
 
-#clients-teams td h5 {
+#clients-teams .team h5 {
   color: #fff;
 }
 
@@ -1927,6 +1953,16 @@ img {
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
+}
+
+#clients-press .carousel-indicators li .img-active,
+#clients-press .carousel-indicators li.active .img {
+  display: none;
+}
+
+#clients-press .carousel-indicators li .img,
+#clients-press .carousel-indicators li.active .img-active {
+  display: block;
 }
 
 #clients-press .carousel-indicators li.active {
