@@ -1956,7 +1956,7 @@ img {
   margin-left: 25px;
   text-indent: 0;
   background-color: none;
-  border none;
+  border: none;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
