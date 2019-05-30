@@ -1179,12 +1179,12 @@ img {
 }
 
 #function-timeoff {
-  background: url(../images/function-timeoff-01.svg) no-repeat 50% 100%;
-  background-size: 100% auto;
+  /*background: url(../images/function-timeoff-01.svg) no-repeat 50% 100%;
+  background-size: 100% auto;*/
   padding-top: 70px;
 }
 
-#function-timeoff h2 {
+.function-timeoff h2 {
   background: url(../images/hr.svg) no-repeat 50% 100%;
   color: #052b53;
   font-size: 40px;
@@ -1193,15 +1193,17 @@ img {
   text-align: center;
 }
 
-#function-timeoff-2 {
-}
-
-#function-timeoff-3 {
-  background: url(../images/function-timeoff-03.svg) no-repeat 50% 0;
+#function-timeoff-2,
+#function-timeoff-4,
+#function-timeoff-6,
+#function-timeoff-8 {
+  background: url(../images/function-timeoff-bg.svg) no-repeat 50% 0;
   background-size: 100% 100%;
 }
 
-#function-timeoff-4 {
+.function-timeoff.last {
+  padding-bottom: 200px !important;
+  margin-bottom: -120px !important;
 }
 
 .function-timeoff .content {
@@ -1237,20 +1239,22 @@ img {
   background: url(../images/function-timeoff-green.svg) no-repeat 0 6px;
 }
 
-#function-timeoff .content ul li:nth-child(2),
-#function-timeoff-2 .content ul li:nth-child(4),
-#function-timeoff-3 .content ul li:nth-child(1) {
+.function-timeoff .content ul li:nth-child(5) {
+  background-image: url(../images/function-timeoff-green.svg);
+}
+
+.function-timeoff .content ul li:nth-child(2),
+.function-timeoff .content ul li:nth-child(6) {
   background-image: url(../images/function-timeoff-purple.svg);
 }
 
-#function-timeoff .content ul li:nth-child(3),
-#function-timeoff-2 .content ul li:nth-child(1),
-#function-timeoff-4 .content ul li:nth-child(3) {
+.function-timeoff .content ul li:nth-child(3),
+.function-timeoff .content ul li:nth-child(7) {
   background-image: url(../images/function-timeoff-orange.svg);
 }
 
-#function-timeoff-2 .content ul li:nth-child(2),
-#function-timeoff-4 .content ul li:nth-child(2) {
+.function-timeoff .content ul li:nth-child(4),
+.function-timeoff .content ul li:nth-child(8) {
   background-image: url(../images/function-timeoff-blue.svg);
 }
 
