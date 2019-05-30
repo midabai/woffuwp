@@ -891,6 +891,7 @@ img {
 
 #about-hero .article {
   margin-top: 45px;
+  margin-left: 0;
   max-width: 425px;
 }
 
