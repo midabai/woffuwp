@@ -37,7 +37,7 @@
             <ul>
               <li><a href="#">Collaborative Platform</a></li>
               <li class="dropdown">
-                <a href="#" data-toggle="dropdown">Funtionalities</a>
+                <a href="#" data-toggle="dropdown">Functionalities</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <ul>
                     <li><a href="function.html">Attendance</a><li>
@@ -69,12 +69,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="article">
-                <!-- <h1>Transparency</h1> -->
-                <h1>
-                  <a href="" class="typewrite" data-period="2000" data-type='[ "Transparency", "Communication", "Flexibility", "Optimization" ]'>
-                    <span class="wrap"></span>
-                  </a>
-                </h1>
+                <h1 class="typewrite" data='["Transparency","Communication","Flexibility","Optimization"]'></h1>
                 <p>Time Management Platform making work life easier and more productive</p>
                 <a href="#" class="btn btn-primary">Let´s Talk!</a>
               </div>
@@ -90,7 +85,7 @@
         <div class="container">
 
           <div class="clients">
-            <a class="more" href="#">500 worldwide companies collaborate with us</a>
+            <a class="more" href="clients.html">1000 worldwide companies collaborate with us</a>
             <ul>
               <li>
                 <a href="#">
@@ -445,6 +440,8 @@
     <script src="assets/popper/1.14.7/popper-min.js"></script>
     <script src="assets/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript">
+
+      //SCRIPT PARA LOGRAR EL EFECTO DE ESCRITURA EN H1 DE HERO
       var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -460,7 +457,8 @@
         var fullTxt = this.toRotate[i];
         if (this.isDeleting) {
           this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
+        } 
+        else {
           this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
 
@@ -486,19 +484,11 @@
       };
 
       window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
+        var element = document.getElementsByClassName('typewrite')[0];
+        var data = element.getAttribute("data"); 
+        if (data) {
+          new TxtType(element, JSON.parse(data), 2000);
         }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #ffcc4d}";
-        document.body.appendChild(css);
       };
 
       //STICKY HEADER

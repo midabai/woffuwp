@@ -437,17 +437,8 @@ img {
   margin-bottom: 20px;
 }
 
-#home-hero h1 a {
-  color: #fff;
-  cursor: auto;
-}
-
-#home-hero h1 a:hover,
-#home-hero h1 a:focus {
-  text-decoration: none;
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
-  opacity: 1;
+#home-hero h1 .wrap { 
+  border-right: 0.08em solid #ffcc4d;
 }
 
 #home-hero .article .btn {
@@ -976,7 +967,7 @@ img {
   background: url(../images/about-numbers-01.png) no-repeat 5% 50%,
               url(../images/about-numbers-02.png) no-repeat 95% 50%;
   padding-top: 105px; 
-  padding-bottom: 80px; 
+  padding-bottom: 0; 
   max-width: 1440px;
   margin: 0 auto;
 }
