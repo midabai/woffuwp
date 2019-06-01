@@ -50,11 +50,6 @@
   padding: 0 10px;
 }
   
-#header {
-  top: 15px;
-  z-index: 1;
-}
-
 #header > nav {
   padding: 0; 
 }
@@ -90,6 +85,22 @@
 #header > nav li a {
   display: block;
   padding: 10px 0;
+}
+
+#header > nav .dropdown .dropdown-menu {
+  background: none;
+  border-color: #ccc;
+  display: block;
+  float: none;
+  margin: 0;
+  min-width: auto;
+  padding: 0;
+  position: static;
+  box-shadow: 0 0 0 0 #00000016, 0 3px 31px 0 #00000012;
+}
+
+#header > nav .dropdown .dropdown-menu a {
+  line-height: inherit;
 }
 
 #header > nav form {
@@ -906,6 +917,77 @@
   height: 40px;
   width: 40px;
 }
+
+
+/* HERO ----------------------------------------------------------------------*/
+#contact-us-hero {
+  background-image: url(../images/hero-sm.svg);
+  padding-bottom: 180px;
+}
+
+#contact-us-hero .article {
+}
+
+#contact-us-hero h1 {
+  font-size: 38px;
+  margin-bottom: 7px; 
+}
+
+#contact-us-hero p {
+  font-size: 15px; 
+  line-height: 20px;
+}
+
+
+/* CONTACT-US ----------------------------------------------------------------*/
+#contact-us {
+  background-size: 90% auto;
+  margin-top: -120px;
+  padding-bottom: 90px;
+}
+
+
+#contact-us .panel {
+  font-size: 19px;
+}
+
+#contact-us .panel.email,
+#contact-us .panel.phone {
+  margin-top: 0;
+}
+
+#contact-us .panel.address {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#contact-us .panel .img {
+  height: 89px;
+  margin: -50px auto 35px auto;
+  padding-top: 22px;
+  text-align: center;
+  width: 89px;
+}
+
+#contact-us .panel.email .img {
+  background: url(../images/contact-us-email.svg) no-repeat 50% 50%;
+  padding-top: 34px;
+}
+#contact-us .panel.address .img {
+  background: url(../images/contact-us-address.svg) no-repeat 50% 50%;
+}
+#contact-us .panel.phone .img {
+  background: url(../images/contact-us-phone.svg) no-repeat 50% 50%;
+  padding-top: 25px;
+}
+
+#contact-us .panel a {
+  color: #617892
+}
+
+
+
+
 
 /*
 --------------------------------------------------------------------------------

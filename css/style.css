@@ -186,10 +186,12 @@ img {
 #header {
   background: none;
   background-size: 100% 0;
+  padding: 25px 0;
   position: absolute;
-  top: 30px;
+  top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
   -webkit-transition: background-size .5sn;
        -moz-transition: background-size .5s;
         -ms-transition: background-size .5s;
@@ -201,7 +203,7 @@ img {
   position: fixed;
   background: url(../images/header.svg) no-repeat 50% 0;
   background-size: 100% 100%;
-  padding: 30px 0 25px 0;
+  
   top: 0;
   z-index: 10;
   /*box-shadow: 0 2px 4px 0 #0000000c;*/
@@ -355,7 +357,8 @@ img {
 */
 
 #main {
-  padding-bottom: 170px
+  padding-bottom: 170px;
+  z-index: 2;
 }
 
 
@@ -2058,6 +2061,96 @@ img {
   filter: alpha(opacity=100);
   opacity: 1;
 }
+
+
+
+/*
+--------------------------------------------------------------------------------
+  PAGE: CONTACT-US
+--------------------------------------------------------------------------------
+*/
+
+/* HERO ----------------------------------------------------------------------*/
+#contact-us-hero {
+  padding-bottom: 230px;
+}
+
+#contact-us-hero .article {
+  max-width: 630px;
+}
+
+#contact-us-hero p {
+  max-width: 390px;
+}
+
+
+/* CONTACT-US ----------------------------------------------------------------*/
+#contact-us {
+  background: url(../images/contact-us.svg) no-repeat 50% 100%;
+  margin-top: -170px;
+  padding-bottom: 140px;
+}
+
+#contact-us .container {
+  max-width: 950px;
+}
+
+#contact-us .row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+#contact-us .row > div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#contact-us .panel {
+  background: #fff;
+  color: #617892;
+  font-size: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 280px;
+  padding: 10px 10px 50px 10px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px 0 #00000019, 0 3px 6px 0 #00000019;
+}
+
+#contact-us .panel.email,
+#contact-us .panel.phone {
+  margin-top: 30px;
+}
+
+#contact-us .panel .img {
+  height: 89px;
+  margin: -50px auto 35px auto;
+  padding-top: 22px;
+  text-align: center;
+  width: 89px;
+}
+
+#contact-us .panel.email .img {
+  background: url(../images/contact-us-email.svg) no-repeat 50% 50%;
+  padding-top: 34px;
+}
+#contact-us .panel.address .img {
+  background: url(../images/contact-us-address.svg) no-repeat 50% 50%;
+}
+#contact-us .panel.phone .img {
+  background: url(../images/contact-us-phone.svg) no-repeat 50% 50%;
+  padding-top: 25px;
+}
+
+#contact-us .panel a {
+  color: #617892
+}
+
+
+
+
+
 
 /*
 --------------------------------------------------------------------------------

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFB48D"/>
+            <stop offset="100%" stop-color="#FF7D54"/>
+        </linearGradient>
+    </defs>
+    <path fill="url(#a)" fill-rule="evenodd" d="M44.4 0c24.521 0 44.4 19.879 44.4 44.4 0 24.521-19.879 44.4-44.4 44.4C19.879 88.8 0 68.921 0 44.4 0 19.879 19.879 0 44.4 0z"/>
+</svg>
