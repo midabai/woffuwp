@@ -492,10 +492,20 @@ img {
   display: inline-block;
   margin: 0;
   padding: 0;
+  /*wp*/
+  float: none;
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
 }
 
 #home-client .clients li + li {
   margin-left: 35px;
+}
+
+#home-client .clients a,
+#home-client .clients a img { /*wp*/
+  display: inline;
 }
 
 /* PROCESS */
@@ -503,7 +513,7 @@ img {
   max-width: 920px;
 }
 
-#home-client .process .col-lg-6 {
+#home-client .process > div { 
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -676,13 +686,20 @@ img {
   font-size: 28px;
   line-height: 36px;
   text-align: center;
+  margin-right: 0; 
+  margin-left: 0; 
+}
+
+#home-hr .saving > div { 
+  padding-right: 0;
+  padding-left: 0;
 }
 
 #home-hr .saving img {
   margin-top: -60px;
 }
 
-#home-hr .saving .col-lg-5 {
+#home-hr .saving > div:nth-child(2) { 
   margin-left: -100px;
 }
 
@@ -947,6 +964,13 @@ img {
   padding: 45px 0 35px 0;
 }
 
+#about-optimize .row {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
 #about-optimize h2 {
   font-size: 30px;
   margin-bottom: 40px;
@@ -958,6 +982,9 @@ img {
   max-width: 506px;
 }
 
+#about-optimize .img {
+  margin-bottom: 26px;
+}
 
 /* NUMBERS -------------------------------------------------------------------*/
 #about-numbers {
@@ -1049,6 +1076,7 @@ img {
   width: 50%;
 }
 
+#about-founders .img + h3, /*wp*/
 #about-founders li h3 {
   color: #fff;
   font-size: 25px;
@@ -1092,6 +1120,7 @@ img {
   display: inline-block;
   margin: 0;
   padding: 0 35px;
+  position: initial !important; /*wp*/
 }
 
 #about-family li:nth-child(1) {
@@ -1116,6 +1145,7 @@ img {
   line-height: 26px;
   margin-left: 10px; 
   padding-right: 30px;
+  text-transform: uppercase; 
 }
 
 
@@ -1712,7 +1742,7 @@ img {
 /* NUMBERS -------------------------------------------------------------------*/
 #about-numbers.pricing {
   background: url(../images/pricing-numbers.svg) no-repeat 50% 0;
-  background-size: 100% 101%; /*y*/
+  background-size: 100% 101%; 
   color: #0060ff;
   margin-bottom: -205px;
   padding-bottom: 175px;
@@ -1744,7 +1774,7 @@ img {
 }
 
 #clients-hero .article {
-  max-width: 630px;
+  max-width: 100%; 
 }
 
 #clients-hero p {
@@ -1773,6 +1803,7 @@ img {
 }
 
 /* NAV -------------------------------*/
+#clients ul.vc_tta-tabs-list,
 #clients ul.nav {
   display: block;
   list-style: none outside none;
@@ -1780,15 +1811,18 @@ img {
   text-align: center;
 }
 
+#clients .vc_tta-tabs-list li,
 #clients .nav li {
   display: inline-block;
   list-style: none outside none;
 }
 
+#clients .vc_tta-tabs-list li + li,
 #clients .nav li + li {
   margin-left: 30px;
 }
 
+#clients .vc_tta-tabs-list a,
 #clients .nav a {
   background: url(../images/clients-right.svg) no-repeat 98% 50%;
   color: #d8d8d8;
@@ -1801,6 +1835,8 @@ img {
   padding: 0 30px 0 0;
 }
 
+#clients .vc_tta-tabs-list a:hover,
+#clients .vc_tta-tabs-list .vc_active a,
 #clients .nav a:hover,
 #clients .nav a.active {
   background-image: url(../images/clients-down.svg);
@@ -1816,14 +1852,14 @@ img {
 }
 
 /* ROWS -------------------------------*/
-#clients .row {
+#clients .client-row {
   margin-top: -60px;
   margin-left: auto;
   margin-right: auto;
   max-width: 730px;
 }
 
-#clients .row .col-lg-6 {
+#clients .client-row > div {
   padding: 0 20px;
 }
 
@@ -1896,7 +1932,7 @@ img {
   text-align: center;
 }
 
-#clients-teams .row {
+#clients-teams .row-team { 
   border: 1px solid #fff;
   margin-right: 0;
   margin-left: 0;
@@ -1905,7 +1941,7 @@ img {
   border-radius: 25px;
 }
 
-#clients-teams .row .col-lg-4 {
+#clients-teams .row-team > div { 
   padding: 0;
 }
 
@@ -1920,16 +1956,16 @@ img {
   position: relative;
 }
 
-#clients-teams .row .col-lg-4:nth-child(1) .team,
-#clients-teams .row .col-lg-4:nth-child(2) .team,
-#clients-teams .row .col-lg-4:nth-child(3) .team {
+#clients-teams .row-team > div:nth-child(1) .team,
+#clients-teams .row-team > div:nth-child(2) .team,
+#clients-teams .row-team > div:nth-child(3) .team { 
   border-top: none;
 }
 
-#clients-teams .row .col-lg-4:nth-child(1) .team,
-#clients-teams .row .col-lg-4:nth-child(2) .team,
-#clients-teams .row .col-lg-4:nth-child(4) .team,
-#clients-teams .row .col-lg-4:nth-child(5) .team {
+#clients-teams .row-team > div:nth-child(1) .team,
+#clients-teams .row-team > div:nth-child(2) .team,
+#clients-teams .row-team > div:nth-child(4) .team,
+#clients-teams .row-team > div:nth-child(5) .team { 
   border-right: 1px solid #fff;
 }
 
@@ -1964,7 +2000,10 @@ img {
   text-align: center;
 }
 
-#clients-teams .footer .btn-primary {
+#clients-teams .footer.btn-primary { /*wp*/
+  margin-left: auto;
+  margin-right: auto;
+  display: inherit;
 }
 
 
@@ -2365,7 +2404,7 @@ img {
 /* TOP -----------------------------------------------------------------------*/
 #footer .top {
   background: url(../images/footer.svg) no-repeat 50% 0;
-  background-size: 100% 101%; /*y*/
+  background-size: 100% 101%; 
   padding: 100px 0 75px 0;
 }
 

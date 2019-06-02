@@ -248,7 +248,7 @@
   margin-top: 0;
 }
 
-#home-hr .saving .col-lg-5 {
+#home-hr .saving > div:nth-child(2) { /*y*/
   margin-left: 0;
 }
 
@@ -287,6 +287,10 @@
 
 #home-hr .items > div {
   margin-top: 25px;
+  /*wp*/
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 
 #home-hr .items > div:nth-child(1),
@@ -449,6 +453,7 @@
   width: 100%;
 }
 
+#about-founders .row > div:nth-child(2),
 #about-founders ul li:nth-child(2) {
   margin-top: 60px;
 }
@@ -558,7 +563,7 @@
 #function-hero .article {
   margin: 0 auto;
   padding: 0;
-  max-width: 290px;
+  /*max-width: 290px;*/ /*wp*/
 }
 
 #function-hero .btn {
@@ -864,13 +869,13 @@
   padding-bottom: 30px;
 }
 
-#clients-teams .row {
+#clients-teams .row-team {
   max-width: 310px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#clients-teams .row .col-lg-4:first-child .team {
+#clients-teams .row-team > div:first-child .team {
   border: none;
 }
 
@@ -881,7 +886,7 @@
   position: static;
 }
 
-#clients-teams .row .col-lg-4:nth-child(1) .team {
+#clients-teams .row-team > div:nth-child(1) .team {
   border-top: none !important;
 }
 
