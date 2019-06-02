@@ -93,8 +93,9 @@
   display: block;
   float: none;
   margin: 0;
+  margin-top: -10px;
   min-width: auto;
-  padding: 0;
+  padding: 10px 0;
   position: static;
   box-shadow: 0 0 0 0 #00000016, 0 3px 31px 0 #00000012;
 }
@@ -667,11 +668,21 @@
 
 #function-others .content .img {
   float: none;
-  margin-bottom: 25px;
+  display: block;
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-#function-others .content .text {
-  margin-left: 0; 
+#function-others .content .more {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  margin-top: 20px;
+  padding-right: 30px;
+  text-transform: uppercase;
 }
 
 
