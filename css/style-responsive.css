@@ -987,6 +987,28 @@
 }
 
 
+/*
+--------------------------------------------------------------------------------
+  PAGE: CARREERS
+--------------------------------------------------------------------------------
+*/
+
+/* HERO ----------------------------------------------------------------------*/
+#carreers-hero .inner {
+  background-image: url(../images/carreers-hero-sm.svg);
+  background-size: 100% auto;
+  padding-top: 80px;
+  padding-bottom: 320px;
+}
+
+
+
+/* CARREERS ----------------------------------------------------------------*/
+#carreers .labels > .col-lg-6:nth-child(2),
+#carreers .positions > .col-lg-5 {
+  display: none;
+}
+
 
 
 

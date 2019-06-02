@@ -1,0 +1,54 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="566" height="80" viewBox="0 0 566 80">
+    <defs>
+        <linearGradient id="a" x1="80.583%" x2="0%" y1="116.549%" y2="-74.734%">
+            <stop offset="0%" stop-color="#0064FF"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="b" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="c" x1="67.999%" x2="16.205%" y1="99.893%" y2="-30.206%">
+            <stop offset="0%" stop-color="#8047FF"/>
+            <stop offset="100%" stop-color="#D9C8FF"/>
+        </linearGradient>
+        <filter id="d" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="e" x1="73.626%" x2="0%" y1="93.429%" y2="-74.734%">
+            <stop offset="0%" stop-color="#4CD964"/>
+            <stop offset="100%" stop-color="#C9FFD2"/>
+        </linearGradient>
+        <filter id="f" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="g" x1="73.626%" x2="0%" y1="93.429%" y2="-74.734%">
+            <stop offset="0%" stop-color="#4CD964"/>
+            <stop offset="100%" stop-color="#F0FFF3"/>
+        </linearGradient>
+        <filter id="h" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="i" x1="0%" x2="70.73%" y1="-49.798%" y2="77.042%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F9906F"/>
+        </linearGradient>
+        <filter id="j" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="k" x1="0%" x2="70.73%" y1="-49.798%" y2="77.042%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#00AFFF"/>
+        </linearGradient>
+        <filter id="l" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="rotate(180 283 40)">
+        <ellipse cx="426.075" cy="67.865" fill="url(#a)" filter="url(#b)" rx="12.148" ry="12.135"/>
+        <ellipse cx="339.24" cy="14.382" fill="url(#c)" filter="url(#d)" rx="8.998" ry="8.989"/>
+        <ellipse cx="547.553" cy="36.404" fill="url(#e)" filter="url(#f)" rx="18.447" ry="18.427"/>
+        <ellipse cx="122.828" cy="12.135" fill="url(#g)" filter="url(#h)" rx="12.148" ry="12.135"/>
+        <ellipse cx="18.447" cy="57.978" fill="url(#i)" filter="url(#j)" rx="18.447" ry="18.427"/>
+        <ellipse cx="237.558" cy="57.528" fill="url(#k)" filter="url(#l)" rx="8.998" ry="8.989"/>
+    </g>
+</svg>

@@ -2148,6 +2148,124 @@ img {
 }
 
 
+/*
+--------------------------------------------------------------------------------
+  PAGE: CARREERS
+--------------------------------------------------------------------------------
+*/
+
+/* HERO ----------------------------------------------------------------------*/
+#carreers-hero {
+  background: url(../images/carreers-hero.jpg) no-repeat 50% 100%;
+  padding-top: 0; 
+  padding-bottom: 0; 
+}
+
+#carreers-hero .inner {
+  background: url(../images/carreers-hero.svg) no-repeat 50% 0;
+  background-size: 100% auto;
+  padding-top: 80px;
+  padding-bottom: 320px;
+}
+
+#carreers-hero .article {
+  max-width: none;
+}
+
+
+
+/* CARREERS ----------------------------------------------------------------*/
+#carreers {
+}
+
+#carreers h2 {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#carreers .intro {
+  background: url(../images/hr.svg) no-repeat 50% 100%;
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 0 auto 45px auto;
+  max-width: 606px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+#carreers .labels, 
+#carreers .positions { 
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#carreers .labels > div , 
+#carreers .positions > div { 
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+#carreers .labels {
+  color: #052b53;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;  
+}
+
+#carreers .position,
+#carreers .location  {
+  padding: 15px 0 15px 45px;
+}
+
+#carreers .positions {
+  border: 1px solid rgba(0, 177, 255, 0.2);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+
+#carreers .positions .location  {
+  background: url(../images/icon-location.svg) no-repeat 35px 50%;
+  border-left: 1px solid rgba(0, 177, 255, 0.2);
+  padding-left: 70px;
+}
+
+#carreers .positions .position,
+#carreers .positions .location,
+#carreers .positions .link {
+  border-top: 1px solid rgba(0, 177, 255, 0.2);
+}
+
+#carreers .positions > div:nth-child(1) .position,
+#carreers .positions > div:nth-child(2) .location,
+#carreers .positions > div:nth-child(3) .link {
+  border-top: none;
+}
+
+#carreers .positions,
+#carreers .positions .link a {
+  color: #052b53;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+#carreers .positions .link {
+  height: 100%;
+}
+
+#carreers .positions .link a {
+  background: url(../images/icon-right.svg) no-repeat 0 50%;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-indent: -9999px;
+}
+
+
 
 
 
