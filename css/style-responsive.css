@@ -1010,23 +1010,83 @@
 */
 
 /* HERO ----------------------------------------------------------------------*/
+#carreers-hero {
+  background: url(../images/carreers-hero.jpg) no-repeat 25% 100%;
+}
+
 #carreers-hero .inner {
   background-image: url(../images/carreers-hero-sm.svg);
-  background-size: 100% auto;
+  background-size: 100% 270px;
   padding-top: 80px;
-  padding-bottom: 320px;
+  padding-bottom: 360px;
+}
+
+#carreers-hero h1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 289px;
+  font-size: 38px;
+}
+
+.hero .article .btn {
+  font-size: 13px;
+  line-height: 35px;
+  margin-top: 0;
 }
 
 
+/* CARREERS ------------------------------------------------------------------*/
+#carreers {
+  padding-bottom: 120px;
+  background: url(../images/carreers.svg) no-repeat 50% 95%;
+  background-size: 80% auto;
+}
 
-/* CARREERS ----------------------------------------------------------------*/
+#carreers .container {
+  max-width: 410px;
+}
+
+
+#carreers .intro {
+  margin: 0 auto 20px auto;
+}
+
 #carreers .labels > .col-lg-6:nth-child(2),
 #carreers .positions > .col-lg-5 {
   display: none;
 }
 
+#carreers .position, #carreers .location {
+  padding: 15px 0 15px 20px;
+}
+
+#carreers .positions,
+#carreers .positions .link a {
+  font-size: 14px;
+}
 
 
+/* CARREERS-PERKS ------------------------------------------------------------*/
+#carreers-perks {
+  background: url(../images/carreers-perks.svg) no-repeat 50% 0;
+  background-size: auto 100%;
+  margin-top: -60px;
+  margin-bottom: -280px;
+  padding: 110px 0 316px 0;
+}
+
+#carreers-perks .container {
+  max-width: 410px;
+}
+
+#carreers-perks h2 {
+  margin-bottom: 40px;
+}
+
+#carreers-perks .img {
+  margin-top: 40px;
+  text-align: center;
+}
 
 /*
 --------------------------------------------------------------------------------

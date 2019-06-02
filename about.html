@@ -84,6 +84,7 @@
           <h2>Optimize time-management and people</h2>
           <div class="row">
             <div class="col-lg-7">
+
               <p>
                 Woffu is a cloud based platform for time-management with the purpose of maximizing communication, dedication and transparency between all departments within a company.
                 In the age of digitalization and liquid work, HR processes need to start adapting to the new world.
@@ -91,9 +92,14 @@
               <p>
                 Woffu enhances the relationship between employees and employers, removing frictions and making time-management easier and thus increasing productivity. Woffu is a collaborative platform and is helping companies save 85% in time-management costs and reduce absenteeism by 20% by increasing happiness at work.
               </p>
+
             </div><!-- /.col-lg-7 -->
             <div class="col-lg-5">
-              <img src="files/about-optimize.png" alt="" width="427" height="380" />
+
+              <div class="img">
+                <img src="files/about-optimize.png" alt="" width="427" height="380" />  
+              </div><!-- /.img -->
+              
             </div><!-- /.col-lg-5 -->
           </div>
           <!-- /.row -->
@@ -363,16 +369,17 @@
     <script src="assets/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
+      
       //STICKY HEADER
       $(window).scroll(function() {
-        if ($(window).width() > 991) {
-          if ($(document).scrollTop() > 100) {
+        if ($(window).width() > 991 && $(document).scrollTop() > 100) {
             $('#header').addClass('affix');
-          } else {
-            $('#header').removeClass('affix');
-          }
+        } 
+        else {
+          $('#header').removeClass('affix');
         }
       });
+
     </script>
     
     <!--

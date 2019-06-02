@@ -563,13 +563,27 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     -->
 
-    <script>
+    <script type="text/javascript">
+
       $(document).ready(function() {
+
         $("#pricing .h2 a").click(function() {
           $("#pricing").toggleClass("pro");
           $("#pricing").toggleClass("enterp");
         });
+        
       });
+      
+      //STICKY HEADER
+      $(window).scroll(function() {
+        if ($(window).width() > 991 && $(document).scrollTop() > 100) {
+            $('#header').addClass('affix');
+        } 
+        else {
+          $('#header').removeClass('affix');
+        }
+      });
+
     </script>
 
   </body>

@@ -451,16 +451,17 @@
     <script src="assets/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
+      
       //STICKY HEADER
       $(window).scroll(function() {
-        if ($(window).width() > 991) {
-          if ($(document).scrollTop() > 100) {
+        if ($(window).width() > 991 && $(document).scrollTop() > 100) {
             $('#header').addClass('affix');
-          } else {
-            $('#header').removeClass('affix');
-          }
+        } 
+        else {
+          $('#header').removeClass('affix');
         }
       });
+
     </script>
 
     <!--
