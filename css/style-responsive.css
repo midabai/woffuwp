@@ -351,9 +351,16 @@
   padding-top: 0;
 }
 
-#home-platform img {
-  margin: 50px auto 0 auto;
-  padding-top: 0;
+#home-platform h2 {
+  margin-bottom: 50px;
+}
+
+#home-platform .row {
+  margin-top: -40px;
+}
+
+#home-platform .item {
+  margin-top: 40px;
 }
 
 

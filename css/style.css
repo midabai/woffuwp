@@ -877,13 +877,43 @@ img {
   font-size: 30px;
   font-weight: 400;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 80px auto;
   max-width: 590px;
   padding-bottom: 25px
 }
 
-#home-platform img {
+#home-platform .row {
+  margin-top: -80px;
+}
+
+#home-platform .item {
+  background: url(../images/home-platform-01.svg) no-repeat 50% 0;
   margin-top: 80px;
+  padding-top: 15px;
+}
+
+#home-platform .row > div:nth-child(1) .item {
+  background-image: url(../images/home-platform-01.svg);
+}
+#home-platform .row > div:nth-child(2) .item {
+  background-image: url(../images/home-platform-02.svg);
+}
+#home-platform .row > div:nth-child(3) .item {
+  background-image: url(../images/home-platform-03.svg);
+}
+#home-platform .row > div:nth-child(4) .item {
+  background-image: url(../images/home-platform-04.svg);
+}
+#home-platform .row > div:nth-child(5) .item {
+  background-image: url(../images/home-platform-05.svg);
+}
+#home-platform .row > div:nth-child(6) .item {
+  background-image: url(../images/home-platform-06.svg);
+}
+
+#home-platform .img {
+  height: 110px;
+  padding-top: 25px;
 }
 
 #home-platform h3 {
@@ -2282,7 +2312,7 @@ img {
 }
 
 #carreers .positions .location  {
-  background: url(../images/icon-location.svg) no-repeat 35px 50%;
+  background: url(../images/icon-location.svg) no-repeat 40px 50%;
   border-left: 2px solid rgba(0, 177, 255, 0.2);
   padding-left: 70px;
 }
