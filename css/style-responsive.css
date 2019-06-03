@@ -1021,7 +1021,7 @@
   background: url(../images/carreers-hero.jpg) no-repeat 25% 100%;
 }
 
-#carreers-hero .inner {
+#carreers-hero > div {
   background-image: url(../images/carreers-hero-sm.svg);
   background-size: 100% 270px;
   padding-top: 80px;

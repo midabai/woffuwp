@@ -2250,7 +2250,7 @@ img {
   padding-bottom: 0; 
 }
 
-#carreers-hero .inner {
+#carreers-hero > div {
   background: url(../images/carreers-hero.svg) no-repeat 50% 0;
   background-size: 100% 272px;
   padding-top: 80px;
