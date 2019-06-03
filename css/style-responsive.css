@@ -1210,3 +1210,15 @@
 }
 
 }
+
+@media (max-width: 575.98px) { 
+
+  #carreers .positions > .col-sm-10  {
+    width: 80%;
+  }
+
+  #carreers .positions > .col-sm-2  {
+    width: 20%;
+  }
+
+}
