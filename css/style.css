@@ -2299,16 +2299,19 @@ img {
 }
 
 
-#carreers .labels {
+#carreers .labels,
+#carreers .labels .position,
+#carreers .labels .location {
   color: #052b53;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.6;  
+  margin: 0;
 }
 
 #carreers .position,
 #carreers .location  {
-  padding: 15px 0 15px 45px;
+  padding: 15px 15px 15px 45px;
 }
 
 #carreers .positions {
@@ -2319,9 +2322,12 @@ img {
   box-shadow: 0 4px 17px 0 #00b1ff1e; 
 }
 
-#carreers .positions .location  {
-  background: url(../images/icon-location.svg) no-repeat 40px 50%;
+#carreers .positions > .col-lg-5  {
   border-left: 2px solid rgba(0, 177, 255, 0.2);
+}
+
+#carreers .positions .location  {
+  background: url(../images/icon-location.svg) no-repeat 40px 20px;
   padding-left: 70px;
 }
 
@@ -2329,6 +2335,7 @@ img {
 #carreers .positions .location,
 #carreers .positions .link {
   border-top: 2px solid rgba(0, 177, 255, 0.2);
+  height: 100%;
 }
 
 #carreers .positions > div:nth-child(1) .position,
@@ -2338,19 +2345,18 @@ img {
 }
 
 #carreers .positions,
-#carreers .positions .link a {
+#carreers .positions .position,
+#carreers .positions .location,
+#carreers .positions .link {
   color: #052b53;
   font-weight: 300;
   font-size: 15px;
   line-height: 1.6;
+  margin: 0;
 }
 
 #carreers .positions .link {
-  height: 100%;
-}
-
-#carreers .positions .link a {
-  background: url(../images/icon-right.svg) no-repeat 0 50%;
+  background: url(../images/icon-right.svg) no-repeat 0 20px;
   display: block;
   height: 100%;
   width: 100%;
@@ -2387,6 +2393,13 @@ img {
   font-size: 21px;
   margin-top: 40px;
   max-width: 205px;
+}
+
+#carreers-perks .perk h6 {
+  color: #617892;
+  font-size: 21px;
+  margin: 0;
+  padding: 0;
 }
 
 #carreers-perks .row .row {

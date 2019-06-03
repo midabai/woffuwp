@@ -1063,13 +1063,21 @@
   display: none;
 }
 
-#carreers .position, #carreers .location {
+#carreers .position, 
+#carreers .location {
   padding: 15px 0 15px 20px;
 }
 
-#carreers .positions,
-#carreers .positions .link a {
+#carreers .positions .position,
+#carreers .positions .location,
+#carreers .positions .link {
   font-size: 14px;
+  line-height: 24px;
+}
+
+#carreers .positions .link {
+  background-position: 0 50%;
+  border-top: none;
 }
 
 
