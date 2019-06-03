@@ -1058,7 +1058,7 @@
   margin: 0 auto 20px auto;
 }
 
-#carreers .labels > .col-lg-6:nth-child(2),
+#carreers .labels > div:nth-child(2),
 #carreers .positions > .col-lg-5 {
   display: none;
 }
