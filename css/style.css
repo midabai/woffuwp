@@ -2045,12 +2045,18 @@ img {
   text-align: center;
 }
 
-#clients-teams .footer .btn-primary { /*wp*/
+#clients-teams .footer.btn-primary, /*wp*/
+#clients-teams .footer .btn-primary {
   background-image: -webkit-linear-gradient(#00afff, #0060ff);
   background-image: -o-linear-gradient(#00afff, #0060ff);
   background-image: linear-gradient(#00afff, #0060ff);
 }
 
+#clients-teams .footer.btn-primary { /*wp*/
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
 
 /* CLIENTS-PRESS -------------------------------------------------------------*/
 #clients-press {
