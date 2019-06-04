@@ -757,7 +757,8 @@ img {
   padding-top: 60px;
 }
 
-#home-hr .saving li b {
+#home-hr .saving li b,
+#home-hr .saving li strong {
   display: block;
   font-size: 34px;
   font-weight: 700;
@@ -1369,6 +1370,9 @@ img {
 }
 
 #function-success .container {
+  background: url(../images/function-success-l.svg) no-repeat 0 50%,
+               url(../images/function-success-r.svg) no-repeat 100% 50%;
+ background-size: auto 75%; 
   max-width: 1120px;
 }
 
@@ -1383,15 +1387,11 @@ img {
 }
 
 #function-success .success-l {
-  background: url(../images/function-success-l.svg) no-repeat 0 0;
-  background-size: auto 100%; 
   margin-right: auto;
   padding: 83px 64px 107px 124px;
 }
 
 #function-success .success-r {
-  background: url(../images/function-success-r.svg) no-repeat 100% 0;
-  background-size: auto 100%; 
   margin-left: auto;
   padding: 83px 124px 107px 64px;
 }
@@ -1400,7 +1400,8 @@ img {
   margin-bottom: 0;
 }
 
-#function-success .success p b {
+#function-success .success p b,
+#function-success .success p strong {
   font-size: 40px;
   font-weight: 500;
 }
@@ -1482,13 +1483,18 @@ img {
   width: 100px;
 }
 
-#function-others .content b {
+#function-others .content b,
+#function-others .content strong {
   color: #052b53;
   display: block;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 7px;
+}
+
+#function-others .content span {
+  display: block;
 }
 
 #function-others .content .more {
@@ -1629,7 +1635,8 @@ img {
   line-height: 1.38;
 }
 
-#pricing .panel .price b {
+#pricing .panel .price b,
+#pricing .panel .price strong {
   display: block;
   font-size: 67px;
   font-weight: 300;

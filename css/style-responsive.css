@@ -626,6 +626,10 @@
   padding-bottom: 120px;
 }
 
+#function-success .container {
+  background: none;
+}
+
 #function-success h2 {
   margin-bottom: 0;
 }
@@ -687,7 +691,6 @@
 }
 
 #function-others .content .more {
-  display: block;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.5px;

@@ -4,16 +4,84 @@
 		"selected_items":
 		[
 			[
-				"tex",
+				"bac",
+				"background-position\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"margi",
+				"margin-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"text",
 				"text-align\tproperty"
+			],
+			[
+				"carr",
+				"carreers-hero"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"tex",
+				"text-indent\tproperty"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"backgroun",
+				"background-repeat\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"wi",
+				"width\tAttr"
+			],
+			[
+				"conta",
+				"contact-us"
 			],
 			[
 				"data",
 				"data-type"
-			],
-			[
-				"bac",
-				"background-size\tproperty"
 			],
 			[
 				"cur",
@@ -24,18 +92,6 @@
 				"nth-child"
 			],
 			[
-				"pad",
-				"padding\tproperty"
-			],
-			[
-				"margin",
-				"margin-bottom\tproperty"
-			],
-			[
-				"marg",
-				"margin-top\tproperty"
-			],
-			[
 				"border-r",
 				"border-right\tproperty"
 			],
@@ -44,16 +100,8 @@
 				"border-left\tproperty"
 			],
 			[
-				"mar",
-				"margin-left\tproperty"
-			],
-			[
 				"pos",
 				"position\tproperty"
-			],
-			[
-				"back",
-				"background-blend-mode\tproperty"
 			],
 			[
 				"client",
@@ -96,20 +144,12 @@
 				"block\tdisplay"
 			],
 			[
-				"padd",
-				"padding-bottom\tproperty"
-			],
-			[
 				"ma",
 				"margin-bottom\tproperty"
 			],
 			[
 				"prici",
 				"pricing-li"
-			],
-			[
-				"max",
-				"max-width\tproperty"
 			],
 			[
 				"font",
@@ -128,24 +168,12 @@
 				"onchange\tAttr"
 			],
 			[
-				"margin-",
-				"margin-left\tproperty"
-			],
-			[
-				"fon",
-				"font-size\tproperty"
-			],
-			[
 				"PADD",
 				"padding-top\tproperty"
 			],
 			[
 				"FO",
 				"font-size\tproperty"
-			],
-			[
-				"margi",
-				"margin-left\tproperty"
 			],
 			[
 				"col",
@@ -222,10 +250,6 @@
 			[
 				"no",
 				"no-repeat"
-			],
-			[
-				"wi",
-				"width\tAttr"
 			]
 		]
 	},
@@ -235,7 +259,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 21658,
+				"buffer_size": 22653,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -244,7 +268,7 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 16516,
+				"buffer_size": 16534,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -253,7 +277,7 @@
 			"file": "function.html",
 			"settings":
 			{
-				"buffer_size": 19577,
+				"buffer_size": 19072,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -262,7 +286,7 @@
 			"file": "pricing.html",
 			"settings":
 			{
-				"buffer_size": 23987,
+				"buffer_size": 24291,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -271,7 +295,25 @@
 			"file": "clients.html",
 			"settings":
 			{
-				"buffer_size": 29462,
+				"buffer_size": 29489,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 12626,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "carreers.html",
+			"settings":
+			{
+				"buffer_size": 15702,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -280,19 +322,16 @@
 			"file": "base.html",
 			"settings":
 			{
-				"buffer_size": 13710,
+				"buffer_size": 13695,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "body {\n  background: #f9fafc;\n  color: #617892;\n  font-family: 'Fira Sans', helvetica, sans-serif;\n  font-size: 93.75%; /* 15px base 16px */\n  font-style: normal;\n  font-stretch: normal;\n  font-weight: 400;\n  line-height: 1.33; /* 20px */\n  letter-spacing: normal;\n  color: #617892;\n}\n\nh1, h2, h3, h4, h5, h6,\n.h1, .h2, .h3, .h4, .h5, .h6 {\n  color: #052b53;\n  font-weight: normal;\n  font-style: normal;\n  font-stretch: normal;\n  line-height: normal;\n  letter-spacing: normal;\n}\n\nh1, .h1 {\n  font-size: 51px;\n}\n\nh2, .h2 {\n  font-size: 44px;\n}\n\nh3, .h3 {\n  font-size: 38px;  \n}\n\nh4, .h4 {\n  font-size: 30px;\n}\n\nh5, .h5 {\n  font-size: 28px;\n  line-height: 1.29;\n}\n\nh6, .h6 {\n  font-size: 18px;\n  line-height: 1.23;\n}\n\n\na {\n}\n\na.active,\na:active,\na:focus,\na:hover {\n  text-decoration: underline;\n}\n\na:hover,\n.btn:hover {\n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)\";\n  filter: alpha(opacity=75);\n  opacity: 0.75;\n}\n\nb, strong {\n  font-weight: 700;\n}\n\ni {\n  font-style: italic;\n}\n\nimg {\n  height: auto !important;\n  max-width: 100% !important;\n}\n\n.btn {\n  border: none;\n}\n\n.btn-primary {\n  color: #f7f7f7;\n  display: inline-block;\n  font-weight: 500;\n  line-height: 42px;\n  padding: 0 30px;\n  text-transform: uppercase;\n  \n  background: #edf9ff;\n  background: -moz-linear-gradient(top, rgba(237,249,255,0.5) 0%, rgba(0,177,255,0.5) 100%);\n  background: -webkit-linear-gradient(top, rgba(237,249,255,0.5) 0%,rgba(0,177,255,0.5) 100%);\n  background: linear-gradient(to bottom, rgba(237,249,255,0.5) 0%,rgba(0,177,255,0.5) 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80edf9ff', endColorstr='#8000b1ff',GradientType=0 );\n  \n  -webkit-border-radius: 21px;\n  -moz-border-radius: 21px;\n  border-radius: 21px;\n  \n  -webkit-box-shadow: 0 10px 20px 0 rgba(88,53,167,0.46);\n  box-shadow: 0 10px 20px 0 rgba(88,53,167,0.46);\n}\n\n.btn-outline-primary {\n  background: none;\n  border: 1.2px solid #99ccff;\n  color: #fff;\n  font-weight: 500;\n  letter-spacing: 0.6px;\n  line-height: 42px;\n  padding: 0 30px;\n  text-transform: uppercase;\n\n  -webkit-border-radius: 21px;\n  -moz-border-radius: 21px;\n  border-radius: 21px;\n}\n\n.btn-light {\n  background: none;\n  border: none;\n  color: #0065ff;\n  font-weight: 500;\n  letter-spacing: 0.6px;\n  line-height: 42px;\n  padding: 0 30px;\n  text-transform: uppercase;\n\n  -webkit-border-radius: 21px;\n  -moz-border-radius: 21px;\n  border-radius: 21px;\n  \n  -webkit-box-shadow: 0 10px 20px 0 rgba(88,53,167,0.46);\n  box-shadow: 0 10px 20px 0 rgba(88,53,167,0.46);\n}\n\n.btn-warning {\n  background: none;\n  border: none;\n  color: #f7f7f7;\n  font-size: 15px;\n  font-weight: 500;\n  letter-spacing: 0.6px;\n  line-height: 42px;\n  padding: 0 30px;\n  text-transform: uppercase;\n\n  background-image: -webkit-linear-gradient(#ffb29b, #e78263);\n  background-image: -o-linear-gradient(#ffb29b, #e78263);\n  background-image: linear-gradient(#ffb29b, #e78263);\n\n  -webkit-border-radius: 21px;\n  -moz-border-radius: 21px;\n  border-radius: 21px;\n  \n  -webkit-box-shadow: 0 10px 20px 0 #5835a774;\n  box-shadow: 0 10px 20px 0 #5835a774;\n}\n\n/* Paragraph */\n.text-l {\n  font-size: 21px;\n  font-weight: 300;\n  color: #617892;\n}\n\n.text-s {\n  font-size: 14px;\n  line-height: 1.43;\n  color: #617892;\n}\n\n.container {\n  max-width: 1040px;\n}\n\n/*\n--------------------------------------------------------------------------------\n  HEADER\n--------------------------------------------------------------------------------\n*/\n\n#header {\n  background: none;\n  background-size: 100% 0;\n  position: absolute;\n  top: 30px;\n  left: 0;\n  right: 0;\n  -webkit-transition: background-size .5sn;\n       -moz-transition: background-size .5s;\n        -ms-transition: background-size .5s;\n         -o-transition: background-size .5s;\n            transition: background-size .5s;\n}\n\n#header.affix {\n  position: fixed;\n  background: url(../images/header.svg) no-repeat 50% 0;\n  background-size: 100% 100%;\n  padding: 30px 0 25px 0;\n  top: 0;\n  z-index: 10;\n  /*box-shadow: 0 2px 4px 0 #0000000c;*/\n}\n\n\n#header nav {\n  background: none !important;\n  color: #f7f7f7;\n  font-size: 13px;\n  font-weight: 400;\n  line-height: 34.6px;\n  letter-spacing: -0.2px;\n  margin: 0;\n  padding: 0; \n}\n\n#header.affix nav {\n  color: #617892;\n}\n\n#header > nav .container {\n  padding: 0 15px;\n}\n\n#header > nav .navbar-brand {\n  color: #fff;\n  font-size: 34px;\n  line-height: 1;\n  padding: 0;\n}\n\n#header > nav .navbar-brand img:nth-child(2),\n#header.affix > nav .navbar-brand img:nth-child(1) {\n  display: none;\n}\n\n#header > nav .navbar-brand img:nth-child(1),\n#header.affix > nav .navbar-brand img:nth-child(2) {\n  display: block;\n}\n\n#header > nav ul {\n  list-style: none outside none;\n  margin: 0;\n  padding: 0;\n}\n\n#header > nav li {\n  display: inline-block;\n  margin: 0;\n}\n\n#header > nav li + li {\n  margin-left: 25px;\n}\n\n#header > nav li a {\n  color: #fff;\n  padding: 0;\n}\n\n#header.affix > nav li a {\n   color: #617892;\n}\n\n#header > nav li a:hover,\n#header > nav li a:focus {\n  text-decoration: none;\n}\n\n#header > nav .dropdown:hover .dropdown-menu {\n  display: block;\n}\n\n#header > nav .dropdown .dropdown-menu {\n  background: #006cff;\n  min-width: 250px;\n  padding: 15px  20px;\n  left: -20px;\n  top: 70%;\n  border-radius: 10px;\n  box-shadow: 0 3px 31px 0 #00000016, 0 3px 31px 0 #00000012;\n}\n\n#header.affix  > nav .dropdown .dropdown-menu {\n  background: #fff;\n}\n\n#header > nav .dropdown .dropdown-menu ul,\n#header > nav .dropdown .dropdown-menu ul li {\n  display: block;\n  list-style: none outside none;\n  margin: 0;\n  padding: 0;\n}\n\n#header > nav .dropdown .dropdown-menu a {\n  color: #f7f7f7;\n  display: block;\n  font-size: 13px;\n  font-weight: 400;\n  line-height: 34.6px;\n  letter-spacing: -0.2px;\n  margin: 0;\n  padding: 0; \n}\n\n#header.affix  > nav .dropdown .dropdown-menu a {\n  color: #617892;\n}\n\n\n/* LOGIN */\n#header > nav .btn-outline-primary {\n  font-size: 13px;\n  line-height: 34px;\n  margin-left: 130px;\n  padding: 0;\n  width: 104.4px;\n}\n\n#header.affix > nav .btn-outline-primary {\n  border-color: #00afff;\n  color: #fff;\n  background-image: -webkit-linear-gradient(#00afff, #0060ff);\n  background-image: -o-linear-gradient(#00afff, #0060ff);\n  background-image: linear-gradient(#00afff, #0060ff);\n  box-shadow: 0 10px 20px 0 #0060ff39;  \n}\n\n#header > nav .navbar-toggler {\n  background: url(../images/header-navbar-toggler.png) no-repeat 50% 50%;\n  height: 22px;\n  margin: 0;\n  width: 37px;\n  padding: 0;\n}\n\n#header > nav .navbar-toggler:hover {\n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)\";\n  filter: alpha(opacity=75);\n  opacity: 0.75;\n}\n\n\n/*\n--------------------------------------------------------------------------------\n  MAIN\n--------------------------------------------------------------------------------\n*/\n\n#main {\n  padding-bottom: 170px\n}\n\n\n/*\n--------------------------------------------------------------------------------\n  HERO\n--------------------------------------------------------------------------------\n*/\n\n.hero {\n  background: url(../images/hero.svg) no-repeat 50% 0;\n  background-size: 100% 100%;\n  color: #fff;\n  font-size: 21px;\n  font-weight: 300;\n  line-height: 1.21;\n  margin-bottom: 50px;\n  padding-top: 80px;\n  padding-bottom: 80px;\n  text-align: center;\n}\n\n.hero .container {\n  padding: 0 15px;\n}\n\n.hero .article {\n  margin: 25px auto 0 auto;\n  padding: 0;\n  max-width: 475px;\n}\n\n.hero h1 {\n  color: #f7f7f7;\n  font-size: 44px;\n  margin-bottom: 10px;\n}\n\n.hero p {\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 0;\n  max-width: 360px;\n}\n\n\n\n/*\n--------------------------------------------------------------------------------\n  PAGE: HOME\n--------------------------------------------------------------------------------\n*/\n\n/* HERO ----------------------------------------------------------------------*/\n\n#home-hero {\n  background-image: url(../images/home-hero.svg);\n  background-size: 100% 100%;\n  font-weight: 300;\n  padding-top: 130px;\n  padding-bottom: 25px;\n}\n\n#home-hero .container {\n  max-width: 1200px;\n  padding-left: 100px;\n  padding-right: 0px;\n}\n\n#home-hero .article {\n  margin-left: 0;\n  margin-top: 55px;\n  max-width: 310px;\n  text-align: left;\n}\n\n#home-hero h1 {\n  font-size: 51px;\n  margin-bottom: 20px;\n}\n\n#home-hero h1 .wrap { \n  border-right: 0.08em solid #ffcc4d;\n}\n\n#home-hero .article .btn {\n  font-size: 15px;\n  font-weight: 500px;\n  margin-top: 50px;\n}\n\n#home-hero img {\n  -webkit-border-radius: 20px;\n  -moz-border-radius: 20px;\n  border-radius: 20px;\n}\n\n\n/* CLIENT --------------------------------------------------------------------*/\n#home-client {\n  margin: 0 auto 20px auto;\n  max-width: 920px;\n}\n  \n#home-client .clients {\n  margin-bottom: 85px;\n  text-align: center;\n}\n\n/* CLIENT LIST */\n#home-client .clients a.more {\n  background: url(../images/more.png) no-repeat 100% 50%;\n  color: #00b1ff;\n  display: inline-block;\n  font-size: 15px;\n  line-height: 18px;\n  margin-bottom: 20px;\n  padding-right: 25px;\n}\n\n#home-client .clients ul {\n  list-style: none outside none;\n  margin: 0;\n  padding: 0;\n  text-align: center;\n  font-size: 0; \n}\n\n#home-client .clients li {\n  display: inline-block;\n  margin: 0;\n  padding: 0;\n}\n\n#home-client .clients li + li {\n  margin-left: 35px;\n}\n\n/* PROCESS */\n#home-client .process {\n  max-width: 920px;\n}\n\n#home-client .process .col-lg-6 {\n  padding-left: 70px;\n  padding-right: 70px;\n}\n\n#home-client .process .before,\n#home-client .process .now {\n  max-width: 320px;\n  position: relative;\n}\n\n#home-client .process .before .inner,\n#home-client .process .now .inner {\n  background: url(../images/home-client-before.png) no-repeat 0 0;\n  background-size: cover;\n  height: 500px;\n  padding-top: 45px;\n  text-align: center;\n  \n  -webkit-border-radius: 50px;\n  -moz-border-radius: 50px;\n  border-radius: 50px;\n  \n  -webkit-box-shadow: -20px 20px 50px -10px rgba(0,0,0,0.35);\n  box-shadow: -20px 20px 50px -10px rgba(0,0,0,0.35);\n}\n\n#home-client .process .now .inner {\n  background: url(../images/home-client-now.png) no-repeat 0 0;\n  background-size: cover;\n  -webkit-border-radius: 160px;\n  -moz-border-radius: 160px;\n  border-radius: 160px;\n}\n\n#home-client .process h3 {\n  color: #f7f7f7;\n  font-size: 24px;\n  font-weight: 400;\n  letter-spacing: 1px;\n  line-height: 1;\n  margin-bottom: 10px;\n  text-transform: uppercase;\n}\n\n#home-client .process h4 {\n  background: #fff;\n  color: #052b53;\n  display: inline-block;\n  font-style: italic;\n  line-height: 28px;\n  margin-bottom: 25px;\n  padding: 0 12px;\n  font-size: 93.75%;\n  font-weight: 400;\n  \n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n}\n\n#home-client .process ul {\n  list-style: none outside none;\n  margin: 0 75px 0 80px;\n  padding: 0;\n  text-align: left;\n}\n\n#home-client .process li {\n  color: #ffffff;\n  font-size: 16px;\n  font-style: italic;\n  line-height: 18px;\n  padding-bottom: 15px;\n  padding-left: 30px;\n  position: relative;\n}\n\n#home-client .process li u {\n  border-bottom: 2px solid #FF4F67;\n  text-decoration: none;\n}\n\n#home-client .process .now li u {\n  border-bottom-color: #00DC6E;\n}\n\n#home-client .process li img {\n  margin-right: 10px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  max-width: 25px;\n}\n\n#home-client .process ul + p {\n  background: url(../images/home-client-before-p.png) no-repeat 50% 50%;\n  background-size: 100% 100%;\n  color: #ffffff;\n  display: inline-block;\n  font-weight: 500;\n  font-style: italic;\n  line-height: 30px;\n  margin-top: 25px;\n  padding: 0 15px 15px 15px;\n  \n  -webkit-border-radius: 5px;\n  -moz-border-radius: 5px;\n  border-radius: 5px;\n}\n\n#home-client .process.now ul + p {\n  background: url(../images/home-client-now-p.png) no-repeat 50% 50%;\n  padding: 0 15px 15px 15px;\n}\n\n#home-client .process p + p {\n  color: #ffffff;\n  font-size: 19px;\n  font-weight: 700;\n  font-style: italic;\n  line-height: 1.11;\n  padding: 0 70px;\n}\n\n#home-client .process p + img {\n  position: absolute;\n  bottom: 0;\n  margin-bottom: -55px;\n  margin-left: -55px;\n  -webkit-border-radius: 50%;\n  -moz-border-radius: 50%;\n  border-radius: 50%;\n}\n\n#home-client .process h2 {\n  background: url(../images/home-client-before-face.png) no-repeat 50% 0,\n              url(../images/home-client-before-b.png) no-repeat 50% 100%;\n  color: #052b53;\n  display: block;\n  font-size: 27px;\n  font-weight: 700;\n  line-height: 1;\n  margin: -70px auto 0 auto;\n  padding: 150px 10px 10px 10px;\n  text-align: center;\n  width: 130px;\n}\n\n#home-client .process .now h2 {\n  background-image: url(../images/home-client-now-face.png),\n                    url(../images/home-client-now-b.png);\n  color: #0060ff;\n}\n\n\n/* HR ------------------------------------------------------------------------*/\n#home-hr {\n  background: url(../images/home-hr.png) no-repeat 50% 0;\n  background-size: 100% 100%;\n  padding-top: 120px;\n  padding-bottom: 160px;\n}\n\n#home-hr .container {\n  max-width: 1470px;\n}\n\n#home-hr .saving {\n  color: #f7f7f7;\n  font-size: 28px;\n  line-height: 36px;\n  text-align: center;\n}\n\n#home-hr .saving img {\n  margin-top: -60px;\n}\n\n#home-hr .saving .col-lg-5 {\n  margin-left: -100px;\n}\n\n#home-hr .saving h2 {\n  background: url(../images/hr.png) no-repeat 50% 100%;\n  color: #f7f7f7;\n  font-size: 28px;\n  font-weight: 400;\n  line-height: 1.29;\n  margin: 75px auto 45px auto;\n  max-width: 485px;\n  padding-bottom: 25px;\n}\n\n#home-hr .saving ul {\n  list-style: none outside none;\n  margin: 0;\n  padding: 0;\n  text-align: center;\n\n  align-items: start;\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  grid-row-gap: 0;\n  grid-column-gap: 20%;\n}\n\n#home-hr .saving li {\n  background: url(../images/home-hr-saving.png) no-repeat 50% 50%;\n  color: #f7f7f7;\n  font-size: 16px;\n  line-height: 18px;\n  margin: 0;\n  height: 180px;\n  padding: 40px;\n  text-align: center;\n  width: 180px;\n  \n  -webkit-border-radius: 50%;\n  -moz-border-radius: 50%;\n  border-radius: 50%;\n}\n\n#home-hr .saving li:nth-of-type(1) {\n  grid-column: 2 / span 2;\n  margin-bottom: -15px;\n}\n\n#home-hr .saving li:nth-of-type(2) {\n  grid-column: 1 / span 2;\n}\n\n#home-hr .saving li:nth-of-type(3) {\n  grid-column: 3 / span 2;\n  padding-top: 60px;\n}\n\n#home-hr .saving li b {\n  display: block;\n  font-size: 34px;\n  font-weight: 700;\n  line-height: 40px;\n}\n\n/* ITEMS */\n#home-hr .items {\n  color: #ffffff;\n  font-size: 18px;\n  font-style: italic;\n  line-height: 1.22;\n  margin: 30px auto 0 auto;\n  max-width: 1100px;\n  text-align: center;\n}\n\n#home-hr .items img {\n  display: block;\n  margin: 0 auto 20px auto;\n}\n\n\n/* COMMENTS ------------------------------------------------------------------*/\n#home-comments {\n  color: #052b53;\n  font-size: 30px;\n  line-height: 42px;\n  padding: 55px 0 85px 0;\n}\n\n#home-comments .container {\n  max-width: 1170px;\n}\n\n#home-comments .blockquote {\n  font-size: 30px;\n  line-height: 42px;\n}\n\n#home-comments p {\n  background: url(../images/home-comments-bq.png) no-repeat 0 0;\n  margin-top: 45px;\n  padding: 25px 10px 0 115px;\n}\n\n#home-comments h3,\n#home-comments h4 {\n  color: #0060ff;\n  font-size: 24px;\n  font-weight: 500;\n  line-height: 1;\n  margin-top: 25px;\n  padding-left: 115px;\n}\n\n#home-comments h4 {\n  color: #00b1ff;\n  margin-top: 10px;\n}\n\n#home-comments .img {\n  background: url(../images/home-comments-img-01.png) no-repeat 100% 0,\n              url(../images/home-comments-img-02.png) no-repeat 80px 100%;\n  padding: 45px 35px 60px 0;\n}\n\n#home-comments .img img {\n  -webkit-border-radius: 45px;\n  -moz-border-radius: 45px;\n  border-radius: 45px;\n}\n\n\n/* START ---------------------------------------------------------------------*/\n#home-start {\n  background: url(../images/home-start.png) no-repeat 50% 0;\n  background-size: 100% 100%;\n  font-size: 30px;\n  text-align: center;\n  color: #f7f7f7;\n  min-height: 484px;\n  padding: 80px 0 240px 0;\n}\n\n#home-start p {\n  max-width: 480px;\n  margin: 0 auto;\n}\n\n#home-start p + p {\n  color: #ffffff;\n  font-size: 21px;\n  font-weight: 300;\n  margin-top: 17px;\n}\n\n#home-start .btn-primary {\n  margin-top: 30px;\n}\n\n\n/* PLATFORM ------------------------------------------------------------------*/\n#home-platform {\n  padding-top: 15px;\n  padding-top: 0;\n  text-align: center;\n}\n\n#home-platform .container {\n  max-width: 1160px;\n}\n\n#home-platform h2 {\n  background: url(../images/hr.png) no-repeat 50% 100%;\n  color: #052b53;\n  font-size: 30px;\n  font-weight: 400;\n  text-align: center;\n  margin: 0 auto;\n  max-width: 590px;\n  padding-bottom: 25px\n}\n\n#home-platform img {\n  margin-top: 80px;\n}\n\n#home-platform h3 {\n  color: #052b53;\n  font-size: 18px;\n  font-weight: 400;\n  line-height: 1.33;\n  margin-top: 10px;\n  text-align: center;\n}\n\n#home-platform p {\n  font-size: 15px;\n  color: #617892;\n  line-height: 1.33;\n  margin: 0 auto;\n  max-width: 265px;\n}\n\n#home-platform .more {\n  background: url(../images/more.png) no-repeat 100% 50%;\n  color: #00b1ff;\n  display: inline-block;\n  font-size: 12px;\n  font-weight: 700;\n  letter-spacing: 0.5px;\n  line-height: 20px;\n  margin-top: 20px;\n  padding-right: 25px;\n  text-transform: uppercase;\n}\n\n\n/*\n--------------------------------------------------------------------------------\n  PAGE: ABOUT\n--------------------------------------------------------------------------------\n*/\n\n/* HERO ---------------------------------------------------------------------*/\n#about-hero {\n  background: url(../images/hero.svg) no-repeat 50% 0;\n  background-size: 100% 445px;\n  color: #fff;\n  font-size: 21px;\n  font-weight: 400;\n  line-height: 26px;\n  margin-bottom: 0;\n  padding-top: 115px;\n  padding-bottom: 0;\n  text-align: left;\n}\n\n#about-hero .article {\n  margin-top: 45px;\n  margin-left: 0;\n  max-width: 425px;\n}\n\n#about-hero .article h1 {\n  color: #f7f7f7;\n  font-size: 44px;\n  font-weight: 400;\n  margin-bottom: 25px;\n}\n\n#about-hero .article p {\n  margin: 0;\n  max-width: 506px;\n}\n\n\n/* OPTIMIZE ------------------------------------------------------------------*/\n#about-optimize {\n  color: #617892;\n  font-size: 21px;\n  line-height: 26px;\n  padding: 45px 0 35px 0;\n}\n\n#about-optimize h2 {\n  max-width: 420px;\n}\n\n#about-optimize p {\n  margin-bottom: 26px;\n  max-width: 506px;\n}\n\n\n/* NUMBERS -------------------------------------------------------------------*/\n#about-numbers {\n  background: url(../images/about-numbers.svg) no-repeat 50% 0;\n  background-size: 100% 100%;\n  color: #fff;\n  font-size: 21px;\n  line-height: 26px;\n  text-align: center;\n}\n\n#about-numbers > div {\n  background: url(../images/about-numbers-01.png) no-repeat 5% 50%,\n              url(../images/about-numbers-02.png) no-repeat 95% 50%;\n  padding-top: 105px; \n  padding-bottom: 0; \n  max-width: 1440px;\n  margin: 0 auto;\n}\n\n#about-numbers .container {\n  max-width: 1200px;\n}\n\n#about-numbers h2 {\n  color: #fff;\n  margin: 3px 0 37px;\n}\n\n#about-numbers ul {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  list-style: none outside none; \n  margin: 0;\n  padding: 0;\n  text-align: center;\n}\n\n#about-numbers ul li {\n  display: inline-block;\n  margin: 12px 0 15px 0;\n  padding: 0;\n  width: 25%;\n}\n\n#about-numbers h3 {\n  color: #fff;\n  font-size: 45px;\n  font-weight: 500;\n  margin: 10px 0 0 0;\n}\n\n#about-numbers p {\n  margin: 0;\n}\n\n\n/* FOUNDERS ------------------------------------------------------------------*/\n#about-founders {\n  color: #617892;\n  font-size: 21px;\n  margin: 0 auto;\n  max-width: 770px;\n  padding: 75px 0 80px 0;\n  text-align: center;\n}\n\n#about-founders h2 {\n  margin-bottom: 50px;\n}\n\n#about-founders ul {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  list-style: none outside none; \n  margin: 0;\n  padding: 0;\n  text-align: center;\n}\n\n#about-founders ul li {\n  display: inline-block;\n  margin: 0;\n  padding: 0 15px;\n  width: 50%;\n}\n\n#about-founders li h3 {\n  color: #fff;\n  margin-top: -60px;\n  text-align: center;\n}\n\n#about-founders p {\n  margin: 70px auto 0 auto;\n  max-width: 695px;\n}\n\n\n/* FAMILY --------------------------------------------------------------------*/\n#about-family {\n  background: url(../images/about-family.svg) no-repeat 50% 0;\n  background-size: 100% 100%;\n  color: #617892;\n  font-size: 21px;\n  padding: 80px 0 120px 0;\n  text-align: center;\n}\n\n#about-family h2 {\n  margin-bottom: 75px;\n}\n\n#about-family ul {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  list-style: none outside none; \n  margin: 0 0 83px 0;\n  padding: 0;\n  text-align: center;\n}\n\n#about-family li {\n  display: inline-block;\n  margin: 0;\n  padding: 0 35px;\n}\n\n#about-family li:nth-child(1) {\n  padding-left: 0;\n}\n\n#about-family li:nth-child(6) {\n  padding-right: 0;\n}\n\n#about-family .join {\n  color: #052b53;\n}\n\n#about-family .join a {\n  background: url(../images/more-orange.svg) no-repeat 100% 50%;\n  color: #ff9878;  \n  display: inline-block;\n  font-size: 15px;\n  font-weight: 700;\n  letter-spacing: 0.6px;\n  line-height: 26px;\n  margin-left: 10px; \n  padding-right: 30px;\n}\n\n\n/* OURPP ---------------------------------------------------------------------*/\n#about-ourpp {\n  color: #617892;\n  font-size: 21px;\n  padding-top: 65px;\n  text-align: center;\n}\n\n#about-ourpp h2 {\n  color: #052b53;\n  font-size: 30px;\n  margin-bottom: 15px;\n}\n\n#about-ourpp .purpose,\n#about-ourpp .promise {\n  min-height: 305px;\n  padding: 60px 0;\n}\n\n#about-ourpp .purpose {\n  background: url(../images/about-ourpp-purpose.svg) no-repeat 0 0;\n}\n\n#about-ourpp .promise {\n  background: url(../images/about-ourpp-promise.svg) no-repeat 100% 0;\n}\n\n#about-ourpp .purpose p {\n  margin: 0 auto;\n  max-width: 357px;\n}\n\n#about-ourpp .promise p {\n  margin: 0 auto;\n  max-width: 390px;\n}\n\n\n/*\n--------------------------------------------------------------------------------\n  PAGE: FUNCTIONALTIES\n--------------------------------------------------------------------------------\n*/\n\n/* HERO ---------------------------------------------------------------------*/\n#function-hero {\n  background: url(../images/hero.svg) no-repeat 50% 0;\n  background-size: 100% 440px;\n  color: #fff;\n  font-size: 19px;\n  font-weight: 300;\n  line-height: 26px;\n  margin-bottom: 50px;\n  max-height: none;\n  padding-top: 115px;\n  padding-bottom: 0;\n  text-align: center;\n}\n\n#function-hero .container {\n  max-width: 100%;\n  padding: 0 150px 0 100px;\n}\n\n#function-hero .article {\n  margin-top: 0;\n  max-width: none;\n}\n\n#function-hero .article h1 {\n  font-size: 38px;\n  margin-bottom: 0;\n}\n\n#function-hero .article p {\n  margin: 0;\n  max-width: none;\n}\n\n#function-hero .img {\n  margin-top: 40px;\n}\n\n#function-hero .btn {\n  font-size: 15px;\n  margin-top: -30px;\n  background-image: -webkit-linear-gradient(#00afff, #0060ff);\n  background-image: -o-linear-gradient(#00afff, #0060ff);\n  background-image: linear-gradient(#00afff, #0060ff);\n}\n\n\n/* TIME-OFF -------------------------------------------------------------------*/\n.function-timeoff {\n  padding: 100px 0; \n}\n\n#function-timeoff {\n  /*background: url(../images/function-timeoff-01.svg) no-repeat 50% 100%;\n  background-size: 100% auto;*/\n  padding-top: 70px;\n}\n\n.function-timeoff h2 {\n  background: url(../images/hr.svg) no-repeat 50% 100%;\n  color: #052b53;\n  font-size: 40px;\n  margin-bottom: 100px;\n  padding-bottom: 23px;\n  text-align: center;\n}\n\n#function-timeoff-2,\n#function-timeoff-4,\n#function-timeoff-6,\n#function-timeoff-8 {\n  background: url(../images/function-timeoff-bg.svg) no-repeat 50% 0;\n  background-size: 100% 100%;\n}\n\n.function-timeoff.last {\n  padding-bottom: 200px !important;\n  margin-bottom: -120px !important;\n}\n\n.function-timeoff .content {\n  color: #617892;\n  font-size: 21px;\n  line-height: 29px;\n  padding-top: 80px;\n}\n\n.function-timeoff .content h3 {\n  color: #052b53;\n  font-size: 30px;\n  margin-bottom: 30px;\n}\n\n.function-timeoff .content ul {\n  list-style: none outside none;\n  margin: 0;\n  padding: 0;\n}\n\n.function-timeoff .content ul li {\n  margin: 0;\n  padding: 0;\n  padding-left: 30px;\n}\n\n.function-timeoff .content ul li + li {\n  margin-top: 20px;\n}\n\n.function-timeoff .content ul li {\n  background: url(../images/function-timeoff-green.svg) no-repeat 0 6px;\n}\n\n.function-timeoff .content ul li:nth-child(5) {\n  background-image: url(../images/function-timeoff-green.svg);\n}\n\n.function-timeoff .content ul li:nth-child(2),\n.function-timeoff .content ul li:nth-child(6) {\n  background-image: url(../images/function-timeoff-purple.svg);\n}\n\n.function-timeoff .content ul li:nth-child(3),\n.function-timeoff .content ul li:nth-child(7) {\n  background-image: url(../images/function-timeoff-orange.svg);\n}\n\n.function-timeoff .content ul li:nth-child(4),\n.function-timeoff .content ul li:nth-child(8) {\n  background-image: url(../images/function-timeoff-blue.svg);\n}\n\n\n/* SUCCESS ---------------------------------------------------------------------*/\n#function-success {\n  background: url(../images/function-success.svg) no-repeat 50% 0;\n  background-size: 100% 100%;\n  color: #fff;\n  font-size: 28px;\n  padding: 110px 0 70px 0;\n  text-align: center;\n}\n\n#function-success .container {\n  max-width: 1120px;\n}\n\n#function-success h2 {\n  color: #fff;\n  font-size: 30px;\n  margin-bottom: 0;\n}\n\n#function-success .success {\n  max-width: 544px;\n}\n\n#function-success .success-l {\n  background: url(../images/function-success-l.svg) no-repeat 0 0;\n  background-size: auto 100%; \n  margin-right: auto;\n  padding: 83px 64px 107px 124px;\n}\n\n#function-success .success-r {\n  background: url(../images/function-success-r.svg) no-repeat 100% 0;\n  background-size: auto 100%; \n  margin-left: auto;\n  padding: 83px 124px 107px 64px;\n}\n\n#function-success .success p {\n  margin-bottom: 0;\n}\n\n#function-success .success p b {\n  font-size: 40px;\n  font-weight: 500;\n}\n\n#function-success .footer {\n  font-size: 21px;\n  margin-top: -21px;\n}\n\n#function-success .footer p {\n  line-height: 1;\n  margin-bottom: 25px;\n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=58)\";\n  filter: alpha(opacity=58);\n  opacity: 0.58;\n}\n\n#function-success .footer .btn {\n}\n\n\n/* OTHERS ---------------------------------------------------------------------*/\n#function-others {\n  padding-top: 92px;\n}\n\n#function-others .row {\n  margin-left: -23px;\n  margin-right: -23px;\n}\n\n#function-others .row .col-lg-6 {\n  padding-left: 23px;\n  padding-right: 23px;\n}\n\n#function-others h2 {\n  background: url(../images/hr.svg) no-repeat 50% 100%;\n  color: #052b53;\n  font-size: 40PX;\n  line-height: 1.33;\n  margin-bottom: 90px;\n  padding-bottom: 25px;\n  text-align: center;\n}\n\n#function-others .content {\n  background: url(../images/function-others.svg) no-repeat 0 0;\n  background-size: 100% 100%;\n  color: #617892;\n  font-size: 14px;\n  line-height: 1.43;\n  margin-top: 46px;\n  padding: 40px;\n\n  -webkit-border-radius: 11px;\n  -moz-border-radius: 11px;\n  border-radius: 11px;\n}\n\n#function-others .content:hover {\n  -webkit-box-shadow: 0 4px 38px 0 #00b1ff42; \n  box-shadow: 0 4px 38px 0 #00b1ff42; \n}\n\n#function-others .row .col-lg-6:nth-child(1) .content, \n#function-others .row .col-lg-6:nth-child(2) .content {\n  margin-top: 0;\n}\n\n#function-others .content .img {\n  float: left;\n}\n\n#function-others .content .text {\n  margin-left: 100px; \n}\n\n#function-others .content h3 {\n  color: #052b53;\n  font-size: 18px;\n  line-height: 24px;\n}\n\n#function-others .content .more {\n  background: url(../images/more.svg) no-repeat 100% 50%;\n  color: #00b1ff;\n  display: inline-block;\n  font-size: 12px;\n  font-weight: 500;\n  letter-spacing: 0.5px;\n  line-height: 20px;\n  padding-right: 30px;\n  text-transform: uppercase;\n}\n\n\n/*\n--------------------------------------------------------------------------------\n  PAGE: PRICING\n--------------------------------------------------------------------------------\n*/\n\n/* HERO ---------------------------------------------------------------------*/\n#pricing-hero {\n  background-size: 100% 100%;\n  color: #fff;\n  font-size: 21px;\n  font-weight: 300;\n  line-height: 1.21;\n  margin-bottom: 50px;\n  height: 490px;\n  padding-top: 80px;\n  padding-bottom: 0;\n  text-align: center;\n}\n\n#pricing-hero .container {\n  padding: 0 15px;\n}\n\n#pricing-hero .article {\n  margin: 25px auto 0 auto;\n  padding: 0;\n  max-width: 475px;\n}\n\n#pricing-hero h1 {\n  margin-bottom: 10px;\n}\n\n#pricing-hero p {\n  margin-left: auto;\n  margin-right: auto;\n  max-width: 360px;\n}\n\n\n/* PRICING ---------------------------------------------------------------------*/\n\n#pricing {\n  /*background: url(../images/pricing.svg) no-repeat 50% 100%;\n  background-size: 100% 250px;*/\n  background: url(../images/pricing-l.svg) no-repeat 5% 350px,\n              url(../images/pricing-r.svg) no-repeat 95% 350px;\n  /*border-bottom: 1px solid #d6f0fc;*/\n  margin-top: -245px;\n  /*padding-bottom: 110px;*/\n  text-align: center;\n}\n\n#pricing > .footer {\n  background: url(../images/pricing.svg) no-repeat 50% 100%;\n  background-size: 100% auto;\n  height: 100px;\n}\n\n#pricing .container {\n  max-width: 910px;\n}\n\n#pricing.collapse:not(.show),\n#pricing.collapse.show {\n  display: block !important;\n}\n\n#pricing.collapsing {\n  height: auto !important;\n}\n\n#pricing .panel-more {\n  display: none;\n}\n\n#pricing.show .panel-more {\n  display: block;\n}\n\n#pricing.collapsing .more,\n#pricing.show .more {\n  display: none;\n}\n\n#pricing.show .panel-more .more {\n  display: inline-block;\n}\n\n#pricing .panel {\n  background: #fff;\n  color: #617892;\n  padding: 25px 40px;\n  margin-left: auto;\n  margin-right: auto;\n  max-width: 392px;\n  border-radius: 25px;\n  box-shadow: 0 3px 6px 0 #00000019, 0 3px 6px 0 #00000019;\n}\n\n#pricing .panel-enterp {\n  box-shadow: 0 3px 31px 0 #00000016, 0 3px 31px 0 #00000012; \n}\n\n#pricing .panel h2 {\n  color: #052b53;\n  font-size: 35px;\n  font-weight: 500;\n  line-height: 1;\n  margin-top: 5px;\n  margin-bottom: 25px;\n}\n\n#pricing .panel .h2 {\n  display: none;\n}\n\n#pricing .panel .price {\n  font-size: 16px;\n  font-weight: 300;\n  line-height: 1.38;\n}\n\n#pricing .panel .price b {\n  display: block;\n  font-size: 67px;\n  font-weight: 300;\n  line-height: 0.79;\n  margin-bottom: 10px;\n}\n\n#pricing .panel .btn {\n  font-size: 15px;\n  letter-spacing: 1px;\n  line-height: 40px;\n  margin-top: 25px;\n  margin-bottom: 30px;\n  padding: 0 50px;\n}\n\n#pricing .panel .btn-outline-primary {\n  background: #fff;\n  border: 2px solid #00b1ff;  \n  color: #00b1ff;\n  line-height: 36px;\n  padding: 0 48px;\n}\n\n#pricing .panel .btn-primary {\n  background-image: -webkit-linear-gradient(#00afff, #0060ff);\n  background-image: -o-linear-gradient(#00afff, #0060ff);\n  background-image: linear-gradient(#00afff, #0060ff);\n}\n\n#pricing .panel h3 {\n  color: #00b1ff;\n  font-size: 14px;\n  font-weight: 600;\n  padding-right: 20px;\n  margin-bottom: 20px;\n}\n\n#pricing .panel li {\n  text-align: left;\n}\n\n#pricing .features {\n  background: url(../images/pricing-features.svg) no-repeat 0 0;\n  background-size: 100% 100%;\n  margin: 0 -40px;\n  margin-bottom: 25px;\n  padding: 50px 20px 40px 40px; \n}\n\n#pricing .features ul {\n  list-style: none outside none; \n  margin: 0;\n  padding: 0;\n}\n\n#pricing .features ul li {\n  font-size: 18px;\n  line-height: 40px;\n  padding: 0;\n}\n\n#pricing .features ul li + li {\n  margin-top: 5px; \n}\n\n#pricing .features ul li:before {\n    display: block;\n    background: url(\"../images/pricing-features-li.svg\") no-repeat 50% 50%;\n    content: \"\";\n    float: left;\n    height: 40px;\n    margin-right: 10px;\n    width: 40px;\n}\n\n#pricing .more {\n  background: url(../images/more.svg) no-repeat 100% 50%; \n  color: #00b1ff;\n  display: inline-block;\n  font-size: 12px;\n  font-weight: 500;\n  letter-spacing: 0.5px;\n  line-height: 20px;\n  padding-right: 30px;\n}\n\n#pricing .more:hover {\n  text-decoration: none;\n}\n\n#pricing .panel-more {\n  margin: 0 auto;\n  max-width: 260px;\n  padding-bottom: 15px;\n}\n\n#pricing .panel-more ul,\n#pricing .panel-more ul li {\n  list-style: none outside none; \n  margin: 0;\n  padding: 0;\n}\n\n#pricing .panel-more .section {\n  border-top: 2px solid #f2f1f1;\n  font-size: 12px;\n  font-weight: 300;\n  line-height: 1.5;\n  letter-spacing: -0.2px;\n  margin-top: 25px;\n  margin-bottom: 10px;\n  padding-top: 25px;\n  padding-left: 10px;\n  text-align: left;\n}\n\n#pricing .panel-more .section:first-of-type {\n  border: none;\n  margin-top: 0;\n}\n\n#pricing .panel-more .section h4 {\n  color: #617892;\n  font-size: 12px;\n  font-weight: 500;\n  letter-spacing: -0.2px;\n}\n\n#pricing .panel-more .section li:before {\n  content: \"· \";\n}\n\n#pricing .panel-more .disable,\n#pricing .panel-more .disable h4 {\n  color: #61789240;\n}\n\n\n/* NUMBERS -------------------------------------------------------------------*/\n#about-numbers.pricing {\n  background: url(../images/pricing-numbers.svg) no-repeat 50% 0;\n  background-size: 100% 101%; /*y*/\n  color: #0060ff;\n  margin-bottom: -205px;\n  padding-bottom: 175px;\n}\n\n#about-numbers.pricing > div {\n  background: url(../images/pricing-numbers-l.svg) no-repeat 5% 80%, \n              url(../images/pricing-numbers-r.svg) no-repeat 95% 80%;\n}\n\n#about-numbers.pricing h2 {\n  color: #000;\n}\n\n#about-numbers.pricing h3 {\n  color: #0060ff;\n}\n\n\n/*\n--------------------------------------------------------------------------------\n  PAGE: CLIENTS\n--------------------------------------------------------------------------------\n*/\n\n/* HERO ----------------------------------------------------------------------*/\n#clients-hero {\n  padding-bottom: 140px;\n}\n\n#clients-hero .article {\n  max-width: 630px;\n}\n\n#clients-hero p {\n  max-width: 390px;\n}\n\n#clients-hero .img {\n  margin-top: 70px;\n}\n\n\n\n/* CLIENTS -------------------------------------------------------------------*/\n#clients {\n  margin-bottom: 100px;\n}\n\n#clients h2 {\n  color: #052b53;\n  font-size: 30px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 30px;\n  max-width: 425px;\n  text-align: center;\n}\n\n/* NAV -------------------------------*/\n#clients ul.nav {\n  display: block;\n  list-style: none outside none;\n  margin-bottom: 35px;\n  text-align: center;\n}\n\n#clients .nav li {\n  display: inline-block;\n  list-style: none outside none;\n}\n\n#clients .nav li + li {\n  margin-left: 30px;\n}\n\n#clients .nav a {\n  background: url(../images/clients-right.svg) no-repeat 98% 50%;\n  color: #d8d8d8;\n  display: inline-block;\n  font-size: 12px;\n  font-weight: 400;\n  letter-spacing: 0.5px;\n  line-height: 20px;\n  margin: 0;\n  padding: 0 30px 0 0;\n}\n\n#clients .nav a:hover,\n#clients .nav a.active {\n  background-image: url(../images/clients-down.svg);\n  color: #00b1ff;\n  text-decoration: none;\n}\n\n/* IMG -------------------------------*/\n#clients .img img {\n  -webkit-border-radius: 25px;\n  -moz-border-radius: 25px;\n  border-radius: 25px;\n}\n\n/* ROWS -------------------------------*/\n#clients .row {\n  margin-top: -60px;\n  margin-left: auto;\n  margin-right: auto;\n  max-width: 730px;\n}\n\n#clients .row .col-lg-6 {\n  padding: 0 20px;\n}\n\n/* PANEL -------------------------------*/\n#clients .panel {\n  background-color: #fff;\n  border: solid 2px #00b1ff;;\n  color: #617892;\n  font-size: 15px;\n  height: 100%;\n  line-height: 1.2;\n  margin-left: auto;\n  margin-right: auto;\n  padding: 30px;\n\n  box-shadow: 0 3px 6px 0 #00000019, 0 3px 6px 0 #00000019; \n  \n  -webkit-border-radius: 25px;\n  -moz-border-radius: 25px;\n  border-radius: 25px; \n}\n\n#clients .panel.disable {\n  border-color: #617892;\n}\n\n#clients .panel h3 {\n  color: #052b53;\n  font-size: 21px;\n  font-weight: 500;\n  line-height: 1.14;\n  margin-bottom: 10px;\n}\n\n#clients .panel p {\n  margin: 0;\n}\n\n#clients .panel ul {\n  list-style: none outside none;\n  margin: 40px 0 0 0;\n  padding: 0;\n}\n\n#clients .panel ul li {\n  background: url(\"../images/clients-check.svg\") no-repeat -14px -12px;\n  list-style: none outside none;\n  margin: 0;\n  padding: 0 0 15px 50px;\n}\n\n#clients .panel.disable ul li {\n  background-image: url(\"../images/clients-check-disable.svg\");\n}\n\n\n/* CLIENTS-TEAMS -------------------------------------------------------------*/\n#clients-teams {\n  background: url(../images/clients-teams.svg) no-repeat 50% 0;\n  background-size: 100% 100%;\n  padding: 130px 0 100px 0;\n}\n\n#clients-teams h2 {\n  background: url(../images/hr.svg) no-repeat 50% 100%;\n  color: #ffffff;\n  font-size: 30px;\n  margin-bottom: 60px;\n  padding-bottom: 30px;\n  text-align: center;\n}\n\n#clients-teams .row {\n  border: 1px solid #fff;\n  margin-right: 0;\n  margin-left: 0;\n  -webkit-border-radius: 25px;\n  -moz-border-radius: 25px;\n  border-radius: 25px;\n}\n\n#clients-teams .row .col-lg-4 {\n  padding: 0;\n}\n\n#clients-teams .team {\n  border-top: 1px solid #fff;\n  color: #cecece;\n  font-size: 14px;\n  height: 100%;\n  line-height: 19px;\n  letter-spacing: -0.5px;\n  padding: 25px 30px 80px 30px;\n  position: relative;\n}\n\n#clients-teams .row .col-lg-4:nth-child(1) .team,\n#clients-teams .row .col-lg-4:nth-child(2) .team,\n#clients-teams .row .col-lg-4:nth-child(3) .team {\n  border-top: none;\n}\n\n#clients-teams .row .col-lg-4:nth-child(1) .team,\n#clients-teams .row .col-lg-4:nth-child(2) .team,\n#clients-teams .row .col-lg-4:nth-child(4) .team,\n#clients-teams .row .col-lg-4:nth-child(5) .team {\n  border-right: 1px solid #fff;\n}\n\n#clients-teams .team .img {\n  height: 40px;\n}\n\n#clients-teams .team .b {\n  position: absolute;\n  left: 0;\n  right: 0;\n  bottom: 25px;\n  padding: 0 30px;\n}\n\n#clients-teams .team h5,\n#clients-teams .team h6 {\n  color: #617892;\n  font-size: 14px;\n  font-weight: 500;\n  line-height: 1.43;\n  letter-spacing: -0.5px;\n  margin: 0;\n}\n\n#clients-teams .team h5 {\n  color: #fff;\n}\n\n#clients-teams .footer {\n  margin-top: 70px;\n  text-align: center;\n}\n\n#clients-teams .footer .btn-primary {\n}\n\n\n/* CLIENTS-PRESS -------------------------------------------------------------*/\n#clients-press {\n  background: url(../images/clients-press.svg) no-repeat 50% 100%;\n  padding-top: 80px;\n  padding-bottom: 140px;\n}\n\n#clients-press .carousel {\n  \n}\n\n#clients-press .carousel-indicators {\n  display: block;\n  margin-bottom: 50px;\n  position: static;\n  display: block;\n  text-align: center;\n  padding-left: 0;\n  margin-right: 0;\n  margin-left: 0;\n  list-style: none;\n}\n\n#clients-press .carousel-indicators li {\n  display: inline-block;\n  width: auto;\n  height: auto;\n  margin-right: 25px;\n  margin-left: 25px;\n  text-indent: 0;\n  background-color: none;\n  border: none;\n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";\n  filter: alpha(opacity=100);\n  opacity: 1;\n}\n\n#clients-press .carousel-indicators li .img-active,\n#clients-press .carousel-indicators li.active .img {\n  display: none;\n}\n\n#clients-press .carousel-indicators li .img,\n#clients-press .carousel-indicators li.active .img-active {\n  display: block;\n}\n\n#clients-press .carousel-indicators li.active {\n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";\n  filter: alpha(opacity=100);\n  opacity: 1;\n}\n\n#clients-press .carousel-item {\n  color: #617892;\n  font-size: 15px;\n  line-height: 1.53;\n  letter-spacing: -0.6px;\n  padding-left: 60px;\n  padding-right: 60px;\n  text-align: center;\n}\n\n#clients-press .carousel-control-prev, \n#clients-press .carousel-control-next {\n  background: url(../images/clients-press-prev.svg) no-repeat 0 75%;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: auto;\n  z-index: 1;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n  align-items: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  width: 60px;\n  color: #fff;\n  text-align: center;\n  \n  filter: alpha(opacity=100);\n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";\n  filter: alpha(opacity=100);\n  opacity: 1;\n\n  transition: opacity 0.6s ease;\n  transition: opacity 0.15s ease;\n}\n\n#clients-press .carousel-control-next {\n  background: url(../images/clients-press-next.svg) no-repeat 100% 75%;\n  position: absolute;\n  left: auto;\n  right: 0;\n}\n\n#clients-press .carousel-control-prev:hover, \n#clients-press .carousel-control-prev:focus, \n#clients-press .carousel-control-next:hover, \n#clients-press .carousel-control-next:focus {\n  outline: 0;\n  filter: alpha(opacity=100);\n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";\n  filter: alpha(opacity=100);\n  opacity: 1;\n}\n\n/*\n--------------------------------------------------------------------------------\n  FOOTER\n--------------------------------------------------------------------------------\n*/\n\n/* DEMO ----------------------------------------------------------------------*/\n#demo {\n  color: #f7f7f7;\n  font-size: 30px;\n  max-width: 1010px;\n  margin: -180px auto 100px auto;\n  min-height: 215px;\n  padding: 30px 70px;\n  text-align: center;\n  \n  background: -moz-linear-gradient(top, #00b1ff 0%, #0060ff 100%);\n  background: -webkit-linear-gradient(top, #00b1ff 0%, #0060ff 100%);\n  background: linear-gradient(top, #00b1ff 0%, #0060ff 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b1ff', endColorstr='#0060ff',GradientType=0 );\n  \n  -webkit-border-radius: 47px;\n  -moz-border-radius: 47px;\n  border-radius: 47px;\n}\n\n#demo table,\n#demo tbody,\n#demo tr {\n  display: block;\n  margin: 0;\n  width: 100%;\n}\n\n#demo td {\n  border: none;\n  padding: 0;\n  vertical-align: middle;\n}\n\n#demo td:nth-child(1) {\n  min-width: 160px;\n}\n\n#demo td:nth-child(3) {\n  width: auto;\n  max-width: 100%;\n  white-space: nowrap;\n}\n\n#demo i {\n  background: url(../images/footer-demo.svg) no-repeat 50% 50%;\n  background-size: contain;\n  display: inline-block;\n  width: 160px;\n  height: 146px;\n}\n\n#demo p {\n  color: #fff;\n  display: inline-block;\n  margin: 0 40px;\n}\n\n#footer #demo .btn-primary {\n  display: inline-block;\n  font-size: 15px;\n  line-height: 20px;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  width: auto;\n  background-image: -webkit-linear-gradient(#edf9ff80, #00b1ff80);\n  background-image: -o-linear-gradient(#edf9ff80, #00b1ff80);\n  background-image: linear-gradient(#edf9ff80, #00b1ff80);\n}\n\n/* TOP -----------------------------------------------------------------------*/\n#footer .top {\n  background: url(../images/footer.svg) no-repeat 50% 0;\n  background-size: 100% 101%; /*y*/\n  padding: 100px 0 75px 0;\n}\n\n#footer .top .container:first-child {\n  padding-bottom: 80px;\n}\n\n#footer .top .container .row {\n  /*margin-top: 50px;*/\n}\n\n#footer .navbar-brand {\n  color: #0060ff;\n  font-size: 38px;\n  line-height: 1;\n  margin-bottom: 80px;\n  padding: 0;\n}\n\n#footer .btn-light {\n  font-size: 13px;\n  margin-bottom: 20px;\n  width: 161px;\n\n  -webkit-box-shadow: 0 10px 20px 0 rgba(0,96,255,0.23);\n  box-shadow: 0 10px 20px 0 rgba(0,96,255,0.23);\n}\n\n#footer .btn-primary {\n  font-size: 13px;\n  width: 161px;\n  background: #0060ff;\n  background: -moz-linear-gradient(top, rgba(0,175,255,1) 0%, rgba(0,96,255,1) 100%);\n  background: -webkit-linear-gradient(top, rgba(0,175,255,1) 0%,rgba(0,96,255,1) 100%);\n  background: linear-gradient(to bottom, rgba(0,175,255,1) 0%,rgba(0,96,255,1) 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000afff', endColorstr='#800060ff',GradientType=0 );\n  \n  -webkit-box-shadow: 0 10px 20px 0 rgba(0,96,255,0.23);\n  box-shadow: 0 10px 20px 0 rgba(0,96,255,0.23);\n}\n\n#footer ul {\n  list-style: none outside none;\n  margin: 0;\n  padding: 0;\n}\n\n#footer ul li {\n  margin: 0;\n  padding: 0;\n}\n\n\n/* SOCIAL --------------------------------------------------------------------*/\n#footer .social {\n  margin-top: 80px;\n}\n\n#footer .social ul {\n  list-style: none outside none;\n}\n\n#footer .social li {\n  display: inline-block;\n}\n\n#footer .social li + li {\n  margin-left: 12px;\n  margin-left: 5px;\n}\n\n#footer .social a {\n  background: #697f97;\n  color: #fff;\n  font-size: 18px;\n  line-height: 32px;\n  text-align: center;\n  width: 32px;\n\n  -webkit-border-radius: 50%;\n  -moz-border-radius: 50%;\n  border-radius: 50%;\n}\n\n#footer .social a:hover {\n  text-decoration: none;\n}\n\n\n/* NAV ----------------------------------------------------------------------*/\n#footer .nav {\n  font-size: 14px;\n  line-height: 28px;\n}\n\n#footer .nav .carreers a {\n  background: url(../images/footer-carreers.png) no-repeat 100% 50%;\n  display: inline-block;\n  padding-right: 25px;\n}\n\n#footer .nav a {\n  color: rgba(17, 51, 91, 0.62);\n}\n\n#footer .nav h6 {\n  font-weight: 700;\n  text-transform: uppercase;\n}\n\n#footer .nav > div:nth-child(1) h6  {\n  color: #00b1ff;\n}\n\n#footer .nav > div:nth-child(2) h6  {\n  color: #4cd964;\n}\n\n#footer .nav > div:nth-child(3) h6  {\n  color: #0060ff;\n}\n\n#footer .nav > div:nth-child(4) h6  {\n  color: #7537ff;\n}\n\n\n/* NEWSLETTER ----------------------------------------------------------------*/\n#footer .newsletter {\n  margin-top: 45px;\n  max-width: 350px;\n}\n\n#footer .newsletter label {\n  color: #ff9878;\n  font-size: 14px;\n  font-weight: 700;\n  line-height: 1;\n  margin-bottom: 20px;\n  text-transform: uppercase;\n}\n\n#footer .newsletter .form-control {\n  border-color: #d8d8d8;\n  font-size: 12px;\n  line-height: 32px;\n  padding: 0;\n  padding-left: 20px;\n  border-radius: 16px 0 0 16px;\n}\n\n#footer .newsletter .btn {\n  color: #fff;\n  font-size: 12px;\n  font-weight: 500;\n  line-height: 30px;\n  padding: 0 20px;\n  \n  -webkit-border-radius: 0 15px 15px 0;\n  -moz-border-radius: 0 15px 15px 0;\n  border-radius: 0 15px 15px 0;\n  \n  box-shadow: 0 10px 20px 0 rgba(0, 96, 255, 0.23);\n  background-image: linear-gradient(to bottom, #00b1ff, #0060ff);\n}\n\n\n/* ISO -----------------------------------------------------------------------*/\n#footer .iso {\n  margin-top: 45px;\n  text-align: right;\n}\n\n\n/* BOTTOM --------------------------------------------------------------------*/\n#footer .bottom {\n  background: url(../images/footer-b.svg) no-repeat 50% 0;\n  background-size: 100% 100%;\n  color: rgba(17, 51, 91, 0.62);\n  font-family: 'PT Sans', sans-serif;\n  font-size: 10px;\n  font-weight: 400;\n  line-height: 12px;\n  margin-top: -35px;\n  padding: 100px 0 60px 0;\n  text-align: left;\n}\n\n\n/* COPYRIGHT -----------------------------------------------------------------*/\n#footer .copyright {\n  padding-top: 15px;\n}\n\n#footer .copyright ul {\n  list-style: none outside none;\n  margin: 1px 0 0 0;\n  padding: 0;\n}\n\n#footer .copyright ul li {\n  display: inline-block;\n  margin: 0;\n  padding: 0;\n}\n\n#footer .copyright li + li::before {\n  content: \" / \";\n  color: rgba(17, 51, 91, 0.62);\n  \n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)\";\n  filter: alpha(opacity=50);\n  opacity: 0.50;\n}\n\n#footer .copyright a {\n  color: rgba(17, 51, 91, 0.62);\n  \n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)\";\n  filter: alpha(opacity=50);\n  opacity: 0.50;\n}\n\n#footer .copyright a:hover {\n  -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";\n  filter: alpha(opacity=100);\n  opacity: 1;\n}\n\n\n/* APK -----------------------------------------------------------------------*/\n#footer .apk {\n  text-align: right;\n}\n\n#footer .apk ul {\n  list-style: none outside none;\n  margin: 1px 0 0 0;\n  padding: 0;\n}\n\n#footer .apk ul li {\n  display: inline-block;\n  margin: 0;\n  padding: 0;\n}\n\n#footer .apk li + li {\n  margin-left: 10px;\n}\n\n#footer .google-play,\n#footer .app-store {\n  display: inline-block;\n  height: 40px;\n  width: 114px;\n}\n\n#footer .google-play {\n  background: url(../images/footer-google-play.png) no-repeat 50% 50%;\n}\n\n#footer .app-store {\n  background: url(../images/footer-app-store.png) no-repeat 50% 50%;\n}",
 			"file": "css/style.css",
-			"file_size": 49174,
-			"file_write_time": 132038100250848199,
 			"settings":
 			{
-				"buffer_size": 46768,
+				"buffer_size": 54326,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -301,7 +340,7 @@
 			"file": "css/style-responsive.css",
 			"settings":
 			{
-				"buffer_size": 17829,
+				"buffer_size": 21787,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -384,6 +423,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"300px",
+			"185px",
+			";\n",
 			"typewrite",
 			"border none;",
 			"timeoff",
@@ -476,7 +518,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -485,46 +527,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21658,
+						"buffer_size": 22653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20709,
-								20709
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5522.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16516,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								236
+								13075,
+								13075
 							]
 						],
 						"settings":
@@ -539,10 +550,45 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2831.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15573,
+								15891
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								80
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4508.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -551,15 +597,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19577,
+						"buffer_size": 19072,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1980,
-								1980
+								18115,
+								18434
 							]
 						],
 						"settings":
@@ -569,10 +615,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5573.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -581,15 +627,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23987,
+						"buffer_size": 24291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1972,
-								1972
+								24273,
+								24273
 							]
 						],
 						"settings":
@@ -600,10 +646,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6992.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -612,15 +658,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29462,
+						"buffer_size": 29489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1972,
-								1972
+								28849,
+								28849
 							]
 						],
 						"settings":
@@ -631,27 +677,27 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2537.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "base.html",
+					"file": "contact.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13710,
+						"buffer_size": 12626,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1969,
-								1969
+								11986,
+								11986
 							]
 						],
 						"settings":
@@ -661,10 +707,74 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 3525.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "carreers.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								80
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13056,
+								13056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3737.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -674,20 +784,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 46768,
+						"buffer_size": 54326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3327,
-								3327
+								101,
+								140
 							]
 						],
 						"settings":
@@ -701,44 +811,49 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1428.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "css/style-responsive.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17829,
+						"buffer_size": 21787,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3039,
-								3039
+								21634,
+								21787
 							]
 						],
 						"settings":
 						{
+							"rulers":
+							[
+								80
+							],
+							"spell_check": false,
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1713.0,
+						"translation.y": 15099.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "assets/bootstrap/4.3.1/css/bootstrap.css",
 					"semi_transient": false,
 					"settings":
@@ -764,7 +879,7 @@
 						"translation.y": 1170.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -846,7 +961,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
