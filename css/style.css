@@ -2329,6 +2329,7 @@ img {
   list-style: none outside none;
   margin: 0;
   padding: 0;
+  width: 100%;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
@@ -2336,36 +2337,39 @@ img {
 }
 
 #carreers .positions ul li {
+  display: table;
   list-style: none outside none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  width: 100%;
 }
 
-#carreers .positions ul li + li {
+#carreers .positions ul li + li a strong {
   border-top: 2px solid rgba(0, 177, 255, 0.2);
 }
 
 #carreers .positions ul a {
   color: #052b53;
-  display: block;
+  display: table-row;
+}
+
+#carreers .positions ul a:hover,
+#carreers .positions ul a:focus {
+  text-decoration: none;
 }
 
 #carreers .positions ul strong {
   font-weight: 300;
-  display: block;
-  float: left;
-  height: 100%;
+  display: table-cell;
   padding: 15px 0;
   padding-left: 45px;
   width: 62%;
 }
 
 #carreers .positions ul strong + strong {
-  background: url(../images/icon-location.svg) no-repeat 40px 50%,
-              url(../images/icon-right.svg) no-repeat 90% 50%;
+  background: url(../images/icon-location.svg) no-repeat 40px 20px,
+              url(../images/icon-right.svg) no-repeat 90% 20px;
   border-left: 2px solid rgba(0, 177, 255, 0.2);
-  height: 100%;
   padding-left: 65px;
   padding-right: 80px;
   width: 38%;

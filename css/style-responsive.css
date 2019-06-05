@@ -1073,10 +1073,13 @@
   display: none;
 }
 
-#carreers .positions ul strong {
+#carreers .positions ul li a {
   background: url(../images/icon-right.svg) no-repeat 93% 50%;
+}
+
+#carreers .positions ul a strong {
   padding-left: 20px;
-  padding-right: : 20px;
+  padding-right: 45px;
   width: 100%;
 }
 
