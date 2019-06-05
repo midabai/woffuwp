@@ -278,7 +278,8 @@ img {
   display: block;
 }
 
-#header > nav .dropdown .dropdown-menu {
+#header > nav .dropdown .dropdown-menu,
+#header > nav .dropdown .sub-menu {
   background: #006cff;
   min-width: 250px;
   padding: 15px  20px;
@@ -288,10 +289,13 @@ img {
   box-shadow: 0 3px 31px 0 #00000016, 0 3px 31px 0 #00000012;
 }
 
-#header.affix  > nav .dropdown .dropdown-menu {
+#header.affix  > nav .dropdown .dropdown-menu,
+#header.affix  > nav .dropdown .sub-menu {
   background: #fff;
 }
 
+#header > nav .dropdown .submenu,
+#header > nav .dropdown .sub-menu li,
 #header > nav .dropdown .dropdown-menu ul,
 #header > nav .dropdown .dropdown-menu ul li {
   display: block;
@@ -300,7 +304,8 @@ img {
   padding: 0;
 }
 
-#header > nav .dropdown .dropdown-menu a {
+#header > nav .dropdown .dropdown-menu a,
+#header > nav .dropdown .sub-menu a {
   color: #f7f7f7;
   display: block;
   font-size: 13px;
@@ -311,7 +316,8 @@ img {
   padding: 0; 
 }
 
-#header.affix  > nav .dropdown .dropdown-menu a {
+#header.affix  > nav .dropdown .dropdown-menu a,
+#header.affix  > nav .dropdown .sub-menu a {
   color: #617892;
 }
 
@@ -576,7 +582,7 @@ img {
 
 #home-client .process ul {
   list-style: none outside none;
-  margin: 0 75px 0 80px;
+  margin: 0 15px 0 55px;
   padding: 0;
   text-align: left;
 }
@@ -616,7 +622,7 @@ img {
   font-weight: 500;
   font-style: italic;
   line-height: 30px;
-  margin-top: 25px;
+  margin-top: 15px;
   padding: 0 15px 15px 15px;
   
   -webkit-border-radius: 5px;
@@ -730,11 +736,11 @@ img {
 #home-hr .saving li {
   background: url(../images/home-hr-saving.png) no-repeat 50% 50%;
   color: #f7f7f7;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 18px;
   margin: 0;
   height: 180px;
-  padding: 40px;
+  padding: 36px;
   text-align: center;
   width: 180px;
   
@@ -760,7 +766,7 @@ img {
 #home-hr .saving li b,
 #home-hr .saving li strong {
   display: block;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 40px;
 }
@@ -1555,20 +1561,11 @@ img {
 /* PRICING ---------------------------------------------------------------------*/
 
 #pricing {
-  /*background: url(../images/pricing.svg) no-repeat 50% 100%;
-  background-size: 100% 250px;*/
   background: url(../images/pricing-l.svg) no-repeat 5% 350px,
               url(../images/pricing-r.svg) no-repeat 95% 350px;
-  /*border-bottom: 1px solid #d6f0fc;*/
   margin-top: -245px;
-  /*padding-bottom: 110px;*/
+  padding-bottom: 60px;
   text-align: center;
-}
-
-#pricing > .footer {
-  background: url(../images/pricing.svg) no-repeat 50% 100%;
-  background-size: 100% auto;
-  height: 100px;
 }
 
 #pricing .container {
@@ -1603,12 +1600,12 @@ img {
 
 #pricing .panel {
   background: #fff;
+  border-radius: 25px;
   color: #617892;
-  padding: 25px 40px;
   margin-left: auto;
   margin-right: auto;
   max-width: 392px;
-  border-radius: 25px;
+  padding: 25px 40px;
   box-shadow: 0 3px 6px 0 #00000019, 0 3px 6px 0 #00000019;
 }
 
@@ -2292,88 +2289,86 @@ img {
 #carreers .intro {
   background: url(../images/hr.svg) no-repeat 50% 100%;
   font-size: 15px;
-  line-height: 1.4;
+  line-height: 20px;
   margin: 0 auto 45px auto;
   max-width: 606px;
   padding-bottom: 25px;
   text-align: center;
 }
 
-#carreers .labels, 
-#carreers .positions { 
-  margin-left: 0;
-  margin-right: 0;
-}
-
-#carreers .labels > div , 
-#carreers .positions > div { 
-  padding-left: 0;
-  padding-right: 0;
-}
-
-
-#carreers .labels,
-#carreers .labels .position,
-#carreers .labels .location {
+#carreers .positions {
   color: #052b53;
   font-size: 15px;
+  line-height: 1.6;
+}
+
+#carreers .positions .labels {
+  overflow: hidden;
+  padding: 15px 0;
+}
+
+#carreers .positions .labels strong {
+  float: left;
+  padding-left: 45px;
+  width: 62%;
+}
+
+#carreers .positions .labels strong + strong {
+  float: right;
+  padding-left: 40px;
+  width: 38%;
+}
+
+#carreers .positions .labels,
+#carreers .positions .labels strong {
   font-weight: 500;
-  line-height: 1.6;  
-  margin: 0;
 }
 
-#carreers .position,
-#carreers .location  {
-  padding: 15px 15px 15px 45px;
-}
-
-#carreers .positions {
+#carreers .positions ul {
   border: 2px solid rgba(0, 177, 255, 0.2);
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
   box-shadow: 0 4px 17px 0 #00b1ff1e; 
 }
 
-#carreers .positions > .col-lg-5  {
-  border-left: 2px solid rgba(0, 177, 255, 0.2);
-}
-
-#carreers .positions .location  {
-  background: url(../images/icon-location.svg) no-repeat 40px 20px;
-  padding-left: 70px;
-}
-
-#carreers .positions .position,
-#carreers .positions .location,
-#carreers .positions .link {
-  border-top: 2px solid rgba(0, 177, 255, 0.2);
-  height: 100%;
-}
-
-#carreers .positions > div:nth-child(1) .position,
-#carreers .positions > div:nth-child(2) .location,
-#carreers .positions > div:nth-child(3) .link {
-  border-top: none;
-}
-
-#carreers .positions,
-#carreers .positions .position,
-#carreers .positions .location,
-#carreers .positions .link {
-  color: #052b53;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 1.6;
+#carreers .positions ul li {
+  list-style: none outside none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-#carreers .positions .link {
-  background: url(../images/icon-right.svg) no-repeat 0 20px;
+#carreers .positions ul li + li {
+  border-top: 2px solid rgba(0, 177, 255, 0.2);
+}
+
+#carreers .positions ul a {
+  color: #052b53;
   display: block;
+}
+
+#carreers .positions ul strong {
+  font-weight: 300;
+  display: block;
+  float: left;
   height: 100%;
-  width: 100%;
-  text-indent: -9999px;
+  padding: 15px 0;
+  padding-left: 45px;
+  width: 62%;
+}
+
+#carreers .positions ul strong + strong {
+  background: url(../images/icon-location.svg) no-repeat 40px 50%,
+              url(../images/icon-right.svg) no-repeat 90% 50%;
+  border-left: 2px solid rgba(0, 177, 255, 0.2);
+  height: 100%;
+  padding-left: 65px;
+  padding-right: 80px;
+  width: 38%;
 }
 
 
@@ -2526,8 +2521,10 @@ img {
 
 #footer .btn-light {
   font-size: 13px;
+  line-height: 20px;
+  padding: 11px 15px;
   margin-bottom: 20px;
-  width: 161px;
+  min-width: 161px;
 
   -webkit-box-shadow: 0 10px 20px 0 rgba(0,96,255,0.23);
   box-shadow: 0 10px 20px 0 rgba(0,96,255,0.23);
@@ -2535,7 +2532,9 @@ img {
 
 #footer .btn-primary {
   font-size: 13px;
-  width: 161px;
+  line-height: 20px;
+  padding: 11px 15px;
+  min-width: 161px;
   background: #0060ff;
   background: -moz-linear-gradient(top, rgba(0,175,255,1) 0%, rgba(0,96,255,1) 100%);
   background: -webkit-linear-gradient(top, rgba(0,175,255,1) 0%,rgba(0,96,255,1) 100%);
