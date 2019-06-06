@@ -1434,6 +1434,10 @@ img {
   padding-top: 92px;
 }
 
+.function-timeoff + #function-others {
+  margin-top: 100px;
+}
+
 #function-others .row {
   margin-left: -23px;
   margin-right: -23px;

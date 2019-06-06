@@ -588,11 +588,13 @@
   padding-top: 0;
 }
 
-#function-timeoff-3 {
-  background-size: auto 100%;
-}
 
-#function-timeoff-4 {
+#function-timeoff-2,
+#function-timeoff-4,
+#function-timeoff-6,
+#function-timeoff-8 {
+  background: url(../images/function-timeoff-bg.svg) no-repeat 80% 0;
+  background-size: auto 100%;
 }
 
 #function-timeoff h2 {
@@ -664,6 +666,10 @@
 #function-others {
   padding-top: 0;
   padding-bottom: 30px;
+}
+
+.function-timeoff + #function-others {
+  margin-top: 160px;
 }
 
 #function-others h2 {
