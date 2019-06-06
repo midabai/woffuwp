@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"table-c",
+				"table-cell\tdisplay"
+			],
+			[
+				"table",
+				"table-cell\tdisplay"
+			],
+			[
+				"tab",
+				"table-row\tdisplay"
+			],
+			[
 				"font",
 				"font-weight\tproperty"
 			],
@@ -260,13 +272,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n    <title>woffu | Index</title>\n    <!--\n    <link rel=\"icon\" href=\"images/favicon.ico\">\n    -->\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/bootstrap/4.3.1/css/bootstrap.css\">\n    <!--\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n    -->\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/webfonts/fira-sans/fira-sans.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/webfonts/pt-sans/pt-sans.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style-responsive.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/fontawesome/5.8.1/css/all.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/fontawesome/5.8.1/css/brands.css\">\n  </head>\n\n  <body>\n\n    <header id=\"header\">\n      <nav class=\"navbar navbar-expand-lg\">\n        <div class=\"container\">\n          <a class=\"navbar-brand\" href=\"index.html\">\n            <img src=\"files/header-logo.svg\" alt=\"woffu\" width=\"144\" height=\"34\" />\n            <img src=\"files/header-logo-affix.png\" alt=\"woffu\" width=\"144\" height=\"34\" />\n          </a>\n          <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"></button>\n          <div id=\"navbarNav\" class=\"collapse navbar-collapse justify-content-end\">\n            <ul>\n              <li class=\"dropdown\">\n                <a href=\"#\" data-toggle=\"dropdown\">Functionalities</a>\n                <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">\n                  <ul>\n                    <li><a href=\"function.html\">Attendance</a><li>\n                    <li><a href=\"function.html\">Vacation &amp; Absence</a></li>\n                    <li><a href=\"function.html\">Attendance &amp; Time-Off merger</a></li>\n                    <li><a href=\"function.html\">Bulletin Board</a></li>\n                    <li><a href=\"function.html\">Document sharing</a></li>\n                    <li><a href=\"function.html\">Reporting</a></li>\n                  </ul>\n                </div><!-- /.dropdown-menu -->\n              </li><!-- /.dropdown -->\n              <li><a href=\"clients.html\">Clients</a></li>\n              <li><a href=\"pricing.html\">Prices</a></li>\n              <li><a href=\"about.html\">About</a></li>\n              <li><a href=\"#\">Resources</a></li>\n              <li><a href=\"#\">Login</a></li>\n            </ul>\n            <form class=\"form-inline\">\n              <button class=\"btn btn-outline-primary\" type=\"submit\">SIGN UP!</button>\n            </form>\n          </div>\n        </div>\n      </nav>\n    </header><!-- /#header -->\n\n    <main id=\"main\">\n\n      <section id=\"home-hero\" class=\"hero\">\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-lg-4\">\n              <div class=\"article\">\n                <h1 class=\"typewrite\" data='[\"Transparency\",\"Communication\",\"Flexibility\",\"Optimization\"]'></h1>\n                <p>Time Management Platform making work life easier and more productive</p>\n                <a href=\"#\" class=\"btn btn-primary\">Let´s Talk!</a>\n              </div>\n            </div>\n            <div class=\"col-lg-8\">\n              <img src=\"files/home-hero.jpg\" alt=\"\" width=\"707\" height=\"424\" />\n            </div>\n          </div>\n        </div><!-- /.container -->\n      </section><!-- /#home-hero -->\n\n      <section id=\"home-client\">\n        <div class=\"container\">\n\n          <div class=\"clients\">\n            <a class=\"more\" href=\"clients.html\">1000 worldwide companies collaborate with us</a>\n            <ul>\n              <li>\n                <a href=\"#\">\n                  <img src=\"files/home-clients-01.png\" alt=\"\" width=\"100\" height=\"26\" />\n                </a>\n              </li>\n              <li>\n                <a href=\"#\">\n                  <img src=\"files/home-clients-02.png\" alt=\"\" width=\"84\" height=\"13\" />\n                </a>\n              </li>\n              <li>\n                <a href=\"#\">\n                  <img src=\"files/home-clients-03.png\" alt=\"\" width=\"64\" height=\"24\" />\n                </a>\n              </li>\n              <li>\n                <a href=\"#\">\n                  <img src=\"files/home-clients-04.png\" alt=\"\" width=\"79\" height=\"17\" />\n                </a>\n              </li>\n              <li>\n                <a href=\"#\">\n                  <img src=\"files/home-clients-05.png\" alt=\"\" width=\"123\" height=\"19\" />\n                </a>\n              </li>\n            </ul>\n          </div><!-- /.client-list -->\n\n          <div class=\"row row-eq-height process\">\n            <div class=\"col-lg-6\">\n\n              <div class=\"before\">\n                <div class=\"inner\">\n                  <h3>Antes</h3>\n                  <h4>Formas tradicionales de RR. HH.</h4>\n                  <ul>\n                    <li><img src=\"files/home-client-before-01.png\" alt=\"\" width=\"17\" height=\"26\" /> Proceso manual</li>\n                    <li><img src=\"files/home-client-before-02.png\" alt=\"\" width=\"22\" height=\"22\" /> Sin transparencia en toda la empresa</li>\n                    <li><img src=\"files/home-client-before-03.png\" alt=\"\" width=\"24\" height=\"24\" /> Acceso Rígido</li>\n                    <li><img src=\"files/home-client-before-04.png\" alt=\"\" width=\"24\" height=\"24\" /> Horas desperdiciadas</li>\n                  </ul>\n                  <p>Procesos largos e incansables</p>\n                  <p>No hay tiempo para centrarse en lo que importa</p>\n                </div>\n                <h2>People</h2>\n              </div><!-- /.before -->\n\n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6\">\n\n              <div class=\"now\">\n                <div class=\"inner\">\n                  <h3>Ahora</h3>\n                  <h4>RR. HH. con Woffu</h4>\n                  <ul>\n                    <li><img src=\"files/home-client-now-01.png\" alt=\"\" width=\"22\" height=\"26\" /> Procesos Digitales</li>\n                    <li><img src=\"files/home-client-now-02.png\" alt=\"\" width=\"28\" height=\"27\" /> Transparencia en toda la empresa</li>\n                    <li><img src=\"files/home-client-now-03.png\" alt=\"\" width=\"25\" height=\"25\" /> Acceso a la nube</li>\n                    <li><img src=\"files/home-client-now-04.png\" alt=\"\" width=\"22\" height=\"23\" /> Horas optimizadas</li>\n                  </ul>\n                  <p>Procesos automatizados y fáciles</p>\n                  <p>Mucho tiempo para centrarse en lo que importa</p>\n                </div>\n                <h2>People</h2>\n              </div><!-- /.now -->\n\n            </div><!-- /.col-lg-6 -->\n          </div><!-- /.row.process -->\n\n        </div><!-- /.container -->\n      </section><!-- /#home-client -->\n\n      <section id=\"home-hr\">\n        <div class=\"container\">\n          <div class=\"row saving no-gutters\">\n            <div class=\"col-lg-7\">\n              <img src=\"files/home-hr.png\" alt=\"\" width=\"654\" height=\"653\" />\n            </div>\n            <div class=\"col-lg-5\">\n              <h2>We eliminate friction by increasing transparency & saving time</h2>\n              <ul>\n                <li>Reduce ausenciasen un<b>20%</b></li>\n                <li>Ahorra hasta un <b>86%</b> en la gestión de presencia</li>\n                <li><b>100%</b> Adaptable</li>\n              </ul>\n            </div>\n          </div><!-- /.saving -->\n          <div class=\"row items\">\n            <div class=\"col-6 col-lg-2\">\n              <img src=\"files/home-hr-item-01.png\" alt=\"\" width=\"90\" height=\"90\" />\n              API for easy integration\n            </div>\n            <div class=\"col-6 col-lg-2\">\n              <img src=\"files/home-hr-item-02.png\" alt=\"\" width=\"90\" height=\"90\" />\n              No need for onboarding\n            </div>\n            <div class=\"col-6 col-lg-2\">\n              <img src=\"files/home-hr-item-03.png\" alt=\"\" width=\"90\" height=\"90\" />\n              <p>Dedicated support team</p>\n            </div>\n            <div class=\"col-6 col-lg-2\">\n              <img src=\"files/home-hr-item-04.png\" alt=\"\" width=\"90\" height=\"90\" />\n              Available in 6 languages\n            </div>\n            <div class=\"col-6 col-lg-2\">\n              <img src=\"files/home-hr-item-05.png\" alt=\"\" width=\"90\" height=\"90\" />\n              Integrated with corporate ERP systems\n            </div>\n            <div class=\"col-6 col-lg-2\">\n              <img src=\"files/home-hr-item-06.png\" alt=\"\" width=\"90\" height=\"90\" />\n              Microsoft Azure infrastructure\n            </div>\n          </div><!-- /.items -->\n        </div><!-- /.container -->\n      </section><!-- /#home-hr -->\n\n      <section id=\"home-comments\">\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-lg-8\">\n              <p>\n                <b>“People</b> are the most <b>important asset</b> of any company, and people´s most important asset is their <b>time.</b>\n                If employers would <b>take into consideration</b> the time of their employees, rotation and <b>absencentisim</b> would <b>decrease,</b> and thus <b>increase employees’ commitment.”</b>\n              </p>\n              <h3>Miguel Fresneda</h3>\n              <h4>CEO at Woffu</h4>\n            </div><!-- /.col-lg-8 -->\n            <div class=\"col-lg-4\">\n              <div class=\"img\">\n                <img src=\"files/home-comments.png\" alt=\"\" width=\"353\" height=\"341\" />\n              </div>\n            </div><!-- /.col-lg-4 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /#home-comments -->\n\n      <section id=\"home-start\">\n        <div class=\"container\">\n          <p>We take care of you so you can take care of your employees</p>\n          <p>Get started with liquid work! </p>\n          <a class=\"btn btn-primary\" href=\"https://www.woffu.com/es\">START NOW!</a>\n        </div><!-- /.container -->\n      </section><!-- /#home-start -->\n\n      <section id=\"home-platform\">\n        <div class=\"container\">\n          <h2>Collaborative Time-Management Platform for HR professionals</h2>\n          <div class=\"row\">\n            <div class=\"col-lg-4\">\n\n              <div class=\"item\">\n                <div class=\"img\">\n                  <img src=\"files/home-platform-01.png\" alt=\"\" width=\"50\" height=\"50\" />\n                </div><!-- /.img -->\n                <h3>Attendance</h3>\n                <p>View of the entire organization in real-time, better manage employees’ time at work.</p>\n                <a class=\"more\" href=\"#\">Learn more</a>\n              </div><!-- /.item -->\n              \n            </div>\n            <div class=\"col-lg-4\">\n\n              <div class=\"item\">\n                <div class=\"img\">\n                  <img src=\"files/home-platform-02.png\" alt=\"\" width=\"52\" height=\"65\" />\n                </div><!-- /.img -->\n                <h3>Vacation & Absence</h3>\n                <p>The easiest way to request for time-off anytime, anywhere and under any motive.</p>\n                <a class=\"more\" href=\"#\">Learn more</a>\n              </div><!-- /.item -->\n              \n            </div>\n            <div class=\"col-lg-4\">\n\n              <div class=\"item\">\n                <div class=\"img\">\n                  <img src=\"files/home-platform-03.png\" alt=\"\" width=\"50\" height=\"48\" />\n                </div><!-- /.img -->\n                <h3>Attendance & Time-Off merger</h3>\n                <p>Creating more transparency and visibility between team members and departments.</p>\n                <a class=\"more\" href=\"#\">Learn more</a>\n              </div><!-- /.item -->\n              \n            </div>\n            <div class=\"col-lg-4\">\n\n              <div class=\"item\">\n                <div class=\"img\">\n                  <img src=\"files/home-platform-04.png\" alt=\"\" width=\"43\" height=\"46\" />\n                </div><!-- /.img -->\n                <h3>Bulletin Board</h3>\n                <p>Fluide company-wide communication, providing news feed from one single platform.</p>\n                <a class=\"more\" href=\"#\">Learn more</a>\n              </div><!-- /.item -->\n              \n            </div>\n            <div class=\"col-lg-4\">\n              \n              <div class=\"item\">\n                <div class=\"img\">\n                  <img src=\"files/home-platform-05.png\" alt=\"\" width=\"50\" height=\"49\" />\n                </div><!-- /.img -->\n                <h3>Document sharing</h3>\n                <p>Organize, share, download and manage documents all from one safe place.</p>\n                <a class=\"more\" href=\"#\">Learn more</a>  \n              </div><!-- /.item -->\n              \n            </div>\n            <div class=\"col-lg-4\">\n              \n              <div class=\"item\">\n                <div class=\"img\">\n                  <img src=\"files/home-platform-06.png\" alt=\"\" width=\"61\" height=\"56\" />\n                </div><!-- /.img -->\n                <h3>Reporting</h3>\n                <p>Easily extract reports that helps HR take better predictive and data-driven decisions.</p>\n                <a class=\"more\" href=\"#\">Learn more</a>    \n              </div><!-- /.item -->\n              \n            </div>\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /#home-platform -->\n\n    </main><!-- #main -->\n\n    <footer id=\"footer\">\n\n      <section class=\"top\">\n        \n        <section id=\"demo\" class=\"d-flex align-items-center\">\n          <table class=\"table\">\n            <tr>\n              <td><img src=\"files/footer-demo.png\" alt=\"\" width=\"160\" height=\"146\" /></td>\n              <td><p>Take care of your people´s time</p></td>\n              <td><a class=\"btn btn-primary\" href=\"#\">BOOK A DEMO!</a></td>\n            </tr>\n          </table>\n        </section><!-- /#demo -->\n\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-lg-3\">\n\n              <a class=\"navbar-brand\" href=\"index.html\">\n                <img src=\"files/footer-logo.png\" alt=\"woffu\" width=\"161\" height=\"38\" />\n              </a>\n              <form>\n                <button class=\"btn btn-light\" type=\"submit\">Iniciar sesion</button>\n              </form>\n              <a class=\"btn btn-primary\" href=\"#\">Solicita un demo</a>\n              <div class=\"social d-lg-none\">\n                <ul>\n                  <li><a href=\"#\" class=\"fab fa-facebook-f\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-twitter\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-linkedin-in\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-instagram\"></a></li>\n                </ul>  \n              </div><!-- /.social -->\n\n            </div><!-- /.col-lg-3 -->\n            <div class=\"col-lg-9\">\n              \n              <div class=\"row nav\">\n                <div class=\"col-lg-4\">\n                  <h6>COLLABORATIVE PLATFORM</h6>\n                  <ul>\n                    <li><a href=\"#\">Employee´s Portal </a></li>\n                    <li><a href=\"#\">Manager´s Portal </a></li>\n                    <li><a href=\"#\">Admin´s Portal</a></li>\n                    <li><a href=\"#\">Collaboration</a></li>\n                  </ul>\n                </div>\n                <div class=\"col-lg-4\">\n                  <h6>FUNCTIONALITIES</h6>\n                  <ul>\n                    <li><a href=\"#\">Attendance</a></li>\n                    <li><a href=\"#\">Vacation &amp; Absence</a></li>\n                    <li><a href=\"#\">Attendance &amp; Time-Off merger</a></li>\n                    <li><a href=\"#\">Bulletin Board</a></li>\n                    <li><a href=\"#\">Document sharing</a></li>\n                    <li><a href=\"#\">Reporting</a></li>\n                  </ul>\n                </div>\n                <div class=\"col-lg-2\">\n                  <h6>COMPANY</h6>\n                  <ul>\n                    <li><a href=\"#\">Clients</a></li>\n                    <li><a href=\"about.html\">About us</a></li>\n                    <li class=\"carreers\"><a href=\"#\">Carreers</a></li>\n                    <li><a href=\"#\">Partners</a></li>\n                    <li><a href=\"#\">API integration</a></li>\n                    <li><a href=\"#\">Resources</a></li>\n                    <li><a href=\"#\">GDPR</a></li>\n                  </ul>\n                </div>\n                <div class=\"col-lg-2\">\n                  <h6>LANGUAGES</h6>\n                  <ul>\n                    <li><a href=\"#\">Spanish</a></li>\n                    <li><a href=\"#\">English</a></li>\n                  </ul>\n                </div>\n              </div><!-- /.row -->\n              \n            </div><!-- /.col-lg-9 -->\n            <div class=\"col-lg-3\">\n              \n              <div class=\"social d-none d-lg-block\">\n                <ul>\n                  <li><a href=\"#\" class=\"fab fa-facebook-f\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-twitter\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-linkedin-in\"></a></li>\n                  <li><a href=\"#\" class=\"fab fa-instagram\"></a></li>\n                </ul>  \n              </div><!-- /.social -->\n\n            </div><!-- /.col-lg-3 -->\n            <div class=\"col-lg-9\">\n              <div class=\"row\">\n                <div class=\"col-lg-8\">\n                  \n                  <div class=\"newsletter\">\n                    <form>\n                      <label>SUBSCRIBE TO OUR NEWSLETTER</label>\n                      <div class=\"input-group\">\n                        <input type=\"text\" class=\"form-control\" placeholder=\"Enter your email address\" aria-label=\"Enter your email address\" aria-describedby=\"newsletter-submit\">\n                        <div class=\"input-group-append\">\n                          <button id=\"newsletter-submit\" class=\"btn\" type=\"button\">SUBSCRIBE!</button>\n                        </div>\n                      </div>\n                    </form>\n                  </div><!-- /.newsletter -->    \n\n                </div><!-- /.col-lg-8 -->\n                <div class=\"col-lg-4\">\n              \n                  <div class=\"iso\">\n                    <img src=\"files/footer-iso.png\" alt=\"\" width=\"88\" height=\"88\" />  \n                  </div><!-- .iso -->    \n\n                </div><!-- /.col-lg-4 -->\n              </div><!-- /.row -->\n            </div><!-- /.col-lg-9 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /.top -->\n\n      <section class=\"bottom\">\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n\n              <div class=\"copyright\">\n                ©2019 Woffu Job Organizer, SL. All Rights Reserved\n                <ul>\n                  <li><a href=\"contact.html\">Contact us</a></li>\n                  <li><a href=\"#\">Cookies policy</a></li>\n                  <li><a href=\"#\">Privacy policy</a></li>\n                  <li><a href=\"#\">Terms and conditions</a></li>\n                </ul>\n              </div><!-- /.copyright -->\n              \n            </div><!-- /.col-lg-6 -->\n            <div class=\"col-lg-6\">\n\n              <div class=\"apk\">\n                <ul>\n                  <li>\n                    <a class=\"google-play\" href=\"https://play.google.com/store/apps/details?id=com.woffu.app&hl=es_US&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1\">\n                    </a>\n                  </li>\n                  <li>\n                    <a class=\"app-store\" href=\"https://apps.apple.com/es/app/woffu/id1438117209\">\n                    </a>\n                  </li>\n                </ul>\n              </div><!-- /.apk -->\n\n            </div><!-- /.col-lg-6 -->\n          </div><!-- /.row -->\n        </div><!-- /.container -->\n      </section><!-- /.bottom -->\n    </footer><!-- /#footer -->\n\n    <script src=\"assets/jquery/3.4.1/jquery.min.js\"></script>\n    <script src=\"assets/popper/1.14.7/popper-min.js\"></script>\n    <script src=\"assets/bootstrap/4.3.1/js/bootstrap.min.js\"></script>\n    <script type=\"text/javascript\">\n\n      //SCRIPT PARA LOGRAR EL EFECTO DE ESCRITURA EN H1 DE HERO\n      var TxtType = function(el, toRotate, period) {\n        this.toRotate = toRotate;\n        this.el = el;\n        this.loopNum = 0;\n        this.period = parseInt(period, 10) || 2000;\n        this.txt = '';\n        this.tick();\n        this.isDeleting = false;\n      };\n\n      TxtType.prototype.tick = function() {\n        var i = this.loopNum % this.toRotate.length;\n        var fullTxt = this.toRotate[i];\n        if (this.isDeleting) {\n          this.txt = fullTxt.substring(0, this.txt.length - 1);\n        } \n        else {\n          this.txt = fullTxt.substring(0, this.txt.length + 1);\n        }\n\n        this.el.innerHTML = '<span class=\"wrap\">'+this.txt+'</span>';\n\n        var that = this;\n        var delta = 200 - Math.random() * 100;\n\n        if (this.isDeleting) { delta /= 2; }\n\n        if (!this.isDeleting && this.txt === fullTxt) {\n          delta = this.period;\n          this.isDeleting = true;\n        } \n        else if (this.isDeleting && this.txt === '') {\n          this.isDeleting = false;\n          this.loopNum++;\n          delta = 500;\n        }\n        setTimeout(function() {\n          that.tick();\n        }, delta);\n      };\n\n      window.onload = function() {\n        var element = document.getElementsByClassName('typewrite')[0];\n        var data = element.getAttribute(\"data\"); \n        if (data) {\n          new TxtType(element, JSON.parse(data), 2000);\n        }\n      };\n\n      //STICKY HEADER\n      $(window).scroll(function() {\n        if ($(window).width() > 991 && $(document).scrollTop() > 100) {\n            $('#header').addClass('affix');\n        } \n        else {\n          $('#header').removeClass('affix');\n        }\n      });\n\n    </script>\n\n    <!--\n    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\" integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\" crossorigin=\"anonymous\"></script>\n    -->\n\n  </body>\n</html>",
 			"file": "index.html",
-			"file_size": 23278,
-			"file_write_time": 132041851079238389,
 			"settings":
 			{
-				"buffer_size": 22707,
+				"buffer_size": 22719,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -275,7 +284,7 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 16534,
+				"buffer_size": 16546,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -284,7 +293,7 @@
 			"file": "function.html",
 			"settings":
 			{
-				"buffer_size": 19319,
+				"buffer_size": 19331,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -293,7 +302,7 @@
 			"file": "pricing.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 24280,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -302,7 +311,7 @@
 			"file": "clients.html",
 			"settings":
 			{
-				"buffer_size": 29489,
+				"buffer_size": 29501,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -311,7 +320,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 12626,
+				"buffer_size": 12638,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -320,7 +329,7 @@
 			"file": "carreers.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 14502,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -335,10 +344,17 @@
 			}
 		},
 		{
-			"file": "css/style.css",
 			"settings":
 			{
 				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 54641,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -347,7 +363,7 @@
 			"file": "css/style-responsive.css",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 21897,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -416,7 +432,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -528,7 +544,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -537,15 +553,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22707,
+						"buffer_size": 22719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7556,
-								7556
+								16215,
+								16215
 							]
 						],
 						"settings":
@@ -560,10 +576,10 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 816.0,
+						"translation.y": 4945.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -572,15 +588,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16534,
+						"buffer_size": 16546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15573,
-								15891
+								11825,
+								11825
 							]
 						],
 						"settings":
@@ -595,10 +611,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4508.0,
+						"translation.y": 3261.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -607,15 +623,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19319,
+						"buffer_size": 19331,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1950,
-								1950
+								14444,
+								14444
 							]
 						],
 						"settings":
@@ -625,10 +641,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 273.0,
+						"translation.y": 4502.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -637,15 +653,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 24280,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								18848,
+								18848
 							]
 						],
 						"settings":
@@ -656,7 +672,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 668.0,
+						"translation.y": 5656.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -668,15 +684,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29489,
+						"buffer_size": 29501,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28849,
-								28849
+								24612,
+								24612
 							]
 						],
 						"settings":
@@ -687,10 +703,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2537.0,
+						"translation.y": 5431.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -699,15 +715,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12626,
+						"buffer_size": 12638,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11986,
-								11986
+								7749,
+								7749
 							]
 						],
 						"settings":
@@ -717,10 +733,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3525.0,
+						"translation.y": 1930.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -729,15 +745,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 14502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								9595,
+								9582
 							]
 						],
 						"settings":
@@ -748,13 +764,14 @@
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 177.0,
+						"translation.y": 2384.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -770,8 +787,8 @@
 						"selection":
 						[
 							[
-								13056,
-								13056
+								8757,
+								8807
 							]
 						],
 						"settings":
@@ -781,21 +798,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3737.0,
+						"translation.y": 2516.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 8,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 8,
-					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
@@ -808,6 +818,40 @@
 							[
 								0,
 								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46239,
+								46239
 							]
 						],
 						"settings":
@@ -821,27 +865,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 29536.0,
+						"translation.y": 30314.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "css/style-responsive.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 21897,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								19567,
+								19567
 							]
 						],
 						"settings":
@@ -856,14 +900,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13270.0,
+						"translation.y": 13621.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "assets/bootstrap/4.3.1/css/bootstrap.css",
 					"semi_transient": false,
 					"settings":
@@ -889,7 +933,7 @@
 						"translation.y": 1170.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -971,7 +1015,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
