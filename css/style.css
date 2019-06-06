@@ -503,6 +503,7 @@ img {
   position: relative !important;
   left: auto !important;
   top: auto !important;
+  vertical-align: middle;
 }
 
 #home-client .clients li + li {
